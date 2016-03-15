@@ -24,6 +24,8 @@
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2020.02.18.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2020.02.44.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2020.14.24.png">
+<meta property="og:image" content="http://www.liaoxuefeng.com/files/attachments/001384907702917346729e9afbf4127b6dfbae9207af016000/0">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2013.16.48.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2020.26.16.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2020.32.43.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2020.36.19.png">
@@ -43,7 +45,7 @@
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2022.56.10.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2022.59.07.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2023.08.01.png">
-<meta property="og:updated_time" content="2016-03-14T16:05:42.000Z">
+<meta property="og:updated_time" content="2016-03-15T05:22:09.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git">
 <meta name="twitter:description" content="什么是GitGit是世界上最先进、最好用的分布式版本控制系统（没有之一）。
@@ -394,6 +396,10 @@
 <p>然后我们在这个版本库中进行一些操作，比如本次工作的内容就是添加了一个readme.txt，那么我们在提交（<code>commit</code>）到版本库之前首先要把这个新的文件加到我们的 <strong><em>暂存区</em></strong> 。</p>
 <blockquote>
 <p>这里有必要补充一下<strong>暂存区</strong>的概念和作用。</p>
+<p><img src="http://www.liaoxuefeng.com/files/attachments/001384907702917346729e9afbf4127b6dfbae9207af016000/0" alt=""></p>
+<p>如图，我们所讲的暂存区介于工作区和版本库。工作区就是电脑能看到的目录，比如我们现在所在的这个J2EE_TEST1文件夹就是当前的工作区，而版本库其实是一个隐藏目录，当我们在当前目录下使用<code>la</code>命令，就可以发现这个隐藏目录<code>.git</code></p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2013.16.48.png" alt=""></p>
+<p>版本库中存了很多重要内容，其中最重要的就是称为<code>stage</code> or <code>index</code>的暂存区，还有各个分支，以及指向当前分支的<code>HEAD</code>指针头等等。而其中的暂存区，说白了，就是我们工作完之后，正式提交之前存放修改后文件状态的位置。理解这一点对于后面理解git的工作流程十分必要。</p>
 </blockquote>
 <h2 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a>git status</h2><p>暂存区中保存的都是我们修改过但是还没有提交的内容。加入到暂存区使用的指令是<code>git add</code>。我们可以指定加入具体哪个文件到暂存区，也可以使用<code>.</code> 来代表加入所有当前路径下未加入到暂存区的内容到暂存区中去。当然，在这之前我们也可以用<code>git status</code>指令来查看当前版本库下的git状态。</p>
 <p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-14%2020.26.16.png" alt=""></p>
@@ -467,7 +473,7 @@
         <p><span>本文标题:</span><a href="/2016/03/11/Git/">Git</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Fowafolo An 的个人博客">Fowafolo An</a></p>
         <p><span>发布时间:</span>2016年03月11日 - 10时54分</p>
-        <p><span>最后更新:</span>2016年03月15日 - 00时05分</p>
+        <p><span>最后更新:</span>2016年03月15日 - 13时22分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/03/11/Git/" title="Git">http://yoursite.com/2016/03/11/Git/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/03/11/Git/　　作者: Fowafolo An" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
