@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hexo博客搭建 | Fowafolo Space</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Hexo简介hexo是台湾大牛tommy351制作的基于Node.js的静态博客程序。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo博客搭建">
+<meta property="og:url" content="http://yoursite.com/2016/03/15/Hexo博客搭建/index.html">
+<meta property="og:site_name" content="Fowafolo Space">
+<meta property="og:description" content="Hexo简介hexo是台湾大牛tommy351制作的基于Node.js的静态博客程序。">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.44.58.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.05.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.27.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.48.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.53.40.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.54.50.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.56.51.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.57.05.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.01.59.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.06.20.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.08.39.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.11.35.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.20.54.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.16.46.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.23.00.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.25.43.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.33.35.png">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.25.43.png">
+<meta property="og:updated_time" content="2016-03-15T11:40:50.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo博客搭建">
+<meta name="twitter:description" content="Hexo简介hexo是台湾大牛tommy351制作的基于Node.js的静态博客程序。">
+<meta name="twitter:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.44.58.png">
+  
+    <link rel="alternative" href="/atom.xml" title="Fowafolo Space" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <script src="//cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+      var yiliaConfig = {
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false,
+      }
+  </script>
+
+  
+      <script>
+          yiliaConfig.rootUrl = "/";
+      </script>
+  
+
+  
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">Fowafolo An</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">Stay hungry, stay foolish.</p>
+        
+                
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <li id="Email"><a class="Email" target="_blank" href="mailto:&#97;&#110;&#122;&#104;&#101;&#104;&#111;&#110;&#103;&#64;&#49;&#50;&#54;&#46;&#99;&#111;&#109;" title="Email"></a></li>
+                            
+                                <li id="新浪微博"><a class="新浪微博" target="_blank" href="http://weibo.com/1086561785" title="新浪微博"></a></li>
+                            
+                                <li id="GitHub"><a class="GitHub" target="_blank" href="http://github.com/anzhehong" title="GitHub"></a></li>
+                            
+                                <li id="知乎"><a class="知乎" target="_blank" href="https://www.zhihu.com/people/an-zhe-hong" title="知乎"></a></li>
+                            
+                                <li id="Facebook"><a class="Facebook" target="_blank" href="https://www.facebook.com/anzhehong" title="Facebook"></a></li>
+                            
+                                <li id="QQ"><a class="QQ" target="_blank" href="tencent://message/?menu=yes&uin=357989164&websitename=im.qq.com" title="QQ"></a></li>
+                            
+                                <li id="Instagram"><a class="Instagram" target="_blank" href="https://www.instagram.com/anzhehong/" title="Instagram"></a></li>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/SourceTree/" style="font-size: 10px;">SourceTree</a> <a href="/tags/TAC/" style="font-size: 20px;">TAC</a> <a href="/tags/Teamwork/" style="font-size: 10px;">Teamwork</a> <a href="/tags/博客/" style="font-size: 10px;">博客</a> <a href="/tags/同济大学苹果俱乐部/" style="font-size: 20px;">同济大学苹果俱乐部</a> <a href="/tags/项目管理/" style="font-size: 10px;">项目管理</a>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="https://github.com/anzhehong">GitHub</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">同济大学软件学院2013级本科生，热爱生活。</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Fowafolo An</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Fowafolo An</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">Stay hungry, stay foolish.</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <li id="Email"><a class="Email" target="_blank" href="mailto:&#97;&#110;&#122;&#104;&#101;&#104;&#111;&#110;&#103;&#64;&#49;&#50;&#54;&#46;&#99;&#111;&#109;" title="Email"></a></li>
+                            
+                                <li id="新浪微博"><a class="新浪微博" target="_blank" href="http://weibo.com/1086561785" title="新浪微博"></a></li>
+                            
+                                <li id="GitHub"><a class="GitHub" target="_blank" href="http://github.com/anzhehong" title="GitHub"></a></li>
+                            
+                                <li id="知乎"><a class="知乎" target="_blank" href="https://www.zhihu.com/people/an-zhe-hong" title="知乎"></a></li>
+                            
+                                <li id="Facebook"><a class="Facebook" target="_blank" href="https://www.facebook.com/anzhehong" title="Facebook"></a></li>
+                            
+                                <li id="QQ"><a class="QQ" target="_blank" href="tencent://message/?menu=yes&uin=357989164&websitename=im.qq.com" title="QQ"></a></li>
+                            
+                                <li id="Instagram"><a class="Instagram" target="_blank" href="https://www.instagram.com/anzhehong/" title="Instagram"></a></li>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+</nav>
+      <div class="body-wrap"><article id="post-Hexo博客搭建" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/03/15/Hexo博客搭建/" class="article-date">
+      <time datetime="2016-03-15T10:14:56.000Z" itemprop="datePublished">2016-03-15</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo博客搭建
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/教程/">教程</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TAC/">TAC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客/">博客</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/同济大学苹果俱乐部/">同济大学苹果俱乐部</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="Hexo简介"><a href="#Hexo简介" class="headerlink" title="Hexo简介"></a>Hexo简介</h1><p>hexo是台湾大牛tommy351制作的基于Node.js的静态博客程序。</p>
+<a id="more"></a>
+<p>Github Pages是Github 提供的服务，是用户编写的、托管在Github上的静态网页，我们可以在上面托管我们的博客，有300M免费空间，资料自己管理。</p>
+<p>有人会说写博客可以在CSDN、博客园去写，为什么非要自己折腾一个Github Pages呢？个人认为程序员虽然需要遵守代码规范，遵守项目规范等等规则，但是也需要展示自己不一样的一面。自己搭建的博客完全可以按照自己的想法展现内容，比循规蹈矩的模式要新颖有趣的多。</p>
+<p>另外，在使用Hexo的过程中，你一定会遇到或多或少的问题，也是一个锻炼你解决实际问题能力的好机会。好了，废话了不少，开始进入正题。</p>
+<h1 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h1><h2 id="Git配置和SSH绑定"><a href="#Git配置和SSH绑定" class="headerlink" title="Git配置和SSH绑定"></a>Git配置和SSH绑定</h2><p>因为我们需要使用Git把博客托管到Github上，所以如果你还没有配置好Github，或者没有绑定SSH到Github的话，请先移步这篇文章：<a href="http://blog.anzhehong.com/2016/03/11/Git/" target="_blank" rel="external">\<git\></git\></a></p>
+<h2 id="Node-js环境配置"><a href="#Node-js环境配置" class="headerlink" title="Node.js环境配置"></a>Node.js环境配置</h2><p>由于hexo 是基于 Node.js的，所以必须先配置好Node.js的环境，两种方法。</p>
+<h3 id="通过安装包安装"><a href="#通过安装包安装" class="headerlink" title="通过安装包安装"></a>通过安装包安装</h3><p>从 <strong><em><a href="https://nodejs.org/en/" target="_blank" rel="external">官网</a></em></strong> 下载安装文件，然后安装这个<code>.pkg</code>文件。安装之后你就能在电脑使用<code>node</code>和<code>npm</code>命令了。</p>
+<p>安装完成之后，打开<code>terminal</code>，输入</p>
+<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl <span class="string">http:</span><span class="comment">//npmjs.org/install.sh | sh</span></span><br></pre></td></tr></table></figure>
+<p>紧接着执行下面这条命令，过程中要输入用户的密码。</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">npm</span> update <span class="built_in">npm</span> -g</span><br></pre></td></tr></table></figure>
+<h3 id="通过Homebrew安装"><a href="#通过Homebrew安装" class="headerlink" title="通过Homebrew安装"></a>通过Homebrew安装</h3><p>如果你的电脑配置过了Homebrew，那么你可以用一条命令就安装好Node.js:</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install <span class="keyword">node</span><span class="title"></span></span><br></pre></td></tr></table></figure>
+<p>通过上面两种方式安装结束后，输入下面这条命令查询是否安装成功。</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">npm</span> -v</span><br></pre></td></tr></table></figure>
+<p>如笔者的Node.js版本为：<code>2.7.4</code>。</p>
+<h2 id="Hexo安装与配置"><a href="#Hexo安装与配置" class="headerlink" title="Hexo安装与配置"></a>Hexo安装与配置</h2><p>如果前两步都做好了，那么我们就可以开始安装Hexo啦！在terminal中执行</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo -g</span><br></pre></td></tr></table></figure>
+<p>其中<code>-g</code>代表全局安装，因为<code>npm</code>默认为当前项目安装。在terminal中输入<code>hexo -v</code>检查安装情况和版本信息。</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.44.58.png" alt=""></p>
+<p>到此我们就安装好了Hexo的环境。</p>
+<h1 id="Hexo一些基本操作"><a href="#Hexo一些基本操作" class="headerlink" title="Hexo一些基本操作"></a>Hexo一些基本操作</h1><h2 id="hexo-init-amp-hexo-s"><a href="#hexo-init-amp-hexo-s" class="headerlink" title="hexo init &amp; hexo s"></a>hexo init &amp; hexo s</h2><p>配置好了Hexo，我们赶紧来尝试一下！<code>cd</code>到某一路径下，然后调用下面的指令初始化博客。</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo</span> init</span><br></pre></td></tr></table></figure>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.05.png" alt=""></p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.27.png" alt=""></p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.50.48.png" alt=""></p>
+<p>在经过等待之后，当屏幕上出现了<code>INFO  Start blogging with Hexo!</code>的时候，就证明初始化成功了。下面是初始化成功后的文件路径：</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.53.40.png" alt=""></p>
+<p>其中有一个非常重要的配置文件<code>_config.yml</code>，里面保存了很多博客的配置信息，我们用<code>Sublime</code>打开大概看一下。</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.54.50.png" alt=""></p>
+<p>非常通俗易懂，比如<code>title</code>字段就是博客名，<code>author</code>就是作者名字等等，具体要改些什么要看我们有什么需求。然后我们输入下面的指令先在本地预览一下我们的博客：</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo</span> s <span class="comment">#相当于hexo server，会启动本地4000端口。</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.56.51.png" alt=""></p>
+<p>如图，我们启动server之后Hexo提示我们打开<code>http://localhost:4000/</code>预览博客，如果要终止预览，只需要在terminal中输入<code>Ctrl + C</code>。</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2018.57.05.png" alt=""></p>
+<p>上面这个截图就是init之后的博客自带的主题<code>landscape</code>，那这个主题存在哪里呢？就在刚刚的目录下，我们发下一个<code>theme</code>文件夹，没错，这里可以放很多类似的文件夹，一个文件夹里面有一个主题。也许你会问如果有很多这样的文件夹，那Hexo在启动的时候为什么会知道究竟选用哪个主题呢？很简单，打开刚才的<code>_config.yml</code>我们可以找到<code>theme</code>字段，只要该主题存在于<code>/theme</code>路径下，即可输入主题名指定主题。Hexo有很多精致的主题供我们选择，之后我们会讲到如何切换新主题。</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.01.59.png" alt=""></p>
+<h2 id="hexo-new-lt-文章名-gt"><a href="#hexo-new-lt-文章名-gt" class="headerlink" title="hexo new &lt;文章名&gt;"></a>hexo new &lt;文章名&gt;</h2><p>我们发现刚刚系统帮我们自动生成了一篇名为<code>Hello World</code>的博文，如果我们想新生成一篇博文，很简单，在根目录下调用下面的指令：</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> &lt;文章名&gt;</span><br></pre></td></tr></table></figure>
+<p>比如我们新建一个名为<code>StartHexo</code>的博文如下图，然后会发现在<code>/source/_post</code>目录下多了一个文件<code>StartHexo.md</code>，这个<code>/_post</code>文件夹就是我们存放博文的位置。</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.06.20.png" alt=""></p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.08.39.png" alt=""></p>
+<p>接下来在新建的博客中用<code>Markdown</code>写一些内容，然后删掉<code>hello-world.md</code>。如果你还不会<code>Markdown</code>，请移步：<a href="http://blog.anzhehong.com/2016/03/11/Markdown/" target="_blank" rel="external">\<markdown></markdown></a>。</p>
+<blockquote>
+<p>说明：如果不想博文的内容在首页全部显示, 并能出现阅读全文按钮效果, 需要在你想在首页显示的部分下添加<!--more--></p>
+</blockquote>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.11.35.png" alt=""></p>
+<p>保存之后，我们想要预览博客，于是<code>hexo s</code>查看变化。</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.20.54.png" alt=""></p>
+<blockquote>
+<p>有的时候（比如改了主题）你对博客进行了修改然后<code>heox s</code>却发现博客还是刚刚的样子。这是因为我们对博客内容进行修改之后，还没用让Hexo帮我们生成静态网页。如果只改<code>.md</code>文件的话，是可以的。</p>
+</blockquote>
+<h2 id="hexo-g"><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h2><p>如果我们发现博客没变化，就需要调用下面的指令进行生成：</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo</span> g <span class="comment">#也就是hexo generate</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.16.46.png" alt=""></p>
+<p>这个时候我们再次打开<code>http://localhost:4000/</code>预览博客，就会发现改变都生效了。</p>
+<h2 id="hexo-d"><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h2><p><code>-d</code>即<code>-deploy</code>，是部署的意思，可是我们的博客现在还没有托管自然不能部署。因此我们首先需要将博客与Github绑定。</p>
+<h3 id="安装Git部署器"><a href="#安装Git部署器" class="headerlink" title="安装Git部署器"></a>安装Git部署器</h3><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> hexo-deployer-git <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
+<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>打开<code>_config.yml</code>文件，找到关键词<code>Deployment</code></p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.23.00.png" alt=""></p>
+<p>你可以有多种部署器，这里我们只介绍<code>git</code>。将你的Deploy这一块填成下面的样子：</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repo:</span> <span class="params">&lt;repository url&gt;</span></span><br><span class="line"><span class="symbol">  branch:</span> [branch]</span><br><span class="line"><span class="symbol">  message:</span> [message]</span><br></pre></td></tr></table></figure>
+<p>比如我的配置文件是：</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.25.43.png" alt=""></p>
+<p>在<code>hexo</code>某一个版本之后，<code>type</code>不能再填<code>github</code>，而是要填写<code>git</code>。<code>branch</code>自然是我们的某个git仓库的主分支。那这个<code>repo</code>填什么呢？如果你稍微分析一下就会发现，我是在我的github上面新建了一个名为<code>anzhehong.github.io</code>的仓库，所以你只需要在你的github空间新建一个名为<code>xxxxxx.github.io</code>的仓库，其中<code>xxxxxx</code>是你的github用户名，与访问你github首页跟在<code>http://github.com/xxxxxx</code>中的<code>xxxxxx</code>是一致的。</p>
+<blockquote>
+<p>这一点很重要，很多人不能成功部署都是因为没有正确建库。</p>
+</blockquote>
+<p>然后复制你的仓库的ssh地址。（如图，点击<code>Download ZIP</code>左边第二个按钮即可复制。）</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.33.35.png" alt=""></p>
+<p>然后就可以按照刚刚说的把配置文件中部署那一部分的内容填写好。如图：</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Hexo%E6%90%AD%E5%BB%BA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-15%2019.25.43.png" alt=""></p>
+<p>执行</p>
+<figure class="highlight cos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">d</span></span><br></pre></td></tr></table></figure>
+<p>然后你就可以访问你的博客啦！<code>xxxxxx.github.io</code></p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/03/15/Hexo博客搭建/">Hexo博客搭建</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 Fowafolo An 的个人博客">Fowafolo An</a></p>
+        <p><span>发布时间:</span>2016年03月15日 - 18时14分</p>
+        <p><span>最后更新:</span>2016年03月15日 - 19时40分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/03/15/Hexo博客搭建/" title="Hexo博客搭建">http://yoursite.com/2016/03/15/Hexo博客搭建/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/03/15/Hexo博客搭建/　　作者: Fowafolo An" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/03/11/团队协作工具/">
+                    团队协作工具
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Hexo简介"><span class="toc-number">1.</span> <span class="toc-text">Hexo简介</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#配置环境"><span class="toc-number">2.</span> <span class="toc-text">配置环境</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Git配置和SSH绑定"><span class="toc-number">2.1.</span> <span class="toc-text">Git配置和SSH绑定</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Node-js环境配置"><span class="toc-number">2.2.</span> <span class="toc-text">Node.js环境配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#通过安装包安装"><span class="toc-number">2.2.1.</span> <span class="toc-text">通过安装包安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#通过Homebrew安装"><span class="toc-number">2.2.2.</span> <span class="toc-text">通过Homebrew安装</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hexo安装与配置"><span class="toc-number">2.3.</span> <span class="toc-text">Hexo安装与配置</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Hexo一些基本操作"><span class="toc-number">3.</span> <span class="toc-text">Hexo一些基本操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-init-amp-hexo-s"><span class="toc-number">3.1.</span> <span class="toc-text">hexo init & hexo s</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-new-lt-文章名-gt"><span class="toc-number">3.2.</span> <span class="toc-text">hexo new <文章名></span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-g"><span class="toc-number">3.3.</span> <span class="toc-text">hexo g</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#hexo-d"><span class="toc-number">3.4.</span> <span class="toc-text">hexo d</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装Git部署器"><span class="toc-number">3.4.1.</span> <span class="toc-text">安装Git部署器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#修改配置文件"><span class="toc-number">3.4.2.</span> <span class="toc-text">修改配置文件</span></a></li></ol></li></ol></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+    <div class="share">
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+    <a href="#" class="bds_copy" data-cmd="copy" title="复制网址"></a>
+    <a href="#" class="bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+    </div>
+    <script>
+        window._bd_share_config={
+            "common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+</div>
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/03/15/Hexo博客搭建/" data-title="Hexo博客搭建" data-url="http://yoursite.com/2016/03/15/Hexo博客搭建/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"anzhehong"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/03/11/团队协作工具/" title="下一篇: 团队协作工具">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/03/15/Hexo博客搭建/">Hexo博客搭建</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/11/团队协作工具/">团队协作工具</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/11/Git/">Git</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/03/11/Markdown/">Markdown</a></li></ul>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#toc, .switch-btn, .switch-area").toggle();
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+                $(".switch-btn, .switch-area").fadeToggle(300);
+            }
+        })
+    </script>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2016 Fowafolo An
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的静态博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减双栏 Hexo 博客主题">Yelee</a> by MOxFIVE
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >本站到访数: 
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量: 
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.1.22/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 5;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+    <script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div>
+</body>
+</html>
