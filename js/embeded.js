@@ -16,7 +16,7 @@ function checkMobile() {
 //管理员判断开始
 function sskadmin(e) {
     var ssk = '';
-    if (e.user_id == 13232586) {
+    if (e.user_id == 6218699448646632194) {
         if (checkMobile()) {
             ssk = '<span class="ua"><span class="sskadmin">博主</span></span><br><br>';
         } else {
@@ -2021,3 +2021,20 @@ function os(e) {
         })
     })
 })(window, document);
+
+/*博主标记: 添加到 embed.js*/
+function sskadmin(e) {
+    var ssk = '';
+    if (e.user_id == 6218699448646632194) {
+        if (checkMobile()) {
+            ssk = '<span class="ua"><span class="sskadmin">博主</span></span><br><br>';
+        } else {
+            ssk = '<span class="ua"><span class="sskadmin">博主</span></span>';
+        }
+    } else {
+        if (checkMobile()) {
+            ssk = '<br><br>';
+        }
+    }
+    return ssk;
+}
