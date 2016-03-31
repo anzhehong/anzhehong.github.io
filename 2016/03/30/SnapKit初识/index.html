@@ -16,10 +16,11 @@
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-30%2023.06.58.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-30%2023.07.09.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-zootopia-trailer-sloth.jpg">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/bluered.png">
 <meta property="og:image" content="https://camo.githubusercontent.com/31e716ea5f9dcf84442b4a908c4751e39f45aa47/687474703a2f2f736e61706b69742e696f2f696d616765732f62616e6e65722e6a7067">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-31%2000.00.22.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-31%2000.23.33.png">
-<meta property="og:updated_time" content="2016-03-30T16:31:46.000Z">
+<meta property="og:updated_time" content="2016-03-31T12:19:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SnapKit初识">
 <meta name="twitter:description" content="为什么不直接用Storyboard对于很多初学iOS开发的童鞋来说，一定对storyboard并不陌生。的确，在storyboard的帮助下很多人爱上了iOS开发，因为它的可视化程度非常高，易于操作和理解。另外，Apple特别推荐使用storyboard进行开发，今后对其维护也一定会使它越来越完善。
@@ -313,6 +314,12 @@
 <li><p>再有，其实用代码写界面也可以很快呀，如果你真的熟练。何况还有各种类似于<code>SnapKit</code>这样的深刻库。</p>
 </li>
 </ol>
+<h1 id="NSLayoutConstraint"><a href="#NSLayoutConstraint" class="headerlink" title="NSLayoutConstraint"></a>NSLayoutConstraint</h1><p>当然如果你对苹果原生的方法情有独钟，不妨尝试一下用它原生的类来创建constraint，比如我们要做下面这个简单的效果，要求蓝色块和红色块宽度相等，上下边相齐，如图。</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/bluered.png" height="400"></p>
+<p>你可以添加如下代码实现上述效果。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> blueView = <span class="type">UIView</span>()</span><br><span class="line">        blueView.backgroundColor = <span class="type">UIColor</span>.blueColor()</span><br><span class="line">        <span class="comment">// 禁止Autoresizing转为Autolayout的约束</span></span><br><span class="line">        blueView.translatesAutoresizingMaskIntoConstraints = <span class="literal">false</span></span><br><span class="line">        <span class="keyword">self</span>.view.addSubview(blueView)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> redView = <span class="type">UIView</span>()</span><br><span class="line">        redView.backgroundColor = <span class="type">UIColor</span>.redColor()</span><br><span class="line">        redView.translatesAutoresizingMaskIntoConstraints = <span class="literal">false</span></span><br><span class="line">        <span class="keyword">self</span>.view.addSubview(redView)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> blueLeft = <span class="type">NSLayoutConstraint</span>(item: blueView, attribute: .<span class="type">Left</span>, relatedBy: .<span class="type">Equal</span>,</span><br><span class="line">                                          toItem: <span class="keyword">self</span>.view, attribute: .<span class="type">Left</span>, multiplier: <span class="number">1.0</span>, constant: <span class="number">20</span>)</span><br><span class="line">        <span class="keyword">let</span> blueBottom = <span class="type">NSLayoutConstraint</span>(item: blueView, attribute: .<span class="type">Bottom</span>, relatedBy: .<span class="type">Equal</span>,</span><br><span class="line">                                            toItem: <span class="keyword">self</span>.view, attribute: .<span class="type">Bottom</span>, multiplier: <span class="number">1.0</span>, constant: -<span class="number">20</span>)</span><br><span class="line">        <span class="keyword">let</span> blueRight = <span class="type">NSLayoutConstraint</span>(item: blueView, attribute: .<span class="type">Right</span>, relatedBy: .<span class="type">Equal</span>,</span><br><span class="line">                                           toItem: redView, attribute: .<span class="type">Left</span>, multiplier: <span class="number">1.0</span>, constant: -<span class="number">20</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> blueHeight = <span class="type">NSLayoutConstraint</span>(item: blueView, attribute: .<span class="type">Height</span>, relatedBy: .<span class="type">Equal</span>,</span><br><span class="line">                                            toItem: <span class="literal">nil</span>, attribute: .<span class="type">NotAnAttribute</span>, multiplier: <span class="number">1.0</span>, constant: <span class="number">40</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> equalWidth = <span class="type">NSLayoutConstraint</span>(item: blueView, attribute: .<span class="type">Width</span>, relatedBy: .<span class="type">Equal</span>,</span><br><span class="line">                                           toItem: redView, attribute: .<span class="type">Width</span>, multiplier: <span class="number">1.0</span>, constant: <span class="number">0</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> redTop = <span class="type">NSLayoutConstraint</span>(item: redView, attribute: .<span class="type">Top</span>, relatedBy: .<span class="type">Equal</span>,</span><br><span class="line">                                        toItem: blueView, attribute: .<span class="type">Top</span>, multiplier: <span class="number">1.0</span>, constant: <span class="number">0</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> redBottom = <span class="type">NSLayoutConstraint</span>(item: redView, attribute: .<span class="type">Bottom</span>, relatedBy: .<span class="type">Equal</span>,</span><br><span class="line">                                           toItem: blueView, attribute: .<span class="type">Bottom</span>, multiplier: <span class="number">1.0</span>, constant: <span class="number">0</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">let</span> redRight = <span class="type">NSLayoutConstraint</span>(item: redView, attribute: .<span class="type">Right</span>, relatedBy: .<span class="type">Equal</span>,</span><br><span class="line">                                          toItem: <span class="keyword">self</span>.view, attribute: .<span class="type">Right</span>, multiplier: <span class="number">1.0</span>, constant: -<span class="number">20</span>)</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">self</span>.view.addConstraints([blueLeft, blueBottom, blueRight, blueHeight, equalWidth, redTop, redBottom, redRight])</span><br></pre></td></tr></table></figure>
+<p>不知道你是不是被恶心到了，反正我是拒绝写这么多代码实现这么一个简单的功能的╮(╯_╰)╭</p>
+<p>所以这个时候类似于SnapKit等神库就出现啦！接下来我们来了解下SnapKit。</p>
 <h1 id="SnapKit"><a href="#SnapKit" class="headerlink" title="SnapKit"></a>SnapKit</h1><p>好了，该介绍主角了——SnapKit。其实有很多写界面布局的库，但是博主用的比较多的就是这个。</p>
 <h2 id="源码地址"><a href="#源码地址" class="headerlink" title="源码地址"></a>源码地址</h2><p><a href="https://github.com/SnapKit/SnapKit" target="_blank" rel="external">https://github.com/SnapKit/SnapKit</a></p>
 <p><img src="https://camo.githubusercontent.com/31e716ea5f9dcf84442b4a908c4751e39f45aa47/687474703a2f2f736e61706b69742e696f2f696d616765732f62616e6e65722e6a7067" alt=""></p>
@@ -344,7 +351,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pod install</span><br></pre></td></tr></table></figure>
 <p>直到终端提示我们安装完毕如图。</p>
 <p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-31%2000.00.22.png" height="300"></p>
-<h2 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h2><p>打开<code>workspace</code>之后，在需要使用<code>SnapKit</code>的文件中引入后我们就可以使用SnapKit了。</p>
+<h2 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h2><h3 id="小试牛刀"><a href="#小试牛刀" class="headerlink" title="小试牛刀"></a>小试牛刀</h3><p>打开<code>workspace</code>之后，在需要使用<code>SnapKit</code>的文件中引入后我们就可以使用SnapKit了。</p>
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> SnapKit</span><br></pre></td></tr></table></figure>
 <p>我们先来体验一下。</p>
 <p>我们在<code>ViewController.swift</code>的<code>viewDidLoad()</code>中加入下面这段代码，用来在屏幕中间显示一个label。</p>
@@ -358,7 +365,89 @@
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span><br><span class="line"> *  Method Two</span><br><span class="line"> */</span></span><br><span class="line">box.snp_makeConstraints &#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">    make.edges.equalTo(superView).inset(<span class="type">UIEdgeInsetsMake</span>(<span class="number">20</span>, <span class="number">20</span>, <span class="number">20</span>, <span class="number">20</span>))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>效果如图</p>
 <p><img src="http://7xrts6.com1.z0.glb.clouddn.com/Blog-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-03-31%2000.23.33.png" height="400"></p>
-<p>（未完待续。。。）</p>
+<h3 id="用法介绍"><a href="#用法介绍" class="headerlink" title="用法介绍"></a>用法介绍</h3><p>上面只是SnapKit最简单的一个Demo，接下来我们来进一步了解一下SnapKit的语法。</p>
+<h4 id="比较关系"><a href="#比较关系" class="headerlink" title="比较关系"></a>比较关系</h4><p>上面用的都是<code>.equalTo()</code>，实际上除此之外还有<code>. lessThanOrEqualTo</code>和<code>. greaterThanOrEqualTo</code>，用来限制大于等于或者是小于等于。</p>
+<h4 id="View变量"><a href="#View变量" class="headerlink" title="View变量"></a>View变量</h4><p>下面这个表中第一列是使用SnapKit的View Attribute，右边一列是其对应的NSLayoutAttribute。</p>
+<table>
+<thead>
+<tr>
+<th>ViewAttribute</th>
+<th>NSLayoutAttribute</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>view.snp_left</td>
+<td>NSLayoutAttribute.Left</td>
+</tr>
+<tr>
+<td>view.snp_right</td>
+<td>NSLayoutAttribute.Right</td>
+</tr>
+<tr>
+<td>view.snp_top</td>
+<td>NSLayoutAttribute.Top</td>
+</tr>
+<tr>
+<td>view.snp_bottom</td>
+<td>NSLayoutAttribute.Bottom</td>
+</tr>
+<tr>
+<td>view.snp_leading</td>
+<td>NSLayoutAttribute.Leading</td>
+</tr>
+<tr>
+<td>view.snp_trailing</td>
+<td>NSLayoutAttribute.Trailing</td>
+</tr>
+<tr>
+<td>view.snp_width</td>
+<td>NSLayoutAttribute.Width</td>
+</tr>
+<tr>
+<td>view.snp_height</td>
+<td>NSLayoutAttribute.Height</td>
+</tr>
+<tr>
+<td>view.snp_centerX</td>
+<td>NSLayoutAttribute.CenterX</td>
+</tr>
+<tr>
+<td>view.snp_centerY</td>
+<td>NSLayoutAttribute.CenterY</td>
+</tr>
+<tr>
+<td>view.snp_baseline</td>
+<td>NSLayoutAttribute.Baseline</td>
+</tr>
+</tbody>
+</table>
+<p>基本上很容易理解，但是其中需要注意,left和leading不总是相等的，下面是官方的解释。前边<code>NSLayoutAttributeLeading</code>和后边<code>NSLayoutAttributeTrailing</code>，这里前边和后边并不是总是为左边和右边的，有些国家的前边是右边后边是左边所以这样设定是为了国际化考虑。还有视图基准线<code>NSLayoutAttributeBaseline</code>通常是指视图的底部放文字的地方。不必深究，但是如果习惯使用storyboard的话建议使用<code>leading</code>和<code>trailing</code>。</p>
+<blockquote>
+<p>The attributes leading and trailing are the same as left and right for left-to-right languages such as English, but in a right-to-left environment such as Hebrew or Arabic, leading and trailing are the same as right and left. When you create constraints, leading and trailing are the default values. You should usually use leading and trailing to make sure your interface is laid out appropriately in all languages, unless you’re making constraints that should remain the same regardless of language (such as the order of master and detail panes in a split view).</p>
+</blockquote>
+<h4 id="UIView-NSView"><a href="#UIView-NSView" class="headerlink" title="UIView/NSView"></a>UIView/NSView</h4><p>在比较关系后面跟着的变量可以是view本身，也可以是<code>NSView</code>类型。如下面两种写法的效果是一样的。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">make.<span class="keyword">left</span>.greaterThanOrEqualTo(label)</span><br><span class="line">make.<span class="keyword">left</span>.greaterThanOrEqualTo(label.snp_left)</span><br></pre></td></tr></table></figure>
+<h4 id="优先级"><a href="#优先级" class="headerlink" title="优先级"></a>优先级</h4><p>有的时候如果限制很多很容易冲突，这个时候如果我们设置了<code>constraint</code>的优先级，则可以改变<code>. prority</code>来人为控制优先考虑满足哪一条限制。</p>
+<p>你可以很方便地调用<code>priorityHigh</code> 、<code>priorityMedium</code>、<code>priorityLow</code>等来限制，也可以设置一个数字来表示优先级大小。如：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">make.<span class="keyword">left</span>.greaterThanOrEqualTo(label.snp_left).priorityLow()</span><br><span class="line">make.top.equalTo(label.snp_top).priority(<span class="number">600</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="偏移"><a href="#偏移" class="headerlink" title="偏移"></a>偏移</h4><p>如果上面介绍的比较关系不能满足需求，比如你需要让一个控件的左边距离它的父View的左边界小于等于15的话，可以这么写：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#假设label1的父view叫做superView</span><br><span class="line">make.<span class="keyword">left</span>.lessThanOrEqualTo(superView).offset(<span class="number">15</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="组合模式"><a href="#组合模式" class="headerlink" title="组合模式"></a>组合模式</h4><h5 id="edges"><a href="#edges" class="headerlink" title="edges"></a>edges</h5><p>假如现在有这样的要求，<code>view1</code>的父<code>view</code>是<code>view2</code>，现在要<code>view1</code>和<code>view</code>的上下左右边界都相当，只需要</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make.edges.equalTo(view2)</span><br></pre></td></tr></table></figure>
+<p>如果需要<code>top</code>比<code>父view</code>偏移5单位，左边偏移<code>10</code>单位，底部偏移<code>-10</code>单位，右面偏移<code>-10</code>单位，只需要这么写：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make.edges.equalTo(superview).inset(<span class="type">UIEdgeInsetsMake</span>(<span class="number">5</span>, <span class="number">10</span>, <span class="number">10</span>, <span class="number">10</span>))</span><br></pre></td></tr></table></figure>
+<h5 id="size"><a href="#size" class="headerlink" title="size"></a>size</h5><p>如果不想分开设置<code>width</code>和<code>height</code>，可以直接设置<code>size</code>：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make.size.greaterThanOrEqualTo(superView)</span><br></pre></td></tr></table></figure>
+<p>现在要求是让<code>label</code>的<code>width</code>是<code>superView</code>的<code>width-100</code>，<code>height</code>是<code>父view</code>的<code>height-50</code>，你可以这么写：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">make.size.equalTo(superview).offset(<span class="type">CGSizeMake</span>(-<span class="number">100</span>, -<span class="number">50</span>))</span><br></pre></td></tr></table></figure>
+<h5 id="center"><a href="#center" class="headerlink" title="center"></a>center</h5><p>可以分开设置<code>centerX</code>和<code>centerY</code>，也可以直接设置<code>center</code>，像这样：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">make.center.equalTo(button1)</span><br><span class="line"></span><br><span class="line">make.center.equalTo(superview).offset(<span class="type">CGPointMake</span>(-<span class="number">5</span>, <span class="number">10</span>))</span><br></pre></td></tr></table></figure>
+<h5 id="更为可读的方式"><a href="#更为可读的方式" class="headerlink" title="更为可读的方式"></a>更为可读的方式</h5><p>如果你这样写，照样可以非常方便地限制：</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">make.<span class="keyword">left</span>.<span class="keyword">right</span>.bottom.equalTo(superView)</span><br><span class="line">make.top.equalTo(superView).offset(<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
+<hr>
+<p>其实到这里为止，我们对SnapKit已经基本掌握了，如果还想了解更多更新的用法，可以去<a href="https://github.com/SnapKit/SnapKit" target="_blank" rel="external">SnapKit 的Github</a>上去star一下。</p>
+<p>另外，如果你想下载到我写的代码这些Demo，可以去<a href="https://github.com/xdliu002/TAC_communication" target="_blank" rel="external">同济大学苹果俱乐部内部交流资料</a>去找~【ps,欢迎star】</p>
 
       
     </div>
@@ -370,7 +459,7 @@
         <p><span>本文标题:</span><a href="/2016/03/30/SnapKit初识/">SnapKit初识</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Fowafolo An 的个人博客">Fowafolo An</a></p>
         <p><span>发布时间:</span>2016年03月30日 - 22时48分</p>
-        <p><span>最后更新:</span>2016年03月31日 - 00时31分</p>
+        <p><span>最后更新:</span>2016年03月31日 - 20时19分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/03/30/SnapKit初识/" title="SnapKit初识">http://yoursite.com/2016/03/30/SnapKit初识/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/03/30/SnapKit初识/　　作者: Fowafolo An" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -400,7 +489,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#为什么不直接用Storyboard"><span class="toc-number">1.</span> <span class="toc-text">为什么不直接用Storyboard</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SnapKit"><span class="toc-number">2.</span> <span class="toc-text">SnapKit</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#源码地址"><span class="toc-number">2.1.</span> <span class="toc-text">源码地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#环境要求"><span class="toc-number">2.2.</span> <span class="toc-text">环境要求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#How-to-Install"><span class="toc-number">2.3.</span> <span class="toc-text">How to Install</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Carthage"><span class="toc-number">2.3.1.</span> <span class="toc-text">Carthage</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cocoapods"><span class="toc-number">2.3.2.</span> <span class="toc-text">Cocoapods</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本用法"><span class="toc-number">2.4.</span> <span class="toc-text">基本用法</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#为什么不直接用Storyboard"><span class="toc-number">1.</span> <span class="toc-text">为什么不直接用Storyboard</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#NSLayoutConstraint"><span class="toc-number">2.</span> <span class="toc-text">NSLayoutConstraint</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SnapKit"><span class="toc-number">3.</span> <span class="toc-text">SnapKit</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#源码地址"><span class="toc-number">3.1.</span> <span class="toc-text">源码地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#环境要求"><span class="toc-number">3.2.</span> <span class="toc-text">环境要求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#How-to-Install"><span class="toc-number">3.3.</span> <span class="toc-text">How to Install</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Carthage"><span class="toc-number">3.3.1.</span> <span class="toc-text">Carthage</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Cocoapods"><span class="toc-number">3.3.2.</span> <span class="toc-text">Cocoapods</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本用法"><span class="toc-number">3.4.</span> <span class="toc-text">基本用法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#小试牛刀"><span class="toc-number">3.4.1.</span> <span class="toc-text">小试牛刀</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#用法介绍"><span class="toc-number">3.4.2.</span> <span class="toc-text">用法介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#比较关系"><span class="toc-number">3.4.2.1.</span> <span class="toc-text">比较关系</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#View变量"><span class="toc-number">3.4.2.2.</span> <span class="toc-text">View变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#UIView-NSView"><span class="toc-number">3.4.2.3.</span> <span class="toc-text">UIView/NSView</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#优先级"><span class="toc-number">3.4.2.4.</span> <span class="toc-text">优先级</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#偏移"><span class="toc-number">3.4.2.5.</span> <span class="toc-text">偏移</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#组合模式"><span class="toc-number">3.4.2.6.</span> <span class="toc-text">组合模式</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#edges"><span class="toc-number">3.4.2.6.1.</span> <span class="toc-text">edges</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#size"><span class="toc-number">3.4.2.6.2.</span> <span class="toc-text">size</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#center"><span class="toc-number">3.4.2.6.3.</span> <span class="toc-text">center</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#更为可读的方式"><span class="toc-number">3.4.2.6.4.</span> <span class="toc-text">更为可读的方式</span></a></li></ol></li></ol></li></ol></li></ol></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
