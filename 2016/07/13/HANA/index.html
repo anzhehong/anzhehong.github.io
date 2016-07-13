@@ -19,7 +19,7 @@
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.18.45.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2011.07.49.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2011.13.12.png">
-<meta property="og:updated_time" content="2016-07-13T03:23:07.000Z">
+<meta property="og:updated_time" content="2016-07-13T08:58:24.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HANA">
 <meta name="twitter:description" content="Unit 1 Motivation &amp;amp; Basic Concepts">
@@ -352,8 +352,41 @@ FROM Car;
 </li>
 <li><p>BY 后面接数字表示列的序号（from zero）</p>
 </li>
+<li><p>TOP(先取),LIMIT(先Order),OFFSET</p>
+</li>
 </ol>
-
+<h3 id="WHERE"><a href="#WHERE" class="headerlink" title="WHERE"></a>WHERE</h3><ol>
+<li>BETWEEN AND</li>
+<li><p>IN(等效于OR)</p>
+ <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">	<span class="keyword">SELECT</span> Brand, Color  <span class="keyword">FROM</span> Car<span class="keyword">WHERE</span> Color <span class="keyword">IN</span> (<span class="string">'red'</span>, <span class="string">'blue'</span>, <span class="string">'orange'</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>通配符</p>
+<ul>
+<li>%代表任意字符串</li>
+<li>_代表一个占位符</li>
+<li>$修饰，表示就是原来的字符</li>
+</ul>
+</li>
+<li><p>Brackets</p>
+ <figure class="highlight hsp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(Brand = <span class="string">'Skoda'</span> <span class="keyword">OR</span> Brand = <span class="string">'BMW'</span>) <span class="keyword">AND</span> <span class="keyword">Color</span> = <span class="string">'black'</span><span class="comment">;</span></span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="Unit-3-Aggregating-Data"><a href="#Unit-3-Aggregating-Data" class="headerlink" title="Unit 3 Aggregating Data"></a>Unit 3 Aggregating Data</h1><ol>
+<li>Count</li>
+<li>MIN,MAX</li>
+<li>Sum,AVG</li>
+<li>Group By(Having)</li>
+</ol>
+<h1 id="Unit-4-Reading-Data-From-Multiple-Tables-Part-I"><a href="#Unit-4-Reading-Data-From-Multiple-Tables-Part-I" class="headerlink" title="Unit 4 Reading Data From Multiple Tables Part I"></a>Unit 4 Reading Data From Multiple Tables Part I</h1><ol>
+<li><p>访问多个表的方法：</p>
+<ul>
+<li>UNION</li>
+<li>JOIN</li>
+<li>Sub Query</li>
+</ul>
+</li>
+</ol>
+<h1 id="Unit-5-Reading-Data-From-Multiple-Tables-Part-II"><a href="#Unit-5-Reading-Data-From-Multiple-Tables-Part-II" class="headerlink" title="Unit 5 Reading Data From Multiple Tables Part II"></a>Unit 5 Reading Data From Multiple Tables Part II</h1><h1 id="Unit-6-Understanding-NULL-values"><a href="#Unit-6-Understanding-NULL-values" class="headerlink" title="Unit 6 Understanding NULL values"></a>Unit 6 Understanding NULL values</h1><h1 id="Unit-7-Changing-Data-Stored-In-Tables"><a href="#Unit-7-Changing-Data-Stored-In-Tables" class="headerlink" title="Unit 7 Changing Data Stored In Tables"></a>Unit 7 Changing Data Stored In Tables</h1><h1 id="Unit-8-Defining-Data-And-Access-Control"><a href="#Unit-8-Defining-Data-And-Access-Control" class="headerlink" title="Unit 8 Defining Data And Access Control"></a>Unit 8 Defining Data And Access Control</h1><h1 id="Unit-9-Using-Views-For-Data-Access"><a href="#Unit-9-Using-Views-For-Data-Access" class="headerlink" title="Unit 9 Using Views For Data Access"></a>Unit 9 Using Views For Data Access</h1><h1 id="Unit-10-Defining-Data-Access"><a href="#Unit-10-Defining-Data-Access" class="headerlink" title="Unit 10 Defining Data Access"></a>Unit 10 Defining Data Access</h1><h1 id="Unit-11-Database-Transactions"><a href="#Unit-11-Database-Transactions" class="headerlink" title="Unit 11 Database Transactions"></a>Unit 11 Database Transactions</h1>
       
     </div>
     
@@ -364,7 +397,7 @@ FROM Car;
         <p><span>本文标题:</span><a href="/2016/07/13/HANA/">HANA</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Fowafolo An 的个人博客">Fowafolo An</a></p>
         <p><span>发布时间:</span>2016年07月13日 - 09时46分</p>
-        <p><span>最后更新:</span>2016年07月13日 - 11时23分</p>
+        <p><span>最后更新:</span>2016年07月13日 - 16时58分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/07/13/HANA/" title="HANA">http://yoursite.com/2016/07/13/HANA/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/07/13/HANA/　　作者: Fowafolo An" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -394,7 +427,7 @@ FROM Car;
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-1-Motivation-amp-Basic-Concepts"><span class="toc-number">1.</span> <span class="toc-text">Unit 1 Motivation & Basic Concepts</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Basic-Concepts"><span class="toc-number">1.0.1.</span> <span class="toc-text">Basic Concepts</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SQL"><span class="toc-number">1.0.2.</span> <span class="toc-text">SQL</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-2-Reading-data-from-a-table-or-view"><span class="toc-number">2.</span> <span class="toc-text">Unit 2 Reading data from a table or view</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SELECT"><span class="toc-number">2.0.1.</span> <span class="toc-text">SELECT</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HANA内置函数"><span class="toc-number">2.0.2.</span> <span class="toc-text">HANA内置函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Case-Differentiation"><span class="toc-number">2.0.3.</span> <span class="toc-text">Case Differentiation</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#排序"><span class="toc-number">2.0.4.</span> <span class="toc-text">排序</span></a></li></ol></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-1-Motivation-amp-Basic-Concepts"><span class="toc-number">1.</span> <span class="toc-text">Unit 1 Motivation & Basic Concepts</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Basic-Concepts"><span class="toc-number">1.0.1.</span> <span class="toc-text">Basic Concepts</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SQL"><span class="toc-number">1.0.2.</span> <span class="toc-text">SQL</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-2-Reading-data-from-a-table-or-view"><span class="toc-number">2.</span> <span class="toc-text">Unit 2 Reading data from a table or view</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SELECT"><span class="toc-number">2.0.1.</span> <span class="toc-text">SELECT</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HANA内置函数"><span class="toc-number">2.0.2.</span> <span class="toc-text">HANA内置函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Case-Differentiation"><span class="toc-number">2.0.3.</span> <span class="toc-text">Case Differentiation</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#排序"><span class="toc-number">2.0.4.</span> <span class="toc-text">排序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#WHERE"><span class="toc-number">2.0.5.</span> <span class="toc-text">WHERE</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-3-Aggregating-Data"><span class="toc-number">3.</span> <span class="toc-text">Unit 3 Aggregating Data</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-4-Reading-Data-From-Multiple-Tables-Part-I"><span class="toc-number">4.</span> <span class="toc-text">Unit 4 Reading Data From Multiple Tables Part I</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-5-Reading-Data-From-Multiple-Tables-Part-II"><span class="toc-number">5.</span> <span class="toc-text">Unit 5 Reading Data From Multiple Tables Part II</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-6-Understanding-NULL-values"><span class="toc-number">6.</span> <span class="toc-text">Unit 6 Understanding NULL values</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-7-Changing-Data-Stored-In-Tables"><span class="toc-number">7.</span> <span class="toc-text">Unit 7 Changing Data Stored In Tables</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-8-Defining-Data-And-Access-Control"><span class="toc-number">8.</span> <span class="toc-text">Unit 8 Defining Data And Access Control</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-9-Using-Views-For-Data-Access"><span class="toc-number">9.</span> <span class="toc-text">Unit 9 Using Views For Data Access</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-10-Defining-Data-Access"><span class="toc-number">10.</span> <span class="toc-text">Unit 10 Defining Data Access</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-11-Database-Transactions"><span class="toc-number">11.</span> <span class="toc-text">Unit 11 Database Transactions</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
