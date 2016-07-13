@@ -164,7 +164,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/Basketball/" style="font-size: 10px;">Basketball</a> <a href="/tags/Core-Data/" style="font-size: 10px;">Core Data</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Kobe/" style="font-size: 10px;">Kobe</a> <a href="/tags/Magical-Record/" style="font-size: 10px;">Magical Record</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/NSUserDefault/" style="font-size: 10px;">NSUserDefault</a> <a href="/tags/SnapKit/" style="font-size: 10px;">SnapKit</a> <a href="/tags/SourceTree/" style="font-size: 10px;">SourceTree</a> <a href="/tags/TAC/" style="font-size: 20px;">TAC</a> <a href="/tags/Teamwork/" style="font-size: 10px;">Teamwork</a> <a href="/tags/UIView/" style="font-size: 10px;">UIView</a> <a href="/tags/UIWindow/" style="font-size: 10px;">UIWindow</a> <a href="/tags/iOS/" style="font-size: 15px;">iOS</a> <a href="/tags/storyboard/" style="font-size: 10px;">storyboard</a> <a href="/tags/博客/" style="font-size: 10px;">博客</a> <a href="/tags/同济大学苹果俱乐部/" style="font-size: 20px;">同济大学苹果俱乐部</a> <a href="/tags/项目管理/" style="font-size: 10px;">项目管理</a>
+                        <a href="/tags/Basketball/" style="font-size: 10px;">Basketball</a> <a href="/tags/Core-Data/" style="font-size: 10px;">Core Data</a> <a href="/tags/Database/" style="font-size: 10px;">Database</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/HANA/" style="font-size: 10px;">HANA</a> <a href="/tags/HealthKit/" style="font-size: 10px;">HealthKit</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Kobe/" style="font-size: 10px;">Kobe</a> <a href="/tags/Magical-Record/" style="font-size: 10px;">Magical Record</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/Memory-Database/" style="font-size: 10px;">Memory Database</a> <a href="/tags/NSUserDefault/" style="font-size: 10px;">NSUserDefault</a> <a href="/tags/SAP/" style="font-size: 10px;">SAP</a> <a href="/tags/SnapKit/" style="font-size: 10px;">SnapKit</a> <a href="/tags/SourceTree/" style="font-size: 10px;">SourceTree</a> <a href="/tags/Swift3/" style="font-size: 10px;">Swift3</a> <a href="/tags/TAC/" style="font-size: 20px;">TAC</a> <a href="/tags/Teamwork/" style="font-size: 10px;">Teamwork</a> <a href="/tags/UIView/" style="font-size: 10px;">UIView</a> <a href="/tags/UIWindow/" style="font-size: 10px;">UIWindow</a> <a href="/tags/iOS/" style="font-size: 15px;">iOS</a> <a href="/tags/storyboard/" style="font-size: 10px;">storyboard</a> <a href="/tags/博客/" style="font-size: 10px;">博客</a> <a href="/tags/同济大学苹果俱乐部/" style="font-size: 20px;">同济大学苹果俱乐部</a> <a href="/tags/项目管理/" style="font-size: 10px;">项目管理</a>
                     </div>
                 </section>
                 
@@ -253,6 +253,232 @@
     </div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-HANA" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/13/HANA/" class="article-date">
+      <time datetime="2016-07-13T01:46:19.000Z" itemprop="datePublished">2016-07-13</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/13/HANA/">HANA</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="Unit-1-Motivation-amp-Basic-Concepts"><a href="#Unit-1-Motivation-amp-Basic-Concepts" class="headerlink" title="Unit 1 Motivation &amp; Basic Concepts"></a>Unit 1 Motivation &amp; Basic Concepts</h1><h3 id="Basic-Concepts"><a href="#Basic-Concepts" class="headerlink" title="Basic Concepts"></a>Basic Concepts</h3><ol>
+<li><p>数据库管理系统</p>
+<p> DBS=DB+DBMS</p>
+<p> HANA is one</p>
+<p> Database-Management-System √</p>
+<p> Database ×</p>
+</li>
+<li><p>3 Level Schema Architecture</p>
+<p> <img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.01.27.png" alt=""></p>
+<p> External Level（最终看到和使用的局部数据的逻辑结构和特征的描述，是数据库用户的数据视图，是和某个应用有关的数据的逻辑表示） &gt; Conceptual Level（相当于逻辑层，也叫逻辑模式，是对DB中全体数据的逻辑结构和特征的总体描述） &gt; Internal Level（可以理解为磁盘上的数据，关乎数据的物理结构和存储方式）</p>
+</li>
+<li><p>HANA数据库模型的特点</p>
+<ul>
+<li><p>可以基于行也可以基于列</p>
+</li>
+<li><p>是一种关系型数据库</p>
+<p>  R ⊆Ax B x C</p>
+<p>  <img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.08.50.png" alt=""></p>
+</li>
+<li><p>SAP HANA is a relational data base management system and SAP HANA supports SQL</p>
+<p>  支持不同的架构：</p>
+<p>  <img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.16.17.png" alt=""></p>
+<p>  <img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.16.24.png" alt=""></p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h3><ol>
+<li><p>SQL Feature</p>
+<p> <img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.18.39.png" alt=""></p>
+</li>
+<li><p>SQL Elements</p>
+<p> <img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.18.45.png" alt=""></p>
+</li>
+</ol>
+<h1 id="Unit-2-Reading-data-from-a-table-or-view"><a href="#Unit-2-Reading-data-from-a-table-or-view" class="headerlink" title="Unit 2 Reading data from a table or view"></a>Unit 2 Reading data from a table or view</h1><h3 id="SELECT"><a href="#SELECT" class="headerlink" title="SELECT"></a>SELECT</h3><ol>
+<li>‘’ 表示常量，读出来还是一样</li>
+<li>“” 表示包起来一个名字</li>
+<li>不加任何引号，自动把小写转化成大写，所以推荐不加引号，这样避免区分大小写</li>
+<li>如果有特殊字符，如空格，必须加双引号</li>
+<li>AS可以省略，写在属性后面即可重命名</li>
+</ol>
+<h3 id="HANA内置函数"><a href="#HANA内置函数" class="headerlink" title="HANA内置函数"></a>HANA内置函数</h3><p><img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2011.07.49.png" alt=""></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Database/">Database</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HANA/">HANA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Memory-Database/">Memory Database</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SAP/">SAP</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-HealthKit" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/16/HealthKit/" class="article-date">
+      <time datetime="2016-06-15T16:26:41.000Z" itemprop="datePublished">2016-06-16</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/16/HealthKit/">HealthKit</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/WWDC16/">WWDC16</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HealthKit/">HealthKit</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+  
+    <article id="post-SwiftAPIDesign" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/15/SwiftAPIDesign/" class="article-date">
+      <time datetime="2016-06-14T17:06:04.000Z" itemprop="datePublished">2016-06-15</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/15/SwiftAPIDesign/">SwiftAPIDesign</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>Design APIs to make use clar and concise </p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>Make Uses of Your APIs Read Grammatically</p>
+<p>Strive for Clear Usage</p>
+<p>Clarity is More Important Than Brevity</p>
+<p>Which Words Are Needed?</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">friends.removeItem(ted)</span><br><span class="line">friends.removeObject(ted)</span><br><span class="line">friends.removeElement(ted)</span><br><span class="line"></span><br><span class="line">friends.removePerson(ted)</span><br><span class="line">primes.removeNumber(currentMultiple)</span><br><span class="line"></span><br><span class="line"><span class="comment">//Swift3</span></span><br><span class="line">friends.remove(ted)</span><br></pre></td></tr></table></figure>
+<!--<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">selector(handleDrag(sender:</span><br><span class="line">```--&gt;</span><br><span class="line"></span><br><span class="line">```swift</span><br><span class="line">#keyPath(<span class="type">Album</span>.artist.name)</span><br></pre></td></tr></table></figure>-->
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/WWDC16/">WWDC16</a>
+    </div>
+
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Swift3/">Swift3</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
   
     <article id="post-Goodbye" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -700,141 +926,10 @@
 
 
   
-    <article id="post-Git" class="article article-type-post" itemscope itemprop="blogPost">
   
-    <div class="article-meta">
-      <a href="/2016/03/11/Git/" class="article-date">
-      <time datetime="2016-03-11T02:54:12.000Z" itemprop="datePublished">2016-03-11</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/11/Git/">Git</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h1 id="什么是Git"><a href="#什么是Git" class="headerlink" title="什么是Git"></a>什么是Git</h1><p>Git是世界上最先进、最好用的分布式版本控制系统（没有之一）。</p>
-<p>如果没有版本控制工具， 我们的项目合作也许只能一个人写完另一个接着写，或者同时写最后手动合并的方式来进行合作，显而易见，这会浪费大量的时间，还容易出错。因此Git的宗旨就是让我们在项目中更加方便地进行版本控制。</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/教程/">教程</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Git/">Git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github/">Github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SourceTree/">SourceTree</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TAC/">TAC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/同济大学苹果俱乐部/">同济大学苹果俱乐部</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/03/11/Git/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-  
-    <article id="post-Markdown" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/03/11/Markdown/" class="article-date">
-      <time datetime="2016-03-11T02:54:06.000Z" itemprop="datePublished">2016-03-11</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/03/11/Markdown/">Markdown</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h1 id="什么是Markdown"><a href="#什么是Markdown" class="headerlink" title="什么是Markdown"></a>什么是Markdown</h1><p>Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。</p>
-<blockquote>
-<p>什么是<strong>标记语言</strong>？</p>
-<p>可以理解为就是用一些符号来代替手动排版的过程。</p>
-</blockquote>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/教程/">教程</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TAC/">TAC</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/同济大学苹果俱乐部/">同济大学苹果俱乐部</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/03/11/Markdown/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-  
+    <nav id="page-nav">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    </nav>
   
 </div>
       <footer id="footer">
