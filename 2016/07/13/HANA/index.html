@@ -5,30 +5,12 @@
   
   <title>HANA | Fowafolo Space</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Unit 1 Motivation &amp;amp; Basic ConceptsBasic Concepts
-数据库管理系统
- DBS=DB+DBMS
- HANA is one
- Database-Management-System √
- Database ×
-
-3 Level Schema Architecture
- 
- External Level（最终看到和使用的局部数据的逻辑结构和特征的描述，">
+  <meta name="description" content="Unit 1 Motivation &amp;amp; Basic Concepts">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HANA">
 <meta property="og:url" content="http://yoursite.com/2016/07/13/HANA/index.html">
 <meta property="og:site_name" content="Fowafolo Space">
-<meta property="og:description" content="Unit 1 Motivation &amp;amp; Basic ConceptsBasic Concepts
-数据库管理系统
- DBS=DB+DBMS
- HANA is one
- Database-Management-System √
- Database ×
-
-3 Level Schema Architecture
- 
- External Level（最终看到和使用的局部数据的逻辑结构和特征的描述，">
+<meta property="og:description" content="Unit 1 Motivation &amp;amp; Basic Concepts">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.01.27.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.08.50.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.16.17.png">
@@ -36,19 +18,11 @@
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.18.39.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.18.45.png">
 <meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2011.07.49.png">
-<meta property="og:updated_time" content="2016-07-13T03:08:25.000Z">
+<meta property="og:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2011.13.12.png">
+<meta property="og:updated_time" content="2016-07-13T03:23:07.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HANA">
-<meta name="twitter:description" content="Unit 1 Motivation &amp;amp; Basic ConceptsBasic Concepts
-数据库管理系统
- DBS=DB+DBMS
- HANA is one
- Database-Management-System √
- Database ×
-
-3 Level Schema Architecture
- 
- External Level（最终看到和使用的局部数据的逻辑结构和特征的描述，">
+<meta name="twitter:description" content="Unit 1 Motivation &amp;amp; Basic Concepts">
 <meta name="twitter:image" content="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2010.01.27.png">
   
     <link rel="alternative" href="/atom.xml" title="Fowafolo Space" type="application/atom+xml">
@@ -321,7 +295,8 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <h1 id="Unit-1-Motivation-amp-Basic-Concepts"><a href="#Unit-1-Motivation-amp-Basic-Concepts" class="headerlink" title="Unit 1 Motivation &amp; Basic Concepts"></a>Unit 1 Motivation &amp; Basic Concepts</h1><h3 id="Basic-Concepts"><a href="#Basic-Concepts" class="headerlink" title="Basic Concepts"></a>Basic Concepts</h3><ol>
+        <h1 id="Unit-1-Motivation-amp-Basic-Concepts"><a href="#Unit-1-Motivation-amp-Basic-Concepts" class="headerlink" title="Unit 1 Motivation &amp; Basic Concepts"></a>Unit 1 Motivation &amp; Basic Concepts</h1><a id="more"></a>
+<h3 id="Basic-Concepts"><a href="#Basic-Concepts" class="headerlink" title="Basic Concepts"></a>Basic Concepts</h3><ol>
 <li><p>数据库管理系统</p>
 <p> DBS=DB+DBMS</p>
 <p> HANA is one</p>
@@ -364,6 +339,20 @@
 <li>AS可以省略，写在属性后面即可重命名</li>
 </ol>
 <h3 id="HANA内置函数"><a href="#HANA内置函数" class="headerlink" title="HANA内置函数"></a>HANA内置函数</h3><p><img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2011.07.49.png" alt=""></p>
+<h3 id="Case-Differentiation"><a href="#Case-Differentiation" class="headerlink" title="Case Differentiation"></a>Case Differentiation</h3><pre><code>SELECT *, CASE
+WHEN HP &lt; 120 THEN &apos;low&apos;
+WHEN HP &gt;= 120 AND HP &lt; 180 THEN &apos;medium&apos; ELSE &apos;high&apos;
+END AS Rating
+FROM Car;
+</code></pre><p>result:</p>
+<p><img src="http://7xrts6.com1.z0.glb.clouddn.com/SAP-HANA-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%2011.13.12.png" alt=""></p>
+<h3 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h3><ol>
+<li><p>ASC, DESC </p>
+ <figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> Brand, Color<span class="keyword">FROM</span> Car<span class="keyword">ORDER</span> <span class="keyword">BY</span> Brand <span class="keyword">ASC</span>, Color <span class="keyword">DESC</span>;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>BY 后面接数字表示列的序号（from zero）</p>
+</li>
+</ol>
 
       
     </div>
@@ -375,7 +364,7 @@
         <p><span>本文标题:</span><a href="/2016/07/13/HANA/">HANA</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Fowafolo An 的个人博客">Fowafolo An</a></p>
         <p><span>发布时间:</span>2016年07月13日 - 09时46分</p>
-        <p><span>最后更新:</span>2016年07月13日 - 11时08分</p>
+        <p><span>最后更新:</span>2016年07月13日 - 11时23分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/07/13/HANA/" title="HANA">http://yoursite.com/2016/07/13/HANA/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/07/13/HANA/　　作者: Fowafolo An" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -405,7 +394,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-1-Motivation-amp-Basic-Concepts"><span class="toc-number">1.</span> <span class="toc-text">Unit 1 Motivation & Basic Concepts</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Basic-Concepts"><span class="toc-number">1.0.1.</span> <span class="toc-text">Basic Concepts</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SQL"><span class="toc-number">1.0.2.</span> <span class="toc-text">SQL</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-2-Reading-data-from-a-table-or-view"><span class="toc-number">2.</span> <span class="toc-text">Unit 2 Reading data from a table or view</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SELECT"><span class="toc-number">2.0.1.</span> <span class="toc-text">SELECT</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HANA内置函数"><span class="toc-number">2.0.2.</span> <span class="toc-text">HANA内置函数</span></a></li></ol></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-1-Motivation-amp-Basic-Concepts"><span class="toc-number">1.</span> <span class="toc-text">Unit 1 Motivation & Basic Concepts</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Basic-Concepts"><span class="toc-number">1.0.1.</span> <span class="toc-text">Basic Concepts</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SQL"><span class="toc-number">1.0.2.</span> <span class="toc-text">SQL</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Unit-2-Reading-data-from-a-table-or-view"><span class="toc-number">2.</span> <span class="toc-text">Unit 2 Reading data from a table or view</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SELECT"><span class="toc-number">2.0.1.</span> <span class="toc-text">SELECT</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#HANA内置函数"><span class="toc-number">2.0.2.</span> <span class="toc-text">HANA内置函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Case-Differentiation"><span class="toc-number">2.0.3.</span> <span class="toc-text">Case Differentiation</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#排序"><span class="toc-number">2.0.4.</span> <span class="toc-text">排序</span></a></li></ol></li></ol></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
