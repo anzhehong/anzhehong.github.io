@@ -10,6 +10,17 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo Blog</title>
+    <url>/2024/07/08/todo/hexo/</url>
+    <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
+<p><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
+<p><a href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
+]]></content>
+      <tags>
+        <tag>todo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Deepthinking</title>
     <url>/2024/07/08/work/Deepthinking/</url>
     <content><![CDATA[<p>这一系列主要用来记录一些工作中获得的感想、经验以及教训。</p>
@@ -34,17 +45,6 @@
 ]]></content>
       <tags>
         <tag>work, philosophy, reflection, project-management</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo Blog</title>
-    <url>/2024/07/08/todo/hexo/</url>
-    <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
-<p><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
-<p><a href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
-]]></content>
-      <tags>
-        <tag>todo</tag>
       </tags>
   </entry>
   <entry>
