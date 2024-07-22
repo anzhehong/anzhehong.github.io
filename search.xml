@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Tesla</title>
+    <url>/2024/07/07/stock/Tesla/</url>
+    <content><![CDATA[<p>今天是2024年7月7日，最近看了很多特斯拉的新闻和知识<span id="more"></span>，愈发觉得这只我曾经嗤之以鼻的股票（主要是不喜欢马斯克这个人）其实是最好的投资选择之一。<br>目前为止只有100股特斯拉，均价240。看看在一段时间的短期、长期的操作下，会有怎样的变化。<br>期待。</p>
+]]></content>
+      <tags>
+        <tag>Stock</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Deepthinking</title>
+    <url>/2024/07/08/work/Deepthinking/</url>
+    <content><![CDATA[<p>这一系列主要用来记录一些工作中获得的感想、经验以及教训。</p>
+<p><code>2024.07.08</code></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在项目初期，面对各种不确定性和新概念的引入时，会感到困惑和烦躁。然而，通过调整心态、扩展思维和深入理解，可以更好地应对这些挑战。保持乐观积极的态度，不仅有助于解决问题，还能增强自己的影响力。</p>
+<span id="more"></span>
+
+<h2 id="项目初期的挑战与困惑"><a href="#项目初期的挑战与困惑" class="headerlink" title="项目初期的挑战与困惑"></a>项目初期的挑战与困惑</h2><p>最近在为今年晚些时候和明年的一个大型功能项目进行scope。尽管目前还在讨论阶段，但数据模型已经在组内经过了一些讨论，初步形成了雏形。与此同时，老板提到了很多次不同的概念，讨论如何与系统级别的功能进行整合。虽然这些想法很好，但也面临一些挑战：</p>
+<ol>
+<li>   前提条件的缺失：很多老板提到的功能前提不存在，例如如何解耦一些已有的非常基本的组件；</li>
+<li>   系统功能的实用性：我个人在使用过程中发现，老板希望从中受益的系统级别功能并不是很好用，还有很多BUG；</li>
+<li>   功能的实用价值：即使实现了这些功能，最终看起来可能只是一个很华丽却无实际用处的功能。</li>
+</ol>
+<p>最令我困扰的是不断加入新的内容和概念，导致我已有的一些架构和流程都要随之改变。而且到目前为止，整个项目的范围、预期交付物和时间线等还没有确定下来，令人非常烦躁。</p>
+<h2 id="心态调整与反思"><a href="#心态调整与反思" class="headerlink" title="心态调整与反思"></a>心态调整与反思</h2><p>出去跑了步，流汗之后反而想开了很多：</p>
+<ol>
+<li>   广阔思维：在思考问题时，可能有些太过狭隘。这个项目现在还处于早期讨论阶段，所以有各种不同的变量和声音是再正常不过的。老板说得挺好：“I know it’s an overwhelming amount of stuff, but that’s the nature of this phase of these projects 🙂”。这提醒我要接受项目初期的混乱和多样性。</li>
+<li>   深入理解：有些时候自己觉得很扯淡的东西，可能是因为对某些事物的理解还不够深入。当质疑一个东西时，尤其是在工作中，一定要深入了解。想到了高中语文老师曾经说的，做XXX是为了更好的批判。虽然不一定是为了批判，但深入了解能够避免狭隘地、错误地指出别人本来正确的东西。</li>
+<li>   积极态度：我在努力做到但还需更努力的一点是：乐观地面对工作的挑战和不同的意见。积极友善的态度，有理有据的争辩，往往比消极的吐槽或者郁郁寡欢更加有用，不仅能让别人对你有更好的印象，同时也可以加强你自己的影响力。</li>
+</ol>
+<p>通过这些反思，我意识到在项目初期阶段，保持开放的心态和积极的态度是至关重要的。希望未来的工作中能够更加从容地面对各种挑战，继续积累经验和教训。</p>
+]]></content>
+      <tags>
+        <tag>work, philosophy, reflection, project-management</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo Blog</title>
+    <url>/2024/07/08/todo/hexo/</url>
+    <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
+<p><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
+<p><a href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
+]]></content>
+      <tags>
+        <tag>todo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>十年</title>
+    <url>/2024/07/07/we/%E5%8D%81%E5%B9%B4/</url>
+    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
+<p>爱你。</p>
+]]></content>
+      <tags>
+        <tag>我们</tag>
+      </tags>
+  </entry>
+</search>

@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta property="og:type" content="website">
@@ -100,6 +100,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -119,11 +120,38 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -169,10 +197,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2024-07-08 20:06:34 / Modified: 20:18:16" itemprop="dateCreated datePublished" datetime="2024-07-08T20:06:34-07:00">2024-07-08</time>
+              <time title="Created: 2024-07-08 20:06:34" itemprop="dateCreated datePublished" datetime="2024-07-08T20:06:34-07:00">2024-07-08</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-07-21 18:44:56" itemprop="dateModified" datetime="2024-07-21T18:44:56-07:00">2024-07-21</time>
+              </span>
 
           
 
@@ -185,10 +219,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>To finish building up this blog, refer to:</p>
-<p><a target="_blank" rel="noopener" href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
-<p><a target="_blank" rel="noopener" href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
-
+          <p>To finish building up this blog
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/07/08/todo/hexo/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -230,10 +269,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2024-07-08 18:34:08 / Modified: 19:52:16" itemprop="dateCreated datePublished" datetime="2024-07-08T18:34:08-07:00">2024-07-08</time>
+              <time title="Created: 2024-07-08 18:34:08" itemprop="dateCreated datePublished" datetime="2024-07-08T18:34:08-07:00">2024-07-08</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-07-21 18:44:35" itemprop="dateModified" datetime="2024-07-21T18:44:35-07:00">2024-07-21</time>
+              </span>
 
           
 
@@ -249,21 +294,14 @@
           <p>这一系列主要用来记录一些工作中获得的感想、经验以及教训。</p>
 <p><code>2024.07.08</code></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在项目初期，面对各种不确定性和新概念的引入时，会感到困惑和烦躁。然而，通过调整心态、扩展思维和深入理解，可以更好地应对这些挑战。保持乐观积极的态度，不仅有助于解决问题，还能增强自己的影响力。</p>
-<h2 id="项目初期的挑战与困惑"><a href="#项目初期的挑战与困惑" class="headerlink" title="项目初期的挑战与困惑"></a>项目初期的挑战与困惑</h2><p>最近在为今年晚些时候和明年的一个大型功能项目进行scope。尽管目前还在讨论阶段，但数据模型已经在组内经过了一些讨论，初步形成了雏形。与此同时，老板提到了很多次不同的概念，讨论如何与系统级别的功能进行整合。虽然这些想法很好，但也面临一些挑战：</p>
-<ol>
-<li>   前提条件的缺失：很多老板提到的功能前提不存在，例如如何解耦一些已有的非常基本的组件；</li>
-<li>   系统功能的实用性：我个人在使用过程中发现，老板希望从中受益的系统级别功能并不是很好用，还有很多BUG；</li>
-<li>   功能的实用价值：即使实现了这些功能，最终看起来可能只是一个很华丽却无实际用处的功能。</li>
-</ol>
-<p>最令我困扰的是不断加入新的内容和概念，导致我已有的一些架构和流程都要随之改变。而且到目前为止，整个项目的范围、预期交付物和时间线等还没有确定下来，令人非常烦躁。</p>
-<h2 id="心态调整与反思"><a href="#心态调整与反思" class="headerlink" title="心态调整与反思"></a>心态调整与反思</h2><p>出去跑了步，流汗之后反而想开了很多：</p>
-<ol>
-<li>   广阔思维：在思考问题时，可能有些太过狭隘。这个项目现在还处于早期讨论阶段，所以有各种不同的变量和声音是再正常不过的。老板说得挺好：“I know it’s an overwhelming amount of stuff, but that’s the nature of this phase of these projects 🙂”。这提醒我要接受项目初期的混乱和多样性。</li>
-<li>   深入理解：有些时候自己觉得很扯淡的东西，可能是因为对某些事物的理解还不够深入。当质疑一个东西时，尤其是在工作中，一定要深入了解。想到了高中语文老师曾经说的，做XXX是为了更好的批判。虽然不一定是为了批判，但深入了解能够避免狭隘地、错误地指出别人本来正确的东西。</li>
-<li>   积极态度：我在努力做到但还需更努力的一点是：乐观地面对工作的挑战和不同的意见。积极友善的态度，有理有据的争辩，往往比消极的吐槽或者郁郁寡欢更加有用，不仅能让别人对你有更好的印象，同时也可以加强你自己的影响力。</li>
-</ol>
-<p>通过这些反思，我意识到在项目初期阶段，保持开放的心态和积极的态度是至关重要的。希望未来的工作中能够更加从容地面对各种挑战，继续积累经验和教训。</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/07/08/work/Deepthinking/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -305,10 +343,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2024-07-07 23:38:46 / Modified: 23:41:12" itemprop="dateCreated datePublished" datetime="2024-07-07T23:38:46-07:00">2024-07-07</time>
+              <time title="Created: 2024-07-07 23:38:46" itemprop="dateCreated datePublished" datetime="2024-07-07T23:38:46-07:00">2024-07-07</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-07-21 18:45:04" itemprop="dateModified" datetime="2024-07-21T18:45:04-07:00">2024-07-21</time>
+              </span>
 
           
 
@@ -321,8 +365,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>今天是2024年7月7日，最近看了很多特斯拉的新闻和知识，愈发觉得这只我曾经嗤之以鼻的股票（主要是不喜欢马斯克这个人）其实是最好的投资选择之一。<br>目前为止只有100股特斯拉，均价240。看看在一段时间的短期、长期的操作下，会有怎样的变化。<br>期待。</p>
-
+          <p>今天是2024年7月7日，最近看了很多特斯拉的新闻和知识
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/07/07/stock/Tesla/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -364,10 +415,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2024-07-07 23:22:35 / Modified: 23:31:51" itemprop="dateCreated datePublished" datetime="2024-07-07T23:22:35-07:00">2024-07-07</time>
+              <time title="Created: 2024-07-07 23:22:35" itemprop="dateCreated datePublished" datetime="2024-07-07T23:22:35-07:00">2024-07-07</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2024-07-21 18:45:26" itemprop="dateModified" datetime="2024-07-21T18:45:26-07:00">2024-07-21</time>
+              </span>
 
           
 
@@ -380,9 +437,15 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
-<p>爱你。</p>
-
+          <h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2024/07/07/we/%E5%8D%81%E5%B9%B4/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -476,6 +539,11 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:lonawve@gmail.com" title="E-Mail → mailto:lonawve@gmail.com" rel="noopener" target="_blank"><i class="Lonawve fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
@@ -541,6 +609,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
