@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Jul Leetcode</title>
-    <url>/posts/940071c4/</url>
-    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
-<span id="more"></span>
-
-<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
-<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
+    <title>Tesla</title>
+    <url>/posts/a2033a4b/</url>
+    <content><![CDATA[<p>今天是2024年7月7日，最近看了很多特斯拉的新闻和知识<span id="more"></span>，愈发觉得这只我曾经嗤之以鼻的股票（主要是不喜欢马斯克这个人）其实是最好的投资选择之一。<br>目前为止只有100股特斯拉，均价240。看看在一段时间的短期、长期的操作下，会有怎样的变化。<br>期待。</p>
 ]]></content>
+      <categories>
+        <category>Stock</category>
+      </categories>
       <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十年</title>
-    <url>/posts/bdfafec0/</url>
-    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
-<p>爱你。</p>
-]]></content>
-      <tags>
-        <tag>我们</tag>
+        <tag>Stock</tag>
       </tags>
   </entry>
   <entry>
@@ -35,15 +24,16 @@
       </tags>
   </entry>
   <entry>
-    <title>Tesla</title>
-    <url>/posts/a2033a4b/</url>
-    <content><![CDATA[<p>今天是2024年7月7日，最近看了很多特斯拉的新闻和知识<span id="more"></span>，愈发觉得这只我曾经嗤之以鼻的股票（主要是不喜欢马斯克这个人）其实是最好的投资选择之一。<br>目前为止只有100股特斯拉，均价240。看看在一段时间的短期、长期的操作下，会有怎样的变化。<br>期待。</p>
+    <title>Jul Leetcode</title>
+    <url>/posts/940071c4/</url>
+    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
+<span id="more"></span>
+
+<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
+<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
 ]]></content>
-      <categories>
-        <category>Stock</category>
-      </categories>
       <tags>
-        <tag>Stock</tag>
+        <tag>leetcode</tag>
       </tags>
   </entry>
   <entry>
@@ -71,6 +61,16 @@
 ]]></content>
       <tags>
         <tag>work, philosophy, reflection, project-management</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>十年</title>
+    <url>/posts/bdfafec0/</url>
+    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
+<p>爱你。</p>
+]]></content>
+      <tags>
+        <tag>我们</tag>
       </tags>
   </entry>
   <entry>
