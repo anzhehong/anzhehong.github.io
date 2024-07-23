@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Tesla</title>
-    <url>/2024/07/07/stock/Tesla/</url>
-    <content><![CDATA[<p>今天是2024年7月7日，最近看了很多特斯拉的新闻和知识<span id="more"></span>，愈发觉得这只我曾经嗤之以鼻的股票（主要是不喜欢马斯克这个人）其实是最好的投资选择之一。<br>目前为止只有100股特斯拉，均价240。看看在一段时间的短期、长期的操作下，会有怎样的变化。<br>期待。</p>
+    <title>Jul Leetcode</title>
+    <url>/posts/940071c4/</url>
+    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
+<span id="more"></span>
+
+<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
+<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
 ]]></content>
       <tags>
-        <tag>Stock</tag>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>十年</title>
+    <url>/posts/bdfafec0/</url>
+    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
+<p>爱你。</p>
+]]></content>
+      <tags>
+        <tag>我们</tag>
       </tags>
   </entry>
   <entry>
     <title>Hexo Blog</title>
-    <url>/2024/07/08/todo/hexo/</url>
+    <url>/posts/bdcf36c8/</url>
     <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
 <p><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
 <p><a href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
@@ -21,18 +35,20 @@
       </tags>
   </entry>
   <entry>
-    <title>十年</title>
-    <url>/2024/07/07/we/%E5%8D%81%E5%B9%B4/</url>
-    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
-<p>爱你。</p>
+    <title>Tesla</title>
+    <url>/posts/a2033a4b/</url>
+    <content><![CDATA[<p>今天是2024年7月7日，最近看了很多特斯拉的新闻和知识<span id="more"></span>，愈发觉得这只我曾经嗤之以鼻的股票（主要是不喜欢马斯克这个人）其实是最好的投资选择之一。<br>目前为止只有100股特斯拉，均价240。看看在一段时间的短期、长期的操作下，会有怎样的变化。<br>期待。</p>
 ]]></content>
+      <categories>
+        <category>Stock</category>
+      </categories>
       <tags>
-        <tag>我们</tag>
+        <tag>Stock</tag>
       </tags>
   </entry>
   <entry>
     <title>Deepthinking</title>
-    <url>/2024/07/08/work/Deepthinking/</url>
+    <url>/posts/b46d4452/</url>
     <content><![CDATA[<p>这一系列主要用来记录一些工作中获得的感想、经验以及教训。</p>
 <p><code>2024.07.08</code></p>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在项目初期，面对各种不确定性和新概念的引入时，会感到困惑和烦躁。然而，通过调整心态、扩展思维和深入理解，可以更好地应对这些挑战。保持乐观积极的态度，不仅有助于解决问题，还能增强自己的影响力。</p>
@@ -55,6 +71,104 @@
 ]]></content>
       <tags>
         <tag>work, philosophy, reflection, project-management</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>KMP</title>
+    <url>/posts/ad32db8f/</url>
+    <content><![CDATA[<h1 id="KMP-Algorithm"><a href="#KMP-Algorithm" class="headerlink" title="KMP Algorithm"></a>KMP Algorithm</h1><h2 id="What-is-KMP"><a href="#What-is-KMP" class="headerlink" title="What is KMP?"></a>What is KMP?</h2><p>KMP is a string matching algorithm that is used to find a substring in a string. It is an efficient algorithm that has a time complexity of O(n+m) where n is the length of the string and m is the length of the substring.</p>
+<p>KMP 是一个解决 模式串在文本串中是否出现过，如果出现过，则最早出现的位置的经典算法。KMP 算法的时间复杂度是 O(n+m)。</p>
+<span id="more"></span>
+
+<h2 id="Leetcode-Links"><a href="#Leetcode-Links" class="headerlink" title="Leetcode Links"></a>Leetcode Links</h2><p><a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/?envType=study-plan-v2&envId=top-interview-150">28. Find the index of the first ocurence in a string</a></p>
+<h3 id="Problem-description"><a href="#Problem-description" class="headerlink" title="Problem description"></a>Problem description</h3><p>Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.</p>
+<p><code>Example 1</code>:</p>
+<blockquote>
+<p>Input: haystack &#x3D; “sadbutsad”, needle &#x3D; “sad”<br>Output: 0<br>Explanation: “sad” occurs at index 0 and 6.<br>The first occurrence is at index 0, so we return 0.</p>
+</blockquote>
+<p><code>Example 2</code>:</p>
+<blockquote>
+<p>Input: haystack &#x3D; “leetcode”, needle &#x3D; “leeto”<br>Output: -1<br>Explanation: “leeto” did not occur in “leetcode”, so we return -1.</p>
+</blockquote>
+<p><code>Constraints</code>:<br>1 &lt;&#x3D; haystack.length, needle.length &lt;&#x3D; 104<br>haystack and needle consist of only lowercase English characters.</p>
+<h2 id="KMP-Algorithm-1"><a href="#KMP-Algorithm-1" class="headerlink" title="KMP Algorithm"></a>KMP Algorithm</h2><h3 id="KMP-working-analysis"><a href="#KMP-working-analysis" class="headerlink" title="KMP working analysis"></a>KMP working analysis</h3><p>Take this as an example:</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> s1 <span class="operator">=</span> <span class="string">&quot;ABCDAB ABCDABCDABDE&quot;</span></span><br><span class="line"><span class="keyword">let</span> s2 <span class="operator">=</span> <span class="string">&quot;ABCDABD&quot;</span></span><br></pre></td></tr></table></figure>
+<p>A brute force solution would be to compare each character of <code>s1</code> with <code>s2</code> and if a mismatch is found, we start comparing from the next character of <code>s1</code> with the start of <code>s2</code>. This will be inefficient as we are not utilizing the information that we already know in previous loops. i.e. from the example above, we have walked through the first 6 characters of <code>s1</code> before we reach the last <code>D</code> in <code>s2</code>, which is the mismatch, 7th character of both, so the next position we should comare with <code>s2</code>‘s first character is not the 2nd character of <code>s1</code> because we know the 2nd character of <code>s1</code> is <code>B</code> and <code>B</code> is not equal to <code>A</code>. </p>
+<p>We should instead skip as many characters as possible to avoid unnecessary comparisons. How do we do that? We need to build a table that tells us how many characters we can skip when a mismatch is found. That table will tell us that we should jump to the 5th character of <code>s1</code> to continue the compare because we know the last two characters of <code>s1</code> are <code>AB</code> and <code>AB</code> is equal to <code>AB</code> in <code>s2</code>, which is the first two characters of <code>s2</code>, which means we can possibly find a match from the 5th character of <code>s1</code> (but not guaranteed, still need to compare all the rest characters of <code>s2</code> with <code>s1</code>).</p>
+<blockquote>
+<p>此时回溯时，A 还会去和 BCD 进行比较，而在上一步 ABCDAB 与 ABCDABD，前 6 个都相等，其中 BCD 搜索词的第一个字符 A 不相等，那么这个时候还要用 A 去匹配 BCD，这肯定会匹配失败。<br>KMP 算法的想法是：设法利用这个已知信息，不要把「搜索位置」移回已经比较过的位置，继续把它向后移，这样就提高了效率。<br>那么新的问题就来了：你如何知道 A 与 BCD 不相同，并且只有 BCD 不用比较呢？这个就是 KMP 的核心原理了。<br>KMP 利用 部分匹配表，来省略掉刚刚重复的步骤。<br>匹配表应该告诉我们：<br>ABCD 匹配值 0<br>ABCDA 匹配值 1<br>ABCDAB 匹配值 2<br>已知空格与 D 不匹配时，前面 6 个字符 ABCDAB 是匹配的。<br>查表可知：部分匹配值是 2，因此按照下面的公司计算出后移的位数：<br>移动位数 &#x3D; 已匹配的字符数 - 对应的部分匹配值<br>4      &#x3D;    6		  -   2<br>因此回溯的时候往后移动 4 位，而不是暴力匹配移动的 1 位。</p>
+</blockquote>
+<h3 id="How-to-build-the-table"><a href="#How-to-build-the-table" class="headerlink" title="How to build the table"></a>How to build the table</h3><p>The table is expected to tell us the partial match value of the substring. The partial match value is the length of the longest proper prefix of the substring that is also a proper suffix of the substring.<br>The following table shows the partial match value of the substring <code>ABCDABD</code>:</p>
+<blockquote>
+<p>Note the prefix should exclude the last character of the substring and the suffix should exclude the first character of the substring.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Substring</th>
+<th>Prefix</th>
+<th>Suffix</th>
+<th>Common Prefix and Suffix</th>
+<th>Partial Match Value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>0</td>
+</tr>
+<tr>
+<td>AB</td>
+<td>A</td>
+<td>B</td>
+<td>-</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ABC</td>
+<td>A, AB</td>
+<td>BC, C</td>
+<td>-</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ABCD</td>
+<td>A, AB, ABC</td>
+<td>BCD, CD, D</td>
+<td>-</td>
+<td>0</td>
+</tr>
+<tr>
+<td>ABCDA</td>
+<td>A, AB, ABC, ABCD</td>
+<td>BCDA, CDA, DA, A</td>
+<td>A</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ABCDAB</td>
+<td>A, AB, ABC, ABCD, ABCDA</td>
+<td>BCDAB, CDAB, DAB, AB, B</td>
+<td>AB</td>
+<td>2</td>
+</tr>
+</tbody></table>
+<h3 id="Implementation-steps"><a href="#Implementation-steps" class="headerlink" title="Implementation steps"></a>Implementation steps</h3><ol>
+<li>Build the table</li>
+<li>Use the table to complete the KMP matching algorithm</li>
+</ol>
+<h4 id="Build-the-table"><a href="#Build-the-table" class="headerlink" title="Build the table"></a>Build the table</h4><figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">extension</span> <span class="title class_">String</span> &#123;</span><br><span class="line">    <span class="comment">/// Altorighm: KMP</span></span><br><span class="line">    <span class="comment">///</span></span><br><span class="line">    <span class="comment">/// Building the dictionary lps:</span></span><br><span class="line">    <span class="comment">/// Name lps indicates the longest proper prefix which is also a suffix.</span></span><br><span class="line">    <span class="comment">/// ABCDAB -&gt; [0, 0, 0, 0, 1, 2]</span></span><br><span class="line">    <span class="keyword">var</span> lps: [<span class="type">Int</span>] &#123;</span><br><span class="line">        <span class="keyword">var</span> result <span class="operator">=</span> [<span class="number">0</span>]</span><br><span class="line">        <span class="keyword">var</span> s <span class="operator">=</span> <span class="type">Array</span>(<span class="keyword">self</span>)</span><br><span class="line">        <span class="keyword">var</span> commonFromStart <span class="operator">=</span> <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="number">1</span><span class="operator">..&lt;</span>s.count &#123;</span><br><span class="line">            <span class="keyword">if</span> s[i] <span class="operator">==</span> s[commonFromStart] &#123;</span><br><span class="line">                commonFromStart <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">            &#125;</span><br><span class="line">            result.append(commonFromStart)</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// print(&quot;lps: \(self) -&gt; \(result)&quot;)</span></span><br><span class="line">        <span class="keyword">return</span> result</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Use-the-table"><a href="#Use-the-table" class="headerlink" title="Use the table"></a>Use the table</h4><figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">strStr</span>(<span class="keyword">_</span> <span class="params">haystack</span>: <span class="type">String</span>, <span class="keyword">_</span> <span class="params">needle</span>: <span class="type">String</span>) -&gt; <span class="type">Int</span> &#123;</span><br><span class="line">        <span class="comment">// check if the haystack is long enough to contain the needle</span></span><br><span class="line">        <span class="keyword">guard</span> haystack.count <span class="operator">&gt;=</span> needle.count <span class="keyword">else</span> &#123; <span class="keyword">return</span> <span class="operator">-</span><span class="number">1</span> &#125;</span><br><span class="line">        <span class="comment">// convert the strings to arrays for easy manipulation</span></span><br><span class="line">        <span class="keyword">var</span> haystack <span class="operator">=</span> <span class="type">Array</span>(haystack), needle <span class="operator">=</span> <span class="type">Array</span>(needle)</span><br><span class="line">        <span class="comment">// hi: haystack index, ni: needle index</span></span><br><span class="line">        <span class="keyword">var</span> hi <span class="operator">=</span> <span class="number">0</span>, ni <span class="operator">=</span> <span class="number">0</span></span><br><span class="line">        <span class="comment">// loop through the haystack until index of the last possible match</span></span><br><span class="line">        <span class="keyword">while</span> hi <span class="operator">+</span> needle.count <span class="operator">&lt;=</span> haystack.count &#123;</span><br><span class="line">            <span class="comment">// print(&quot;hi: \(hi), ni: \(ni)&quot;)</span></span><br><span class="line">            <span class="comment">// if ni is 0 and the characters are not equal, jump hi by 1 because there has been no match yet (ni == 0)</span></span><br><span class="line">            <span class="keyword">if</span> ni <span class="operator">==</span> <span class="number">0</span> <span class="operator">&amp;&amp;</span> needle[ni] <span class="operator">!=</span> haystack[hi] &#123;</span><br><span class="line">                hi <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> needle[ni] <span class="operator">==</span> haystack[hi <span class="operator">+</span> ni] &#123;</span><br><span class="line">                <span class="comment">// if the current character in needle matches the character in haystack, and ni is the last index of needle, return hi because we have found the first occurrence of needle in haystack</span></span><br><span class="line">                <span class="keyword">if</span> ni <span class="operator">==</span> needle.count <span class="operator">-</span> <span class="number">1</span> &#123; <span class="keyword">return</span> hi &#125;</span><br><span class="line">                <span class="comment">// otherwise, increment ni to continue the comparison for the next character in both strings</span></span><br><span class="line">                ni <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">// mismatch happens, jump hi and reset ni</span></span><br><span class="line">            <span class="keyword">let</span> lps <span class="operator">=</span> <span class="type">String</span>(haystack[hi<span class="operator">...</span>hi <span class="operator">+</span> ni]).lps</span><br><span class="line">            <span class="keyword">guard</span> <span class="keyword">let</span> match <span class="operator">=</span> lps.last <span class="keyword">else</span> &#123; <span class="keyword">return</span> <span class="operator">-</span><span class="number">1</span> &#125;</span><br><span class="line">            <span class="comment">// this is calculated based on the lps table mentioned above: 移动位数 = 已匹配的字符数 - 对应的部分匹配值</span></span><br><span class="line">            <span class="keyword">let</span> jump <span class="operator">=</span> lps.count <span class="operator">-</span> match</span><br><span class="line">            hi <span class="operator">+=</span> jump</span><br><span class="line">            ni <span class="operator">=</span> <span class="number">0</span></span><br><span class="line">            <span class="comment">// print(&quot;hi jump: \(jump) -&gt; hi: \(hi), ni: \(ni)&quot;)</span></span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> <span class="operator">-</span><span class="number">1</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Leetcode-submission-result"><a href="#Leetcode-submission-result" class="headerlink" title="Leetcode submission result"></a>Leetcode submission result</h2><p><img src="/posts/ad32db8f/p28.png"></p>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="https://zq99299.github.io/dsalg-tutorial/dsalg-java-hsp/14/04.html#kmp-%E6%80%9D%E8%B7%AF%E5%88%86%E6%9E%90">KMP 算法</a></p>
+]]></content>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>algorithm</tag>
       </tags>
   </entry>
 </search>
