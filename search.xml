@@ -13,30 +13,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo Blog</title>
-    <url>/posts/bdcf36c8/</url>
-    <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
-<p><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
-<p><a href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
-]]></content>
-      <tags>
-        <tag>todo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jul Leetcode</title>
-    <url>/posts/940071c4/</url>
-    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
-<span id="more"></span>
-
-<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
-<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
-]]></content>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Deepthinking</title>
     <url>/posts/b46d4452/</url>
     <content><![CDATA[<p>这一系列主要用来记录一些工作中获得的感想、经验以及教训。</p>
@@ -64,6 +40,30 @@
       </tags>
   </entry>
   <entry>
+    <title>Jul Leetcode</title>
+    <url>/posts/940071c4/</url>
+    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
+<span id="more"></span>
+
+<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
+<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
+]]></content>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo Blog</title>
+    <url>/posts/bdcf36c8/</url>
+    <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
+<p><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
+<p><a href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
+]]></content>
+      <tags>
+        <tag>todo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>十年</title>
     <url>/posts/bdfafec0/</url>
     <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
@@ -78,6 +78,13 @@
     <url>/posts/ad32db8f/</url>
     <content><![CDATA[<h1 id="KMP-Algorithm"><a href="#KMP-Algorithm" class="headerlink" title="KMP Algorithm"></a>KMP Algorithm</h1><h2 id="What-is-KMP"><a href="#What-is-KMP" class="headerlink" title="What is KMP?"></a>What is KMP?</h2><p>KMP is a string matching algorithm that is used to find a substring in a string. It is an efficient algorithm that has a time complexity of O(n+m) where n is the length of the string and m is the length of the substring.</p>
 <p>KMP 是一个解决 模式串在文本串中是否出现过，如果出现过，则最早出现的位置的经典算法。KMP 算法的时间复杂度是 O(n+m)。</p>
+<blockquote>
+<p>For Internal Use:</p>
+</blockquote>
+<div class="hide-block"><button type="button" class="hide-button" style="">查看红包兑换码
+    </button><div class="hide-content"><p>老安是我爸爸</p>
+</div></div>
+
 <span id="more"></span>
 
 <h2 id="Leetcode-Links"><a href="#Leetcode-Links" class="headerlink" title="Leetcode Links"></a>Leetcode Links</h2><p><a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/?envType=study-plan-v2&envId=top-interview-150">28. Find the index of the first ocurence in a string</a></p>
