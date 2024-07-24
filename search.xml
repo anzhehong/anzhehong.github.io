@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Jul Leetcode</title>
+    <url>/posts/940071c4/</url>
+    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
+<span id="more"></span>
+
+<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
+<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
+]]></content>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo Blog</title>
     <url>/posts/bdcf36c8/</url>
     <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
@@ -52,19 +65,25 @@
 <p>最简单的两种选择，走，或者躺平。走，就是换一个组从而换一个leader，要么换一个公司。躺平，就是完全按照直接leader的意愿来做，或者依旧只和直属的leader沟通，尽量让自己的项目能够顺利进行，因为绩效往往是直属的leader对你的打评。如果你可以躺平，那么你的工作可能会很轻松，但是你的工作可能会很无聊，因为你可能会被迫做一些你不想做的事情，也可能会重复你认为不正确的事情。同时，躺平往往意味着上升空间有限，因为你很难持续高效、热情地完成无聊的工作。如果你觉得自己躺不平，但是又不想改变在这个组、这个leader领导下的工作，那么你可能会感到焦虑、烦躁，甚至会影响到你的工作和生活，最终只有逃离，或者被逼离开。</p>
 <p>其实往往人都是在逆境中成长的，比如如果你的leader在某些时候不能drive，那么你就要学会自己去把握机会，在leader沟通后，主动去和其他团队沟通，在PM的帮助下组织有效的会议，保证每次会议都有一个明确的agenda，能够产出一个明确的action list，并且对于open question能够有一个明确的follow up，每一个action item都要指定一个owner，保证每一个action item都有一个大概的deadline，保证下一次会议前能够解决或者至少Investigate每一个action item和open question。这样的工作虽然可能看起来会让你很累，但是这样的工作实际上是在珍惜你的时间，是在提高你的效率，同时会让你在团队中更有价值，也会让你在团队中更有影响力，最终也会让你在团队中更有发展空间。</p>
 ]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>work</tag>
+        <tag>philosophy</tag>
+      </tags>
   </entry>
   <entry>
-    <title>Jul Leetcode</title>
-    <url>/posts/940071c4/</url>
-    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
-<span id="more"></span>
-
-<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
-<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
+    <title>观intern demo有感</title>
+    <url>/posts/a5795f36/</url>
+    <content><![CDATA[<p>今天参加了隔壁组intern的中期demo，分为两个不同的小项目，虽然并不能在此记录具体的内容，但是每一个都很有趣，intern在短短几周的时间内完成了很漂亮的demo，为他点赞。这也让我仿佛看到了自己选择投身技术行业的初衷、对快速实现有趣想法的热情。</p>
+<p>身在一个大公司，很多时候我们想要做什么要经过无数的cross-team的讨论和协调，尽管项目本身的scope可能并不大，难度可能并不高，但是往往由于各种团队的不同需求和意见，会让一个小项目变得复杂起来，有些时候也会导致同一件事情被反复讨论，最终可能还是无法达成一致。就算达成一致，也有可能后面再被一个新的团队或者成员提出异议，导致又要重新讨论。更不要提有些时候碰到一些很难缠的团队leader，不愿意对需要的support做出承诺，导致整个项目进度被拖延。</p>
+<p>我绝不是说这种cross-team的讨论和协调是不重要的，相反，我认为这是非常重要的，首先每个团队都应该对自己做出的commitment负责，其次，通过这种讨论和协调，可以让每个团队更好地了解其他团队的需求和意见，从不同的角度思考问题，也能尽可能地避免edge case被忽略。当然在大公司中，这种cross-team的讨论也能避免一些legal、privacy等方面的工程师并不会考虑到的问题。</p>
+<p>但是，最近一直在思考如何才能在这样的情况下继续让整个项目持续move forward，那就是要有一个很好的leader，能够在各个团队之间建立信任，能够在各个团队之间建立一个共同的目标，能够在各个团队之间建立一个共同的语言，能够在各个团队之间建立一个共同的文化。这样的leader不仅要有很强的技术能力，很强的沟通能力，更要有很强的协调能力、领导能力。作为工程师，很难做到这一点，因为往往重要的决策会议都是在leader之间进行的，而我们甚至不会出席这些很重要的会议。也就是说，如果你的领导在组织上有问题，那么你的项目很有可能会被拖延，你的工作很有可能会被浪费，甚至你所做的项目虽然做完了，但是可能并没有得到很好的支持，最终可能会被kill掉。</p>
+<p>作为工程师如何面对这种处境呢？</p>
+<p>最简单的两种选择，走，或者躺平。走，就是换一个组从而换一个leader，要么换一个公司。躺平，就是完全按照直接leader的意愿来做，或者依旧只和直属的leader沟通，尽量让自己的项目能够顺利进行，因为绩效往往是直属的leader对你的打评。如果你可以躺平，那么你的工作可能会很轻松，但是你的工作可能会很无聊，因为你可能会被迫做一些你不想做的事情，也可能会重复你认为不正确的事情。同时，躺平往往意味着上升空间有限，因为你很难持续高效、热情地完成无聊的工作。如果你觉得自己躺不平，但是又不想改变在这个组、这个leader领导下的工作，那么你可能会感到焦虑、烦躁，甚至会影响到你的工作和生活，最终只有逃离，或者被逼离开。</p>
+<p>其实往往人都是在逆境中成长的，比如如果你的leader在某些时候不能drive，那么你就要学会自己去把握机会，在leader沟通后，主动去和其他团队沟通，在PM的帮助下组织有效的会议，保证每次会议都有一个明确的agenda，能够产出一个明确的action list，并且对于open question能够有一个明确的follow up，每一个action item都要指定一个owner，保证每一个action item都有一个大概的deadline，保证下一次会议前能够解决或者至少Investigate每一个action item和open question。这样的工作虽然可能看起来会让你很累，但是这样的工作实际上是在珍惜你的时间，是在提高你的效率，同时会让你在团队中更有价值，也会让你在团队中更有影响力，最终也会让你在团队中更有发展空间。</p>
 ]]></content>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
   </entry>
   <entry>
     <title>Tesla</title>
@@ -203,6 +222,25 @@
       <tags>
         <tag>leetcode</tag>
         <tag>algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Handle Arrays</title>
+    <url>/posts/948699bb/</url>
+    <content><![CDATA[<h1 id="Handle-Arrays"><a href="#Handle-Arrays" class="headerlink" title="Handle Arrays"></a>Handle Arrays</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with arrays in programming.</p>
+<h2 id="Time-Complexity"><a href="#Time-Complexity" class="headerlink" title="Time Complexity"></a>Time Complexity</h2><ol>
+<li>Reverse an array: O(n)<br>Compared to reverse an array, removing k elements from the end of an array then inserting them to the beginning of the array one by one is more time consuming.</li>
+</ol>
+<p>Even though both of them are O(n), the latter one is more time consuming because it involves more operations and makes more shifts in the array.</p>
+<p>Reverse can be more efficient because how it’s implemented: it’s basically swapping the first element with the last element, the second element with the second last element, and so on.<br>pseudo code of reverse an array:</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">reverseArray</span>(<span class="keyword">_</span> <span class="params">arr</span>: <span class="keyword">inout</span> [<span class="type">Int</span>]) &#123;</span><br><span class="line">    <span class="keyword">var</span> left <span class="operator">=</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">var</span> right <span class="operator">=</span> arr.count <span class="operator">-</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> left <span class="operator">&lt;</span> right &#123;</span><br><span class="line">        arr.swapAt(left, right)</span><br><span class="line">        left <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">        right <span class="operator">-=</span> <span class="number">1</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>leeetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>array</tag>
       </tags>
   </entry>
 </search>
