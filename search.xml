@@ -15,6 +15,9 @@
 <li>特斯拉历史最高股价是拆股后的400美元左右，而目前的股价是225美元左右，这价差并不全是水分，特斯拉的股价在未来几年有很大的上涨空间。</li>
 <li>虽然并不喜欢马斯克这个人，但是不能否认他“吹水”的能力。</li>
 </ol>
+<hr>
+<p>今天是2024年7月24日，特斯拉连续第二天下跌，盘后跌到了215美元左右。实话说目前特斯拉、标普500等都处于一个比较尴尬的位置，特斯拉的股价在未来几天可能会继续下跌，但是我仍然会继续持有这只股票，并且今天补仓了一丢丢。明天继续观察，如果突破支撑位，可能会面临持续下跌的风险。</p>
+<p>与此同时，AAPL也来到了218.54的盘后价格，和近期最高237.23的价格相比，已经下跌了8.1%。再次失去高位卖出的机会。</p>
 ]]></content>
       <categories>
         <category>Stock</category>
@@ -22,6 +25,19 @@
       <tags>
         <tag>Stock</tag>
         <tag>Tesla</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jul Leetcode</title>
+    <url>/posts/940071c4/</url>
+    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
+<span id="more"></span>
+
+<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
+<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
+]]></content>
+      <tags>
+        <tag>leetcode</tag>
       </tags>
   </entry>
   <entry>
@@ -33,6 +49,16 @@
 ]]></content>
       <tags>
         <tag>todo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>十年</title>
+    <url>/posts/bdfafec0/</url>
+    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
+<p>爱你。</p>
+]]></content>
+      <tags>
+        <tag>我们</tag>
       </tags>
   </entry>
   <entry>
@@ -82,48 +108,6 @@
       <tags>
         <tag>work</tag>
         <tag>philosophy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jul Leetcode</title>
-    <url>/posts/940071c4/</url>
-    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
-<span id="more"></span>
-
-<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
-<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
-]]></content>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十年</title>
-    <url>/posts/bdfafec0/</url>
-    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
-<p>爱你。</p>
-]]></content>
-      <tags>
-        <tag>我们</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Handle Arrays</title>
-    <url>/posts/948699bb/</url>
-    <content><![CDATA[<h1 id="Handle-Arrays"><a href="#Handle-Arrays" class="headerlink" title="Handle Arrays"></a>Handle Arrays</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with arrays in programming.</p>
-<h2 id="Time-Complexity"><a href="#Time-Complexity" class="headerlink" title="Time Complexity"></a>Time Complexity</h2><h3 id="1-Reverse-an-array-can-be-more-efficient-than-removing-then-inserting"><a href="#1-Reverse-an-array-can-be-more-efficient-than-removing-then-inserting" class="headerlink" title="1. Reverse an array can be more efficient than removing then inserting"></a>1. Reverse an array can be more efficient than removing then inserting</h3><p>Compared to reverse an array, removing k elements from the end of an array then inserting them to the beginning of the array one by one is more time consuming.</p>
-<p>Even though both of them are O(n), the latter one is more time consuming because it involves more operations and makes more shifts in the array.</p>
-<p>Reverse can be more efficient because how it’s implemented: it’s basically swapping the first element with the last element, the second element with the second last element, and so on.<br>pseudo code of reverse an array:</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">reverseArray</span>(<span class="keyword">_</span> <span class="params">arr</span>: <span class="keyword">inout</span> [<span class="type">Int</span>]) &#123;</span><br><span class="line">    <span class="keyword">var</span> left <span class="operator">=</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">var</span> right <span class="operator">=</span> arr.count <span class="operator">-</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> left <span class="operator">&lt;</span> right &#123;</span><br><span class="line">        arr.swapAt(left, right)</span><br><span class="line">        left <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">        right <span class="operator">-=</span> <span class="number">1</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Related Leetcode problem: <a href="https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150">189. Rotate Array</a></p>
-]]></content>
-      <categories>
-        <category>leeetcode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>array</tag>
       </tags>
   </entry>
   <entry>
@@ -229,6 +213,29 @@
       <tags>
         <tag>leetcode</tag>
         <tag>algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Handle Arrays</title>
+    <url>/posts/948699bb/</url>
+    <content><![CDATA[<h1 id="Handle-Arrays"><a href="#Handle-Arrays" class="headerlink" title="Handle Arrays"></a>Handle Arrays</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with arrays in programming.</p>
+<h2 id="Time-Complexity"><a href="#Time-Complexity" class="headerlink" title="Time Complexity"></a>Time Complexity</h2><h3 id="1-Reverse-an-array-can-be-more-efficient-than-removing-then-inserting"><a href="#1-Reverse-an-array-can-be-more-efficient-than-removing-then-inserting" class="headerlink" title="1. Reverse an array can be more efficient than removing then inserting"></a>1. Reverse an array can be more efficient than removing then inserting</h3><p>Compared to reverse an array, removing k elements from the end of an array then inserting them to the beginning of the array one by one is more time consuming.</p>
+<p>Even though both of them are O(n), the latter one is more time consuming because it involves more operations and makes more shifts in the array.</p>
+<p>Reverse can be more efficient because how it’s implemented: it’s basically swapping the first element with the last element, the second element with the second last element, and so on.<br>pseudo code of reverse an array:</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">reverseArray</span>(<span class="keyword">_</span> <span class="params">arr</span>: <span class="keyword">inout</span> [<span class="type">Int</span>]) &#123;</span><br><span class="line">    <span class="keyword">var</span> left <span class="operator">=</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">var</span> right <span class="operator">=</span> arr.count <span class="operator">-</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> left <span class="operator">&lt;</span> right &#123;</span><br><span class="line">        arr.swapAt(left, right)</span><br><span class="line">        left <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">        right <span class="operator">-=</span> <span class="number">1</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Related Leetcode problem: <a href="https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-interview-150">189. Rotate Array</a></p>
+<h2 id="Convenient-Methods"><a href="#Convenient-Methods" class="headerlink" title="Convenient Methods"></a>Convenient Methods</h2><h3 id="1-Array-Indices"><a href="#1-Array-Indices" class="headerlink" title="1. Array Indices"></a>1. Array Indices</h3><p>In Swift, you can get the range of indices of an array by using <code>indices</code> property of the array.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [[<span class="number">1</span>, <span class="number">2</span>], [<span class="number">3</span>, <span class="number">4</span>], [<span class="number">5</span>, <span class="number">6</span>]]</span><br><span class="line"><span class="keyword">let</span> rowIndices <span class="operator">=</span> arr.indices</span><br><span class="line"><span class="keyword">let</span> colIndices <span class="operator">=</span> arr[<span class="number">0</span>].indices</span><br><span class="line"><span class="comment">// rowIndices: 0..&lt;3</span></span><br><span class="line"><span class="comment">// colIndices: 0..&lt;2</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> rowIndices &#123;</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> colIndices &#123;</span><br><span class="line">        <span class="built_in">print</span>(arr[i][j])</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Common-Tricks"><a href="#Common-Tricks" class="headerlink" title="Common Tricks"></a>Common Tricks</h2><h3 id="1-Check-duplicate-existence"><a href="#1-Check-duplicate-existence" class="headerlink" title="1. Check duplicate existence"></a>1. Check duplicate existence</h3><p>When you need to check if there are duplicates in an array, you can use a set to store the elements you have seen so far.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">containsDuplicate</span>(<span class="keyword">_</span> <span class="params">nums</span>: [<span class="type">Int</span>]) -&gt; <span class="type">Bool</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> <span class="keyword">set</span> <span class="operator">=</span> <span class="type">Set</span>&lt;<span class="type">Int</span>&gt;()</span><br><span class="line">    <span class="keyword">for</span> num <span class="keyword">in</span> nums &#123;</span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">set</span>.contains(num) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">set</span>.insert(num)</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// or simply</span></span><br><span class="line"><span class="keyword">func</span> <span class="title function_">containsDuplicate</span>(<span class="keyword">_</span> <span class="params">nums</span>: [<span class="type">Int</span>]) -&gt; <span class="type">Bool</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="type">Set</span>(nums).count <span class="operator">!=</span> nums.count</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>leeetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>array</tag>
       </tags>
   </entry>
 </search>
