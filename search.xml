@@ -41,27 +41,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo Blog</title>
-    <url>/posts/bdcf36c8/</url>
-    <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
-<p><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
-<p><a href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
-]]></content>
-      <tags>
-        <tag>todo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十年</title>
-    <url>/posts/bdfafec0/</url>
-    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
-<p>爱你。</p>
-]]></content>
-      <tags>
-        <tag>我们</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Deepthinking</title>
     <url>/posts/b46d4452/</url>
     <content><![CDATA[<p>这一系列主要用来记录一些工作中获得的感想、经验以及教训。</p>
@@ -92,43 +71,24 @@
       </tags>
   </entry>
   <entry>
-    <title>观intern demo有感</title>
-    <url>/posts/a5795f36/</url>
-    <content><![CDATA[<p>今天参加了隔壁组intern的中期demo，分为两个不同的小项目，虽然并不能在此记录具体的内容，但是每一个都很有趣，intern在短短几周的时间内完成了很漂亮的demo，为他点赞。这也让我仿佛看到了自己选择投身技术行业的初衷、对快速实现有趣想法的热情。</p>
-<p>身在一个大公司，很多时候我们想要做什么要经过无数的cross-team的讨论和协调，尽管项目本身的scope可能并不大，难度可能并不高，但是往往由于各种团队的不同需求和意见，会让一个小项目变得复杂起来，有些时候也会导致同一件事情被反复讨论，最终可能还是无法达成一致。就算达成一致，也有可能后面再被一个新的团队或者成员提出异议，导致又要重新讨论。更不要提有些时候碰到一些很难缠的团队leader，不愿意对需要的support做出承诺，导致整个项目进度被拖延。</p>
-<p>我绝不是说这种cross-team的讨论和协调是不重要的，相反，我认为这是非常重要的，首先每个团队都应该对自己做出的commitment负责，其次，通过这种讨论和协调，可以让每个团队更好地了解其他团队的需求和意见，从不同的角度思考问题，也能尽可能地避免edge case被忽略。当然在大公司中，这种cross-team的讨论也能避免一些legal、privacy等方面的工程师并不会考虑到的问题。</p>
-<p>但是，最近一直在思考如何才能在这样的情况下继续让整个项目持续move forward，那就是要有一个很好的leader，能够在各个团队之间建立信任，能够在各个团队之间建立一个共同的目标，能够在各个团队之间建立一个共同的语言，能够在各个团队之间建立一个共同的文化。这样的leader不仅要有很强的技术能力，很强的沟通能力，更要有很强的协调能力、领导能力。作为工程师，很难做到这一点，因为往往重要的决策会议都是在leader之间进行的，而我们甚至不会出席这些很重要的会议。也就是说，如果你的领导在组织上有问题，那么你的项目很有可能会被拖延，你的工作很有可能会被浪费，甚至你所做的项目虽然做完了，但是可能并没有得到很好的支持，最终可能会被kill掉。</p>
-<p>作为工程师如何面对这种处境呢？</p>
-<p>最简单的两种选择，走，或者躺平。走，就是换一个组从而换一个leader，要么换一个公司。躺平，就是完全按照直接leader的意愿来做，或者依旧只和直属的leader沟通，尽量让自己的项目能够顺利进行，因为绩效往往是直属的leader对你的打评。如果你可以躺平，那么你的工作可能会很轻松，但是你的工作可能会很无聊，因为你可能会被迫做一些你不想做的事情，也可能会重复你认为不正确的事情。同时，躺平往往意味着上升空间有限，因为你很难持续高效、热情地完成无聊的工作。如果你觉得自己躺不平，但是又不想改变在这个组、这个leader领导下的工作，那么你可能会感到焦虑、烦躁，甚至会影响到你的工作和生活，最终只有逃离，或者被逼离开。</p>
-<p>其实往往人都是在逆境中成长的，比如如果你的leader在某些时候不能drive，那么你就要学会自己去把握机会，在leader沟通后，主动去和其他团队沟通，在PM的帮助下组织有效的会议，保证每次会议都有一个明确的agenda，能够产出一个明确的action list，并且对于open question能够有一个明确的follow up，每一个action item都要指定一个owner，保证每一个action item都有一个大概的deadline，保证下一次会议前能够解决或者至少Investigate每一个action item和open question。这样的工作虽然可能看起来会让你很累，但是这样的工作实际上是在珍惜你的时间，是在提高你的效率，同时会让你在团队中更有价值，也会让你在团队中更有影响力，最终也会让你在团队中更有发展空间。</p>
+    <title>Hexo Blog</title>
+    <url>/posts/bdcf36c8/</url>
+    <content><![CDATA[<p>To finish building up this blog<span id="more"></span>, refer to:</p>
+<p><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a></p>
+<p><a href="https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/">https://cmymoon.com/2024/04/08/hexo-zhu-ti-tui-jian/</a></p>
 ]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
       <tags>
-        <tag>work</tag>
-        <tag>philosophy</tag>
+        <tag>todo</tag>
       </tags>
   </entry>
   <entry>
-    <title>DFS</title>
-    <url>/posts/dc9314c3/</url>
-    <content><![CDATA[<h1 id="DFS"><a href="#DFS" class="headerlink" title="DFS"></a>DFS</h1><p>In this doc I will record some generic tricks and tips to implement Depth First Search (DFS) in programming, as well as some problems I hit when I was solving problems with DFS.</p>
-<h2 id="Topological-Sort"><a href="#Topological-Sort" class="headerlink" title="Topological Sort"></a>Topological Sort</h2><h3 id="Generic-Idea"><a href="#Generic-Idea" class="headerlink" title="Generic Idea"></a>Generic Idea</h3><p>拓扑排序（Topological Sort）是一种用于有向无环图（DAG, Directed Acyclic Graph）的线性排序，使得对于图中的每一条有向边 (u, v)，顶点 u 在 v 之前出现在排序中。简而言之，拓扑排序就是对一个有向图进行排序，使得每个节点都在它所有前驱节点之后出现。</p>
-<p>拓扑排序的输出结果是一个线性序列，可以用于解决很多实际问题，例如编译器的依赖关系分析、任务调度等。<br>这个结果不是唯一的，一个有向无环图可能有多个拓扑排序。</p>
-<p>拓扑排序的具体实现步骤通常使用深度优先搜索（DFS）或基于入度的贪心算法（Kahn’s Algorithm）。以下是一个使用 DFS 实现拓扑排序的代码：</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Graph is a dictionary that represents the graph: from node to its neighbors, all integers</span></span><br><span class="line"><span class="keyword">typealias</span> <span class="type">Graph</span> <span class="operator">=</span> [<span class="type">Int</span>: [<span class="type">Int</span>]]</span><br><span class="line"><span class="keyword">func</span> <span class="title function_">topologicalSort</span>(<span class="keyword">_</span> <span class="params">graph</span>: <span class="type">Graph</span>) -&gt; [<span class="type">Int</span>] &#123;</span><br><span class="line">    <span class="keyword">var</span> visited <span class="operator">=</span> <span class="type">Array</span>(repeating: <span class="type">Int</span>, count: graph.count)</span><br><span class="line">    <span class="keyword">var</span> result <span class="operator">=</span> [<span class="type">Int</span>]()</span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">dfs</span>(<span class="keyword">_</span> <span class="params">node</span>: <span class="type">Int</span>) &#123;</span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[node] &#123;</span><br><span class="line">            <span class="comment">// If the neighbor is not visited, visit it</span></span><br><span class="line">            <span class="keyword">if</span> visited[neighbor] <span class="operator">==</span> <span class="number">0</span> &#123;</span><br><span class="line">                dfs(neighbor)</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        result.append(node)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.keys &#123;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">0</span> &#123;</span><br><span class="line">            dfs(node)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// The result is in reversed order because we append the node to the result after visiting all its neighbors</span></span><br><span class="line">    <span class="keyword">return</span> result.reversed()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">let</span> graph <span class="operator">=</span> <span class="type">Graph</span>(<span class="number">0</span>: [<span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>: [<span class="number">3</span>], <span class="number">2</span>: [<span class="number">3</span>], <span class="number">3</span>: [])</span><br><span class="line"><span class="keyword">let</span> result <span class="operator">=</span> topologicalSort(graph)</span><br><span class="line"><span class="built_in">print</span>(result) <span class="comment">// [0, 2, 1, 3]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="How-to-Detect-Cycle"><a href="#How-to-Detect-Cycle" class="headerlink" title="How to Detect Cycle"></a>How to Detect Cycle</h3><p>在拓扑排序中，如果图中存在环，那么这个图就不可能有拓扑排序。因此，我们需要在 DFS 过程中检测环的存在。</p>
-<p>在 DFS 过程中，如果我们遇到了一个已经被访问过的节点，那么这个节点就是环的起点。我们可以通过一个数组 <code>visited</code> 来记录节点的访问状态，如果一个节点已经被访问过，那么它的状态就是 1。如果在 DFS 过程中遇到了一个已经被访问过的节点，那么就说明存在环。</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Graph is a dictionary that represents the graph: from node to its neighbors, all integers</span></span><br><span class="line"><span class="keyword">typealias</span> <span class="type">Graph</span> <span class="operator">=</span> [<span class="type">Int</span>: [<span class="type">Int</span>]]</span><br><span class="line"><span class="keyword">func</span> <span class="title function_">topologicalSort</span>(<span class="keyword">_</span> <span class="params">graph</span>: <span class="type">Graph</span>) -&gt; [<span class="type">Int</span>] &#123;</span><br><span class="line">    <span class="comment">// 0: not visited; 1: in one path, if appear again, cycle; 2: visited and this is a good one without cycle</span></span><br><span class="line">    <span class="keyword">var</span> visited <span class="operator">=</span> <span class="type">Array</span>(repeating: <span class="type">Int</span>, count: graph.count)</span><br><span class="line">    <span class="keyword">var</span> result <span class="operator">=</span> [<span class="type">Int</span>]()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">dfs</span>(<span class="keyword">_</span> <span class="params">node</span>: <span class="type">Int</span>) -&gt; <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">1</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">2</span> &#123; <span class="keyword">return</span> <span class="literal">true</span> &#125;</span><br><span class="line"></span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[node] &#123; <span class="keyword">if</span> <span class="operator">!</span>dfs(neighbor) &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125; &#125;</span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line">        result.append(node)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.keys &#123; <span class="keyword">if</span> <span class="operator">!</span>dfs(node) &#123; <span class="keyword">return</span> [] &#125; &#125;</span><br><span class="line">    <span class="keyword">return</span> result.reversed()</span><br><span class="line">&#125;</span><br><span class="line">        </span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">let</span> graph <span class="operator">=</span> <span class="type">Graph</span>(<span class="number">0</span>: [<span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>: [<span class="number">3</span>], <span class="number">2</span>: [<span class="number">3</span>], <span class="number">3</span>: [<span class="number">0</span>])</span><br><span class="line"><span class="keyword">let</span> result <span class="operator">=</span> topologicalSort(graph)</span><br><span class="line"><span class="built_in">print</span>(result) <span class="comment">// []</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>leeetcode</category>
-      </categories>
+    <title>十年</title>
+    <url>/posts/bdfafec0/</url>
+    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
+<p>爱你。</p>
+]]></content>
       <tags>
-        <tag>leetcode</tag>
-        <tag>array</tag>
-        <tag>DFS</tag>
+        <tag>我们</tag>
       </tags>
   </entry>
   <entry>
@@ -237,9 +197,49 @@
       </tags>
   </entry>
   <entry>
+    <title>观intern demo有感</title>
+    <url>/posts/a5795f36/</url>
+    <content><![CDATA[<p>今天参加了隔壁组intern的中期demo，分为两个不同的小项目，虽然并不能在此记录具体的内容，但是每一个都很有趣，intern在短短几周的时间内完成了很漂亮的demo，为他点赞。这也让我仿佛看到了自己选择投身技术行业的初衷、对快速实现有趣想法的热情。</p>
+<p>身在一个大公司，很多时候我们想要做什么要经过无数的cross-team的讨论和协调，尽管项目本身的scope可能并不大，难度可能并不高，但是往往由于各种团队的不同需求和意见，会让一个小项目变得复杂起来，有些时候也会导致同一件事情被反复讨论，最终可能还是无法达成一致。就算达成一致，也有可能后面再被一个新的团队或者成员提出异议，导致又要重新讨论。更不要提有些时候碰到一些很难缠的团队leader，不愿意对需要的support做出承诺，导致整个项目进度被拖延。</p>
+<p>我绝不是说这种cross-team的讨论和协调是不重要的，相反，我认为这是非常重要的，首先每个团队都应该对自己做出的commitment负责，其次，通过这种讨论和协调，可以让每个团队更好地了解其他团队的需求和意见，从不同的角度思考问题，也能尽可能地避免edge case被忽略。当然在大公司中，这种cross-team的讨论也能避免一些legal、privacy等方面的工程师并不会考虑到的问题。</p>
+<p>但是，最近一直在思考如何才能在这样的情况下继续让整个项目持续move forward，那就是要有一个很好的leader，能够在各个团队之间建立信任，能够在各个团队之间建立一个共同的目标，能够在各个团队之间建立一个共同的语言，能够在各个团队之间建立一个共同的文化。这样的leader不仅要有很强的技术能力，很强的沟通能力，更要有很强的协调能力、领导能力。作为工程师，很难做到这一点，因为往往重要的决策会议都是在leader之间进行的，而我们甚至不会出席这些很重要的会议。也就是说，如果你的领导在组织上有问题，那么你的项目很有可能会被拖延，你的工作很有可能会被浪费，甚至你所做的项目虽然做完了，但是可能并没有得到很好的支持，最终可能会被kill掉。</p>
+<p>作为工程师如何面对这种处境呢？</p>
+<p>最简单的两种选择，走，或者躺平。走，就是换一个组从而换一个leader，要么换一个公司。躺平，就是完全按照直接leader的意愿来做，或者依旧只和直属的leader沟通，尽量让自己的项目能够顺利进行，因为绩效往往是直属的leader对你的打评。如果你可以躺平，那么你的工作可能会很轻松，但是你的工作可能会很无聊，因为你可能会被迫做一些你不想做的事情，也可能会重复你认为不正确的事情。同时，躺平往往意味着上升空间有限，因为你很难持续高效、热情地完成无聊的工作。如果你觉得自己躺不平，但是又不想改变在这个组、这个leader领导下的工作，那么你可能会感到焦虑、烦躁，甚至会影响到你的工作和生活，最终只有逃离，或者被逼离开。</p>
+<p>其实往往人都是在逆境中成长的，比如如果你的leader在某些时候不能drive，那么你就要学会自己去把握机会，在leader沟通后，主动去和其他团队沟通，在PM的帮助下组织有效的会议，保证每次会议都有一个明确的agenda，能够产出一个明确的action list，并且对于open question能够有一个明确的follow up，每一个action item都要指定一个owner，保证每一个action item都有一个大概的deadline，保证下一次会议前能够解决或者至少Investigate每一个action item和open question。这样的工作虽然可能看起来会让你很累，但是这样的工作实际上是在珍惜你的时间，是在提高你的效率，同时会让你在团队中更有价值，也会让你在团队中更有影响力，最终也会让你在团队中更有发展空间。</p>
+]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>work</tag>
+        <tag>philosophy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>DFS</title>
+    <url>/posts/dc9314c3/</url>
+    <content><![CDATA[<h1 id="DFS"><a href="#DFS" class="headerlink" title="DFS"></a>DFS</h1><p>In this doc I will record some generic tricks and tips to implement Depth First Search (DFS) in programming, as well as some problems I hit when I was solving problems with DFS.</p>
+<h2 id="Topological-Sort"><a href="#Topological-Sort" class="headerlink" title="Topological Sort"></a>Topological Sort</h2><h3 id="Generic-Idea"><a href="#Generic-Idea" class="headerlink" title="Generic Idea"></a>Generic Idea</h3><p>拓扑排序（Topological Sort）是一种用于有向无环图（DAG, Directed Acyclic Graph）的线性排序，使得对于图中的每一条有向边 (u, v)，顶点 u 在 v 之前出现在排序中。简而言之，拓扑排序就是对一个有向图进行排序，使得每个节点都在它所有前驱节点之后出现。</p>
+<p>拓扑排序的输出结果是一个线性序列，可以用于解决很多实际问题，例如编译器的依赖关系分析、任务调度等。<br>这个结果不是唯一的，一个有向无环图可能有多个拓扑排序。</p>
+<p>拓扑排序的具体实现步骤通常使用深度优先搜索（DFS）或基于入度的贪心算法（Kahn’s Algorithm）。以下是一个使用 DFS 实现拓扑排序的代码：</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Graph is a dictionary that represents the graph: from node to its neighbors, all integers</span></span><br><span class="line"><span class="keyword">typealias</span> <span class="type">Graph</span> <span class="operator">=</span> [<span class="type">Int</span>: [<span class="type">Int</span>]]</span><br><span class="line"><span class="keyword">func</span> <span class="title function_">topologicalSort</span>(<span class="keyword">_</span> <span class="params">graph</span>: <span class="type">Graph</span>) -&gt; [<span class="type">Int</span>] &#123;</span><br><span class="line">    <span class="keyword">var</span> visited <span class="operator">=</span> <span class="type">Array</span>(repeating: <span class="type">Int</span>, count: graph.count)</span><br><span class="line">    <span class="keyword">var</span> result <span class="operator">=</span> [<span class="type">Int</span>]()</span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">dfs</span>(<span class="keyword">_</span> <span class="params">node</span>: <span class="type">Int</span>) &#123;</span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[node] &#123;</span><br><span class="line">            <span class="comment">// If the neighbor is not visited, visit it</span></span><br><span class="line">            <span class="keyword">if</span> visited[neighbor] <span class="operator">==</span> <span class="number">0</span> &#123;</span><br><span class="line">                dfs(neighbor)</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        result.append(node)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.keys &#123;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">0</span> &#123;</span><br><span class="line">            dfs(node)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// The result is in reversed order because we append the node to the result after visiting all its neighbors</span></span><br><span class="line">    <span class="keyword">return</span> result.reversed()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">let</span> graph <span class="operator">=</span> <span class="type">Graph</span>(<span class="number">0</span>: [<span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>: [<span class="number">3</span>], <span class="number">2</span>: [<span class="number">3</span>], <span class="number">3</span>: [])</span><br><span class="line"><span class="keyword">let</span> result <span class="operator">=</span> topologicalSort(graph)</span><br><span class="line"><span class="built_in">print</span>(result) <span class="comment">// [0, 2, 1, 3]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="How-to-Detect-Cycle"><a href="#How-to-Detect-Cycle" class="headerlink" title="How to Detect Cycle"></a>How to Detect Cycle</h3><p>在拓扑排序中，如果图中存在环，那么这个图就不可能有拓扑排序。因此，我们需要在 DFS 过程中检测环的存在。</p>
+<p>在 DFS 过程中，如果我们遇到了一个已经被访问过的节点，那么这个节点就是环的起点。我们可以通过一个数组 <code>visited</code> 来记录节点的访问状态，如果一个节点已经被访问过，那么它的状态就是 1。如果在 DFS 过程中遇到了一个已经被访问过的节点，那么就说明存在环。</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Graph is a dictionary that represents the graph: from node to its neighbors, all integers</span></span><br><span class="line"><span class="keyword">typealias</span> <span class="type">Graph</span> <span class="operator">=</span> [<span class="type">Int</span>: [<span class="type">Int</span>]]</span><br><span class="line"><span class="keyword">func</span> <span class="title function_">topologicalSort</span>(<span class="keyword">_</span> <span class="params">graph</span>: <span class="type">Graph</span>) -&gt; [<span class="type">Int</span>] &#123;</span><br><span class="line">    <span class="comment">// 0: not visited; 1: in one path, if appear again, cycle; 2: visited and this is a good one without cycle</span></span><br><span class="line">    <span class="keyword">var</span> visited <span class="operator">=</span> <span class="type">Array</span>(repeating: <span class="type">Int</span>, count: graph.count)</span><br><span class="line">    <span class="keyword">var</span> result <span class="operator">=</span> [<span class="type">Int</span>]()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">dfs</span>(<span class="keyword">_</span> <span class="params">node</span>: <span class="type">Int</span>) -&gt; <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">1</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">2</span> &#123; <span class="keyword">return</span> <span class="literal">true</span> &#125;</span><br><span class="line"></span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[node] &#123; <span class="keyword">if</span> <span class="operator">!</span>dfs(neighbor) &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125; &#125;</span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line">        result.append(node)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.keys &#123; <span class="keyword">if</span> <span class="operator">!</span>dfs(node) &#123; <span class="keyword">return</span> [] &#125; &#125;</span><br><span class="line">    <span class="keyword">return</span> result.reversed()</span><br><span class="line">&#125;</span><br><span class="line">        </span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">let</span> graph <span class="operator">=</span> <span class="type">Graph</span>(<span class="number">0</span>: [<span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>: [<span class="number">3</span>], <span class="number">2</span>: [<span class="number">3</span>], <span class="number">3</span>: [<span class="number">0</span>])</span><br><span class="line"><span class="keyword">let</span> result <span class="operator">=</span> topologicalSort(graph)</span><br><span class="line"><span class="built_in">print</span>(result) <span class="comment">// []</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>leeetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>array</tag>
+        <tag>DFS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Handle Arrays</title>
     <url>/posts/948699bb/</url>
-    <content><![CDATA[<h1 id="Handle-Arrays"><a href="#Handle-Arrays" class="headerlink" title="Handle Arrays"></a>Handle Arrays</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with arrays in programming.</p>
+    <content><![CDATA[<h1 id="Arrays-in-Swift"><a href="#Arrays-in-Swift" class="headerlink" title="Arrays in Swift"></a>Arrays in Swift</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with arrays in programming.</p>
 <h2 id="Time-Complexity"><a href="#Time-Complexity" class="headerlink" title="Time Complexity"></a>Time Complexity</h2><h3 id="1-Reverse-an-array-can-be-more-efficient-than-removing-then-inserting"><a href="#1-Reverse-an-array-can-be-more-efficient-than-removing-then-inserting" class="headerlink" title="1. Reverse an array can be more efficient than removing then inserting"></a>1. Reverse an array can be more efficient than removing then inserting</h3><p>Compared to reverse an array, removing k elements from the end of an array then inserting them to the beginning of the array one by one is more time consuming.</p>
 <p>Even though both of them are O(n), the latter one is more time consuming because it involves more operations and makes more shifts in the array.</p>
 <p>Reverse can be more efficient because how it’s implemented: it’s basically swapping the first element with the last element, the second element with the second last element, and so on.<br>pseudo code of reverse an array:</p>
@@ -297,6 +297,49 @@
       </tags>
   </entry>
   <entry>
+    <title>dictionary</title>
+    <url>/posts/1fa0e526/</url>
+    <content><![CDATA[<h1 id="Dictionary-in-Swift"><a href="#Dictionary-in-Swift" class="headerlink" title="Dictionary in Swift"></a>Dictionary in Swift</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with dictionaries in programming.</p>
+<h2 id="Convenient-Methods"><a href="#Convenient-Methods" class="headerlink" title="Convenient Methods"></a>Convenient Methods</h2><h3 id="1-Dictionary-Initialization-From-Sequence"><a href="#1-Dictionary-Initialization-From-Sequence" class="headerlink" title="1. Dictionary Initialization From Sequence"></a>1. Dictionary Initialization From Sequence</h3><p>In Swift, you can initialize a dictionary from a sequence of key-value pairs. The sequence can be an array of tuples or a dictionary.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [(<span class="number">1</span>, <span class="string">&quot;a&quot;</span>), (<span class="number">2</span>, <span class="string">&quot;b&quot;</span>), (<span class="number">3</span>, <span class="string">&quot;c&quot;</span>)]</span><br><span class="line"><span class="keyword">let</span> dict <span class="operator">=</span> <span class="type">Dictionary</span>(uniqueKeysWithValues: arr)</span><br></pre></td></tr></table></figure>
+
+<p>It’s helpful to convert from an array to a dictionary of the [element: index] format.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>]</span><br><span class="line"><span class="keyword">let</span> dict <span class="operator">=</span> <span class="type">Dictionary</span>(uniqueKeysWithValues: arr.enumerated().map &#123; (<span class="variable">$1</span>, <span class="variable">$0</span>) &#125;)</span><br></pre></td></tr></table></figure>
+
+<h2 id="Easy-to-Make-Mistakes"><a href="#Easy-to-Make-Mistakes" class="headerlink" title="Easy to Make Mistakes"></a>Easy to Make Mistakes</h2><h3 id="1-Handle-with-Default-Value"><a href="#1-Handle-with-Default-Value" class="headerlink" title="1. Handle with Default Value"></a>1. Handle with Default Value</h3><p>When you are dealing with a dictionary, you may want to get the value of a key, and if the key does not exist, you want to return a default value. You can use the <code>default</code> parameter of the subscript method.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ints <span class="operator">=</span> [(<span class="string">&quot;a&quot;</span>, <span class="number">1</span>), (<span class="string">&quot;b&quot;</span>, <span class="number">2</span>), (<span class="string">&quot;c&quot;</span>, <span class="number">3</span>), (<span class="string">&quot;a&quot;</span>, <span class="number">2</span>)]</span><br><span class="line"><span class="keyword">var</span> counter: [<span class="type">String</span>: <span class="type">Int</span>] <span class="operator">=</span> [:]</span><br><span class="line">ints.forEach &#123; counter[<span class="variable">$0</span>.<span class="number">0</span>, <span class="keyword">default</span>: <span class="number">0</span>] <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span> &#125;</span><br></pre></td></tr></table></figure>
+
+<p>This works because the <code>default</code> parameter of the subscript method will return the default value if the key does not exist.<br>What if the value type is a custom type? Can you still use the <code>default</code> parameter? No, you can’t. You need to use the <code>nil-coalescing operator</code> to provide a default value.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> name: <span class="type">String</span></span><br><span class="line">    <span class="keyword">var</span> age: <span class="type">Int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> persons <span class="operator">=</span> [(<span class="string">&quot;a&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Alice&quot;</span>, age: <span class="number">20</span>)), (<span class="string">&quot;b&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Bob&quot;</span>, age: <span class="number">30</span>), (<span class="string">&quot;a&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Alice&quot;</span>, age: <span class="number">25</span>))]</span><br><span class="line"><span class="comment">// This will not work:</span></span><br><span class="line"><span class="keyword">var</span> counter: [String: <span class="type">Person</span>] <span class="operator">=</span> [:]</span><br><span class="line">persons.forEach &#123; counter[<span class="variable">$0</span>.<span class="number">0</span>, default: <span class="type">Person</span>(name: <span class="string">&quot;&quot;</span>, age: <span class="number">0</span>)].age <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span>.age &#125;</span><br><span class="line"><span class="comment">// You need to use the nil-coalescing operator to provide a default value:</span></span><br><span class="line">persons.forEach &#123; </span><br><span class="line">    counter[<span class="variable">$0</span>.<span class="number">0</span>] <span class="operator">=</span> (counter[<span class="variable">$0</span>.<span class="number">0</span>] <span class="operator">??</span> <span class="type">Person</span>(name: <span class="string">&quot;&quot;</span>, age: <span class="number">0</span>))</span><br><span class="line">    counter[<span class="variable">$0</span>.<span class="number">0</span>]<span class="operator">!</span>.age <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span>.age</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Or, we can implement an extension for the dictionary to conform to the <code>subscript: default</code> pattern.</p>
+<pre><code class="swift">extension Dictionary &#123;
+    subscript(key: Key, default defaultValue: @autoclosure () -&gt; Value) -&gt; Value &#123;
+        mutating get &#123;
+            if let value = self[key] &#123;
+                return value
+            &#125; else &#123;
+                let value = defaultValue()
+                self[key] = value
+                return value
+            &#125;
+        &#125;
+    &#125;
+&#125;
+
+&gt; Why do we need to use `@autoclosure` here?
+&gt; The `@autoclosure` attribute automatically creates a closure around the expression. This is useful when you want to delay the evaluation of the expression until it is needed. In this case, we want to delay the creation of the default value until it is needed to avoid unnecessary computation.
+</code></pre>
+]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>dictionary</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>memory</title>
     <url>/posts/ea6d3435/</url>
     <content><![CDATA[<h1 id="Memory-Management"><a href="#Memory-Management" class="headerlink" title="Memory Management"></a>Memory Management</h1><p>In this doc we will talk about memory management in iOS and other operating systems.</p>
@@ -341,49 +384,6 @@
         <tag>iOS</tag>
         <tag>heap</tag>
         <tag>stack</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>dictionary</title>
-    <url>/posts/1fa0e526/</url>
-    <content><![CDATA[<h1 id="Dictionary-in-Swift"><a href="#Dictionary-in-Swift" class="headerlink" title="Dictionary in Swift"></a>Dictionary in Swift</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with dictionaries in programming.</p>
-<h2 id="Convenient-Methods"><a href="#Convenient-Methods" class="headerlink" title="Convenient Methods"></a>Convenient Methods</h2><h3 id="1-Dictionary-Initialization-From-Sequence"><a href="#1-Dictionary-Initialization-From-Sequence" class="headerlink" title="1. Dictionary Initialization From Sequence"></a>1. Dictionary Initialization From Sequence</h3><p>In Swift, you can initialize a dictionary from a sequence of key-value pairs. The sequence can be an array of tuples or a dictionary.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [(<span class="number">1</span>, <span class="string">&quot;a&quot;</span>), (<span class="number">2</span>, <span class="string">&quot;b&quot;</span>), (<span class="number">3</span>, <span class="string">&quot;c&quot;</span>)]</span><br><span class="line"><span class="keyword">let</span> dict <span class="operator">=</span> <span class="type">Dictionary</span>(uniqueKeysWithValues: arr)</span><br></pre></td></tr></table></figure>
-
-<p>It’s helpful to convert from an array to a dictionary of the [element: index] format.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>]</span><br><span class="line"><span class="keyword">let</span> dict <span class="operator">=</span> <span class="type">Dictionary</span>(uniqueKeysWithValues: arr.enumerated().map &#123; (<span class="variable">$1</span>, <span class="variable">$0</span>) &#125;)</span><br></pre></td></tr></table></figure>
-
-<h2 id="Easy-to-Make-Mistakes"><a href="#Easy-to-Make-Mistakes" class="headerlink" title="Easy to Make Mistakes"></a>Easy to Make Mistakes</h2><h3 id="1-Handle-with-Default-Value"><a href="#1-Handle-with-Default-Value" class="headerlink" title="1. Handle with Default Value"></a>1. Handle with Default Value</h3><p>When you are dealing with a dictionary, you may want to get the value of a key, and if the key does not exist, you want to return a default value. You can use the <code>default</code> parameter of the subscript method.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ints <span class="operator">=</span> [(<span class="string">&quot;a&quot;</span>, <span class="number">1</span>), (<span class="string">&quot;b&quot;</span>, <span class="number">2</span>), (<span class="string">&quot;c&quot;</span>, <span class="number">3</span>), (<span class="string">&quot;a&quot;</span>, <span class="number">2</span>)]</span><br><span class="line"><span class="keyword">var</span> counter: [<span class="type">String</span>: <span class="type">Int</span>] <span class="operator">=</span> [:]</span><br><span class="line">ints.forEach &#123; counter[<span class="variable">$0</span>.<span class="number">0</span>, <span class="keyword">default</span>: <span class="number">0</span>] <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span> &#125;</span><br></pre></td></tr></table></figure>
-
-<p>This works because the <code>default</code> parameter of the subscript method will return the default value if the key does not exist.<br>What if the value type is a custom type? Can you still use the <code>default</code> parameter? No, you can’t. You need to use the <code>nil-coalescing operator</code> to provide a default value.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> name: <span class="type">String</span></span><br><span class="line">    <span class="keyword">var</span> age: <span class="type">Int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> persons <span class="operator">=</span> [(<span class="string">&quot;a&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Alice&quot;</span>, age: <span class="number">20</span>)), (<span class="string">&quot;b&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Bob&quot;</span>, age: <span class="number">30</span>), (<span class="string">&quot;a&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Alice&quot;</span>, age: <span class="number">25</span>))]</span><br><span class="line"><span class="comment">// This will not work:</span></span><br><span class="line"><span class="keyword">var</span> counter: [String: <span class="type">Person</span>] <span class="operator">=</span> [:]</span><br><span class="line">persons.forEach &#123; counter[<span class="variable">$0</span>.<span class="number">0</span>, default: <span class="type">Person</span>(name: <span class="string">&quot;&quot;</span>, age: <span class="number">0</span>)].age <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span>.age &#125;</span><br><span class="line"><span class="comment">// You need to use the nil-coalescing operator to provide a default value:</span></span><br><span class="line">persons.forEach &#123; </span><br><span class="line">    counter[<span class="variable">$0</span>.<span class="number">0</span>] <span class="operator">=</span> (counter[<span class="variable">$0</span>.<span class="number">0</span>] <span class="operator">??</span> <span class="type">Person</span>(name: <span class="string">&quot;&quot;</span>, age: <span class="number">0</span>))</span><br><span class="line">    counter[<span class="variable">$0</span>.<span class="number">0</span>]<span class="operator">!</span>.age <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span>.age</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Or, we can implement an extension for the dictionary to conform to the <code>subscript: default</code> pattern.</p>
-<pre><code class="swift">extension Dictionary &#123;
-    subscript(key: Key, default defaultValue: @autoclosure () -&gt; Value) -&gt; Value &#123;
-        mutating get &#123;
-            if let value = self[key] &#123;
-                return value
-            &#125; else &#123;
-                let value = defaultValue()
-                self[key] = value
-                return value
-            &#125;
-        &#125;
-    &#125;
-&#125;
-
-&gt; Why do we need to use `@autoclosure` here?
-&gt; The `@autoclosure` attribute automatically creates a closure around the expression. This is useful when you want to delay the evaluation of the expression until it is needed. In this case, we want to delay the creation of the default value until it is needed to avoid unnecessary computation.
-</code></pre>
-]]></content>
-      <categories>
-        <category>leetcode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>dictionary</tag>
       </tags>
   </entry>
   <entry>
