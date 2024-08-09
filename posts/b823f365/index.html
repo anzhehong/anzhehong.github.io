@@ -1,0 +1,267 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Numbers | Wantropy's Space</title><meta name="author" content="Wan &amp; An"><meta name="copyright" content="Wan &amp; An"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="NumbersIn this doc we will talk about some interesting facts about numbers and how to deal with them in programming. Basic ConceptsPrime NumbersPrime numbers are numbers that are greater than 1 and ha">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Numbers">
+<meta property="og:url" content="http://blog.wantropy.com/posts/b823f365/index.html">
+<meta property="og:site_name" content="Wantropy&#39;s Space">
+<meta property="og:description" content="NumbersIn this doc we will talk about some interesting facts about numbers and how to deal with them in programming. Basic ConceptsPrime NumbersPrime numbers are numbers that are greater than 1 and ha">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://blog.wantropy.com/imgs/avatar.png">
+<meta property="article:published_time" content="2024-08-09T05:40:14.000Z">
+<meta property="article:modified_time" content="2024-08-09T06:13:43.477Z">
+<meta property="article:author" content="Wan &amp; An">
+<meta property="article:tag" content="leetcode">
+<meta property="article:tag" content="number">
+<meta property="article:tag" content="swift">
+<meta property="article:tag" content="math">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://blog.wantropy.com/imgs/avatar.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://blog.wantropy.com/posts/b823f365/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":3,"unescape":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: true,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Numbers',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-08-08 23:13:43'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/imgs/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">23</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">9</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background: linear-gradient(45deg, #00c6ff, #0072ff, #00d4ff, #72edf2)"><nav id="nav"><span id="blog-info"><a href="/" title="Wantropy's Space"><span class="site-name">Wantropy's Space</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Numbers</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-08-09T05:40:14.000Z" title="Created 2024-08-08 22:40:14">2024-08-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-08-09T06:13:43.477Z" title="Updated 2024-08-08 23:13:43">2024-08-08</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Interview/">Interview</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Interview/Math/">Math</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Numbers"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Numbers"><a href="#Numbers" class="headerlink" title="Numbers"></a>Numbers</h1><p>In this doc we will talk about some interesting facts about numbers and how to deal with them in programming.</p>
+<h2 id="Basic-Concepts"><a href="#Basic-Concepts" class="headerlink" title="Basic Concepts"></a>Basic Concepts</h2><h3 id="Prime-Numbers"><a href="#Prime-Numbers" class="headerlink" title="Prime Numbers"></a>Prime Numbers</h3><p>Prime numbers are numbers that are greater than 1 and have no divisors other than 1 and themselves. They are the building blocks of all other numbers and have many interesting properties.</p>
+<blockquote>
+<p>质数是大于1且除了1和自身外没有其他因子的数。</p>
+</blockquote>
+<p>How to check if a number is prime (ignore brute force method):</p>
+<p>Method 1: Check divisibility up to the square root of the number.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">extension</span> <span class="title class_">Int</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> isPrime: <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="keyword">guard</span> <span class="keyword">self</span> <span class="operator">&gt;=</span> <span class="number">4</span> <span class="keyword">else</span> &#123; <span class="keyword">return</span> <span class="keyword">self</span> <span class="operator">&gt;</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="keyword">var</span> max <span class="operator">=</span> <span class="type">Int</span>(<span class="type">Double</span>(<span class="keyword">self</span>).squareRoot())</span><br><span class="line">        <span class="keyword">if</span> max <span class="operator">%</span> <span class="number">2</span> <span class="operator">==</span> <span class="number">0</span> &#123; max <span class="operator">+=</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">stride</span>(from: <span class="number">3</span>, through: max, by: <span class="number">2</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> i <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>More efficient method: Magic numbers 6k ± 1.</p>
+<p>By observing the pattern of prime numbers, we can see that all prime numbers greater than 3 can be written in the form of 6k ± 1, where k is a positive integer.<br>So we can check the divisibility of the number by 6k ± 1 up to the square root of the number.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">extension</span> <span class="title class_">Int</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> isPrime: <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="comment">// &lt;= 4, only 2 and 3 are prime</span></span><br><span class="line">        <span class="keyword">guard</span> <span class="keyword">self</span> <span class="operator">&gt;=</span> <span class="number">4</span> <span class="keyword">else</span> &#123; <span class="keyword">return</span> <span class="keyword">self</span> <span class="operator">&gt;</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="comment">// This is to check if the number is divisible by 2 or 3. Needed prior to the loop because the loop starts from 5.</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> <span class="number">2</span> <span class="operator">==</span> <span class="number">0</span> <span class="operator">||</span> <span class="keyword">self</span> <span class="operator">%</span> <span class="number">3</span> <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        <span class="comment">// Pick the ceiling to make sure the loop tests in all possible ranges. For example, if the int is 17, if we don&#x27;t pick the ceiling, `max` will be 4, and the loop will only test 5, which is not correct.</span></span><br><span class="line">        <span class="keyword">let</span> max <span class="operator">=</span> <span class="type">Int</span>(ceil(<span class="type">Double</span>(<span class="keyword">self</span>).squareRoot()))</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">stride</span>(from: <span class="number">5</span>, through: max, by: <span class="number">6</span>) &#123;</span><br><span class="line">            <span class="comment">// % i is to check 6k - 1, % (i + 2) is to check 6k + 1</span></span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> i <span class="operator">==</span> <span class="number">0</span> <span class="operator">||</span> <span class="keyword">self</span> <span class="operator">%</span> (i <span class="operator">+</span> <span class="number">2</span>) <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>当我们要进行整数的除法检查时，需要将这个小数向上取整，以确保不遗漏任何可能的整数因数。如果直接转换为 Int，则会向下取整，可能会漏掉一个关键因数。<br>例如，n &#x3D; 17：</p>
+<ul>
+<li>sqrt(17) 大约是 4.123，如果不取整，直接转换为 Int 得到的结果是 4。</li>
+<li>然而，4 是不足够进行完整检查的，因为你实际上需要检查 5，以确保没有因数遗漏。</li>
+</ul>
+</blockquote>
+<h2 id="Common-Swift-Methods-Used-to-Deal-with-Numbers"><a href="#Common-Swift-Methods-Used-to-Deal-with-Numbers" class="headerlink" title="Common Swift Methods Used to Deal with Numbers"></a>Common Swift Methods Used to Deal with Numbers</h2><h3 id="1-abs"><a href="#1-abs" class="headerlink" title="1. abs"></a>1. <code>abs</code></h3><p><code>abs</code> returns the absolute value of a number.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="operator">-</span><span class="number">5</span></span><br><span class="line"><span class="keyword">let</span> b <span class="operator">=</span> <span class="built_in">abs</span>(a)</span><br><span class="line"><span class="built_in">print</span>(b) <span class="comment">// 5</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-min-and-max"><a href="#2-min-and-max" class="headerlink" title="2. min and max"></a>2. <code>min</code> and <code>max</code></h3><p><code>min</code> and <code>max</code> return the minimum and maximum of two numbers.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">5</span>, b <span class="operator">=</span> <span class="number">10</span></span><br><span class="line"><span class="keyword">let</span> minNum <span class="operator">=</span> <span class="built_in">min</span>(a, b), maxNum <span class="operator">=</span> <span class="built_in">max</span>(a, b)</span><br><span class="line"><span class="built_in">print</span>(minNum, maxNum) <span class="comment">// 5 10</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-round-ceil-and-floor"><a href="#3-round-ceil-and-floor" class="headerlink" title="3. round, ceil, and floor"></a>3. <code>round</code>, <code>ceil</code>, and <code>floor</code></h3><p><code>round</code> rounds a number to the nearest integer, <code>ceil</code> rounds up, and <code>floor</code> rounds down. They all return a <code>Double</code> value.<br>If you want to round a <code>Double</code> to an <code>Int</code>, you can use <code>Int()</code>.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">5.6</span></span><br><span class="line"><span class="keyword">let</span> roundNum <span class="operator">=</span> round(a), ceilNum <span class="operator">=</span> ceil(a), floorNum <span class="operator">=</span> floor(a)</span><br><span class="line"><span class="built_in">print</span>(roundNum, ceilNum, floorNum) <span class="comment">// 6.0 6.0 5.0</span></span><br><span class="line"><span class="built_in">print</span>(<span class="type">Int</span>(roundNum), <span class="type">Int</span>(ceilNum), <span class="type">Int</span>(floorNum)) <span class="comment">// 6 6 5</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-isMultiple"><a href="#4-isMultiple" class="headerlink" title="4. isMultiple"></a>4. <code>isMultiple</code></h3><p><code>isMultiple</code> checks if a number is a multiple of another number.<br>This is same as <code>number % anotherNumber == 0</code>.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">10</span>, b <span class="operator">=</span> <span class="number">5</span></span><br><span class="line"><span class="keyword">let</span> isMultiple <span class="operator">=</span> a.isMultiple(of: b)</span><br><span class="line"><span class="built_in">print</span>(isMultiple) <span class="comment">// true because 10 is a multiple of 5 (10 = 5 * 2)</span></span><br><span class="line"><span class="comment">// or</span></span><br><span class="line"><span class="keyword">let</span> isMultiple <span class="operator">=</span> a <span class="operator">%</span> b <span class="operator">==</span> <span class="number">0</span></span><br><span class="line"><span class="built_in">print</span>(isMultiple) <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="5-squareRoot"><a href="#5-squareRoot" class="headerlink" title="5. squareRoot"></a>5. <code>squareRoot</code></h3><p><code>squareRoot</code> returns the square root of a number.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">25</span></span><br><span class="line"><span class="keyword">let</span> b <span class="operator">=</span> a.squareRoot()</span><br><span class="line"><span class="built_in">print</span>(b) <span class="comment">// 5.0</span></span><br></pre></td></tr></table></figure>
+
+<p>This is the same as <code>sqrt(Double(a))</code>.</p>
+<p>Both <code>sqrt</code> and <code>squareRoot</code> return a <code>Double</code> value and the efficiency is almost the same. Choose one based on code style.</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="http://blog.wantropy.com">Wan &amp; An</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="http://blog.wantropy.com/posts/b823f365/">http://blog.wantropy.com/posts/b823f365/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/leetcode/">leetcode</a><a class="post-meta__tags" href="/tags/number/">number</a><a class="post-meta__tags" href="/tags/swift/">swift</a><a class="post-meta__tags" href="/tags/math/">math</a></div><div class="post_share"><div class="social-share" data-image="/imgs/avatar.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/ea6d3435/" title="Memory Management"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Next</div><div class="next_info">Memory Management</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/posts/1fa0e526/" title="Dictionary in Swift"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-07</div><div class="title">Dictionary in Swift</div></div></a></div><div><a href="/posts/948699bb/" title="Arrays in Swift"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-07-23</div><div class="title">Arrays in Swift</div></div></a></div><div><a href="/posts/319b9e70/" title="Swift Attributes"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-07</div><div class="title">Swift Attributes</div></div></a></div><div><a href="/posts/940071c4/" title="Jul Leetcode"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-07-21</div><div class="title">Jul Leetcode</div></div></a></div><div><a href="/posts/ad32db8f/" title="KMP Algorithm"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-07-22</div><div class="title">KMP Algorithm</div></div></a></div><div><a href="/posts/dc9314c3/" title="DFS in Programming"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-08-03</div><div class="title">DFS in Programming</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div id="disqus_thread"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/imgs/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Wan &amp; An</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">23</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Numbers"><span class="toc-number">1.</span> <span class="toc-text">Numbers</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Basic-Concepts"><span class="toc-number">1.1.</span> <span class="toc-text">Basic Concepts</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Prime-Numbers"><span class="toc-number">1.1.1.</span> <span class="toc-text">Prime Numbers</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Common-Swift-Methods-Used-to-Deal-with-Numbers"><span class="toc-number">1.2.</span> <span class="toc-text">Common Swift Methods Used to Deal with Numbers</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-abs"><span class="toc-number">1.2.1.</span> <span class="toc-text">1. abs</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-min-and-max"><span class="toc-number">1.2.2.</span> <span class="toc-text">2. min and max</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-round-ceil-and-floor"><span class="toc-number">1.2.3.</span> <span class="toc-text">3. round, ceil, and floor</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-isMultiple"><span class="toc-number">1.2.4.</span> <span class="toc-text">4. isMultiple</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-squareRoot"><span class="toc-number">1.2.5.</span> <span class="toc-text">5. squareRoot</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/b823f365/" title="Numbers">Numbers</a><time datetime="2024-08-09T06:13:43.477Z" title="Updated 2024-08-08 23:13:43">2024-08-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/948699bb/" title="Arrays in Swift">Arrays in Swift</a><time datetime="2024-08-09T05:39:16.403Z" title="Updated 2024-08-08 22:39:16">2024-08-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/dc9314c3/" title="DFS in Programming">DFS in Programming</a><time datetime="2024-08-08T05:11:22.564Z" title="Updated 2024-08-07 22:11:22">2024-08-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/ad32db8f/" title="KMP Algorithm">KMP Algorithm</a><time datetime="2024-08-08T05:11:19.028Z" title="Updated 2024-08-07 22:11:19">2024-08-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/1fa0e526/" title="Dictionary in Swift">Dictionary in Swift</a><time datetime="2024-08-08T05:11:09.500Z" title="Updated 2024-08-07 22:11:09">2024-08-07</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2024 By Wan & An</div><div class="footer_custom_text">Welcome to my blog.</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>(() => {
+  const disqus_config = function () {
+    this.page.url = 'http://blog.wantropy.com/posts/b823f365/'
+    this.page.identifier = '/posts/b823f365/'
+    this.page.title = 'Numbers'
+  }
+
+  const disqusReset = () => {
+    window.DISQUS && window.DISQUS.reset({
+      reload: true,
+      config: disqus_config
+    })
+  }
+
+  btf.addGlobalFn('themeChange', disqusReset, 'disqus')
+
+  const loadDisqus = () =>{
+    if (window.DISQUS) disqusReset()
+    else {
+      const script = document.createElement('script')
+      script.src = 'https://blog-wantropy-com.disqus.com/embed.js'
+      script.setAttribute('data-timestamp', +new Date())
+      document.head.appendChild(script)
+    }
+  }
+
+  const getCount = async() => {
+    try {
+      const eleGroup = document.querySelector('#post-meta .disqus-comment-count')
+      if (!eleGroup) return
+      const cleanedLinks = eleGroup.href.replace(/#post-comment$/, '')
+
+      const res = await fetch(`https://disqus.com/api/3.0/threads/set.json?forum=blog-wantropy-com&api_key=&thread:link=${cleanedLinks}`,{
+        method: 'GET'
+      })
+      const result = await res.json()
+
+      const count = result.response.length ? result.response[0].posts : 0
+      eleGroup.textContent = count
+    } catch (err) {
+      console.error(err)
+    }
+  }
+
+  if ('Disqus' === 'Disqus' || !false) {
+    if (false) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
+    else {
+      loadDisqus()
+      
+    }
+  } else {
+    window.loadOtherComment = loadDisqus
+  }
+})()</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="true" data-click="true"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/click-show-text.min.js" data-mobile="true" data-text="爱国,守法,明礼,诚信" data-fontsize="11px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
