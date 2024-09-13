@@ -12,6 +12,48 @@
       </tags>
   </entry>
   <entry>
+    <title>Jul Leetcode</title>
+    <url>/posts/940071c4/</url>
+    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
+<span id="more"></span>
+
+<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
+<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
+]]></content>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>观intern demo有感</title>
+    <url>/posts/a5795f36/</url>
+    <content><![CDATA[<p>今天参加了隔壁组intern的中期demo，分为两个不同的小项目，虽然并不能在此记录具体的内容，但是每一个都很有趣，intern在短短几周的时间内完成了很漂亮的demo，为他点赞。这也让我仿佛看到了自己选择投身技术行业的初衷、对快速实现有趣想法的热情。</p>
+<p>身在一个大公司，很多时候我们想要做什么要经过无数的cross-team的讨论和协调，尽管项目本身的scope可能并不大，难度可能并不高，但是往往由于各种团队的不同需求和意见，会让一个小项目变得复杂起来，有些时候也会导致同一件事情被反复讨论，最终可能还是无法达成一致。就算达成一致，也有可能后面再被一个新的团队或者成员提出异议，导致又要重新讨论。更不要提有些时候碰到一些很难缠的团队leader，不愿意对需要的support做出承诺，导致整个项目进度被拖延。</p>
+<p>我绝不是说这种cross-team的讨论和协调是不重要的，相反，我认为这是非常重要的，首先每个团队都应该对自己做出的commitment负责，其次，通过这种讨论和协调，可以让每个团队更好地了解其他团队的需求和意见，从不同的角度思考问题，也能尽可能地避免edge case被忽略。当然在大公司中，这种cross-team的讨论也能避免一些legal、privacy等方面的工程师并不会考虑到的问题。</p>
+<p>但是，最近一直在思考如何才能在这样的情况下继续让整个项目持续move forward，那就是要有一个很好的leader，能够在各个团队之间建立信任，能够在各个团队之间建立一个共同的目标，能够在各个团队之间建立一个共同的语言，能够在各个团队之间建立一个共同的文化。这样的leader不仅要有很强的技术能力，很强的沟通能力，更要有很强的协调能力、领导能力。作为工程师，很难做到这一点，因为往往重要的决策会议都是在leader之间进行的，而我们甚至不会出席这些很重要的会议。也就是说，如果你的领导在组织上有问题，那么你的项目很有可能会被拖延，你的工作很有可能会被浪费，甚至你所做的项目虽然做完了，但是可能并没有得到很好的支持，最终可能会被kill掉。</p>
+<p>作为工程师如何面对这种处境呢？</p>
+<p>最简单的两种选择，走，或者躺平。走，就是换一个组从而换一个leader，要么换一个公司。躺平，就是完全按照直接leader的意愿来做，或者依旧只和直属的leader沟通，尽量让自己的项目能够顺利进行，因为绩效往往是直属的leader对你的打评。如果你可以躺平，那么你的工作可能会很轻松，但是你的工作可能会很无聊，因为你可能会被迫做一些你不想做的事情，也可能会重复你认为不正确的事情。同时，躺平往往意味着上升空间有限，因为你很难持续高效、热情地完成无聊的工作。如果你觉得自己躺不平，但是又不想改变在这个组、这个leader领导下的工作，那么你可能会感到焦虑、烦躁，甚至会影响到你的工作和生活，最终只有逃离，或者被逼离开。</p>
+<p>其实往往人都是在逆境中成长的，比如如果你的leader在某些时候不能drive，那么你就要学会自己去把握机会，在leader沟通后，主动去和其他团队沟通，在PM的帮助下组织有效的会议，保证每次会议都有一个明确的agenda，能够产出一个明确的action list，并且对于open question能够有一个明确的follow up，每一个action item都要指定一个owner，保证每一个action item都有一个大概的deadline，保证下一次会议前能够解决或者至少Investigate每一个action item和open question。这样的工作虽然可能看起来会让你很累，但是这样的工作实际上是在珍惜你的时间，是在提高你的效率，同时会让你在团队中更有价值，也会让你在团队中更有影响力，最终也会让你在团队中更有发展空间。</p>
+]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>work</tag>
+        <tag>philosophy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>十年</title>
+    <url>/posts/bdfafec0/</url>
+    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
+<p>爱你。</p>
+]]></content>
+      <tags>
+        <tag>我们</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Tesla</title>
     <url>/posts/a2033a4b/</url>
     <content><![CDATA[<p>今天是2024年7月7日，最近看了很多特斯拉的新闻和知识<span id="more"></span>，愈发觉得这只我曾经嗤之以鼻的股票（主要是不喜欢马斯克这个人）其实是最好的投资选择之一。<br>目前为止只有100股特斯拉，均价240。看看在一段时间的短期、长期的操作下，会有怎样的变化。<br>期待。</p>
@@ -36,175 +78,6 @@
       <tags>
         <tag>Stock</tag>
         <tag>Tesla</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>十年</title>
-    <url>/posts/bdfafec0/</url>
-    <content><![CDATA[<h1 id="十年"><a href="#十年" class="headerlink" title="十年"></a>十年</h1><p>今天是2024年7月7日<span id="more"></span>，不知不觉间，我们已经一起走过了十个年头。不知道是年岁渐长，还是心境不同，最近对你的思念愈发深切，回忆起我们共同经历的点点滴滴，更是倍感珍惜。有许多话想对你说，却又不知从何说起。于是，我决定重新开始写博客，把每一个想对你说的心里话记录下来。希望在我们一起走过二十年、三十年、五十年之后，能够再一起翻阅这些珍贵的回忆，共同细细品味我们的故事，慢慢变老。</p>
-<p>爱你。</p>
-]]></content>
-      <tags>
-        <tag>我们</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Deepthinking</title>
-    <url>/posts/b46d4452/</url>
-    <content><![CDATA[<p>这一系列主要用来记录一些工作中获得的感想、经验以及教训。</p>
-<p><code>2024.07.08</code></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在项目初期，面对各种不确定性和新概念的引入时，会感到困惑和烦躁。然而，通过调整心态、扩展思维和深入理解，可以更好地应对这些挑战。保持乐观积极的态度，不仅有助于解决问题，还能增强自己的影响力。</p>
-<span id="more"></span>
-
-<h2 id="项目初期的挑战与困惑"><a href="#项目初期的挑战与困惑" class="headerlink" title="项目初期的挑战与困惑"></a>项目初期的挑战与困惑</h2><p>最近在为今年晚些时候和明年的一个大型功能项目进行scope。尽管目前还在讨论阶段，但数据模型已经在组内经过了一些讨论，初步形成了雏形。与此同时，老板提到了很多次不同的概念，讨论如何与系统级别的功能进行整合。虽然这些想法很好，但也面临一些挑战：</p>
-<ol>
-<li>   前提条件的缺失：很多老板提到的功能前提不存在，例如如何解耦一些已有的非常基本的组件；</li>
-<li>   系统功能的实用性：我个人在使用过程中发现，老板希望从中受益的系统级别功能并不是很好用，还有很多BUG；</li>
-<li>   功能的实用价值：即使实现了这些功能，最终看起来可能只是一个很华丽却无实际用处的功能。</li>
-</ol>
-<p>最令我困扰的是不断加入新的内容和概念，导致我已有的一些架构和流程都要随之改变。而且到目前为止，整个项目的范围、预期交付物和时间线等还没有确定下来，令人非常烦躁。</p>
-<h2 id="心态调整与反思"><a href="#心态调整与反思" class="headerlink" title="心态调整与反思"></a>心态调整与反思</h2><p>出去跑了步，流汗之后反而想开了很多：</p>
-<ol>
-<li>   广阔思维：在思考问题时，可能有些太过狭隘。这个项目现在还处于早期讨论阶段，所以有各种不同的变量和声音是再正常不过的。老板说得挺好：“I know it’s an overwhelming amount of stuff, but that’s the nature of this phase of these projects 🙂”。这提醒我要接受项目初期的混乱和多样性。</li>
-<li>   深入理解：有些时候自己觉得很扯淡的东西，可能是因为对某些事物的理解还不够深入。当质疑一个东西时，尤其是在工作中，一定要深入了解。想到了高中语文老师曾经说的，做XXX是为了更好的批判。虽然不一定是为了批判，但深入了解能够避免狭隘地、错误地指出别人本来正确的东西。</li>
-<li>   积极态度：我在努力做到但还需更努力的一点是：乐观地面对工作的挑战和不同的意见。积极友善的态度，有理有据的争辩，往往比消极的吐槽或者郁郁寡欢更加有用，不仅能让别人对你有更好的印象，同时也可以加强你自己的影响力。</li>
-</ol>
-<p>通过这些反思，我意识到在项目初期阶段，保持开放的心态和积极的态度是至关重要的。希望未来的工作中能够更加从容地面对各种挑战，继续积累经验和教训。</p>
-]]></content>
-      <tags>
-        <tag>work</tag>
-        <tag>philosophy</tag>
-        <tag>reflection</tag>
-        <tag>project-management</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>观intern demo有感</title>
-    <url>/posts/a5795f36/</url>
-    <content><![CDATA[<p>今天参加了隔壁组intern的中期demo，分为两个不同的小项目，虽然并不能在此记录具体的内容，但是每一个都很有趣，intern在短短几周的时间内完成了很漂亮的demo，为他点赞。这也让我仿佛看到了自己选择投身技术行业的初衷、对快速实现有趣想法的热情。</p>
-<p>身在一个大公司，很多时候我们想要做什么要经过无数的cross-team的讨论和协调，尽管项目本身的scope可能并不大，难度可能并不高，但是往往由于各种团队的不同需求和意见，会让一个小项目变得复杂起来，有些时候也会导致同一件事情被反复讨论，最终可能还是无法达成一致。就算达成一致，也有可能后面再被一个新的团队或者成员提出异议，导致又要重新讨论。更不要提有些时候碰到一些很难缠的团队leader，不愿意对需要的support做出承诺，导致整个项目进度被拖延。</p>
-<p>我绝不是说这种cross-team的讨论和协调是不重要的，相反，我认为这是非常重要的，首先每个团队都应该对自己做出的commitment负责，其次，通过这种讨论和协调，可以让每个团队更好地了解其他团队的需求和意见，从不同的角度思考问题，也能尽可能地避免edge case被忽略。当然在大公司中，这种cross-team的讨论也能避免一些legal、privacy等方面的工程师并不会考虑到的问题。</p>
-<p>但是，最近一直在思考如何才能在这样的情况下继续让整个项目持续move forward，那就是要有一个很好的leader，能够在各个团队之间建立信任，能够在各个团队之间建立一个共同的目标，能够在各个团队之间建立一个共同的语言，能够在各个团队之间建立一个共同的文化。这样的leader不仅要有很强的技术能力，很强的沟通能力，更要有很强的协调能力、领导能力。作为工程师，很难做到这一点，因为往往重要的决策会议都是在leader之间进行的，而我们甚至不会出席这些很重要的会议。也就是说，如果你的领导在组织上有问题，那么你的项目很有可能会被拖延，你的工作很有可能会被浪费，甚至你所做的项目虽然做完了，但是可能并没有得到很好的支持，最终可能会被kill掉。</p>
-<p>作为工程师如何面对这种处境呢？</p>
-<p>最简单的两种选择，走，或者躺平。走，就是换一个组从而换一个leader，要么换一个公司。躺平，就是完全按照直接leader的意愿来做，或者依旧只和直属的leader沟通，尽量让自己的项目能够顺利进行，因为绩效往往是直属的leader对你的打评。如果你可以躺平，那么你的工作可能会很轻松，但是你的工作可能会很无聊，因为你可能会被迫做一些你不想做的事情，也可能会重复你认为不正确的事情。同时，躺平往往意味着上升空间有限，因为你很难持续高效、热情地完成无聊的工作。如果你觉得自己躺不平，但是又不想改变在这个组、这个leader领导下的工作，那么你可能会感到焦虑、烦躁，甚至会影响到你的工作和生活，最终只有逃离，或者被逼离开。</p>
-<p>其实往往人都是在逆境中成长的，比如如果你的leader在某些时候不能drive，那么你就要学会自己去把握机会，在leader沟通后，主动去和其他团队沟通，在PM的帮助下组织有效的会议，保证每次会议都有一个明确的agenda，能够产出一个明确的action list，并且对于open question能够有一个明确的follow up，每一个action item都要指定一个owner，保证每一个action item都有一个大概的deadline，保证下一次会议前能够解决或者至少Investigate每一个action item和open question。这样的工作虽然可能看起来会让你很累，但是这样的工作实际上是在珍惜你的时间，是在提高你的效率，同时会让你在团队中更有价值，也会让你在团队中更有影响力，最终也会让你在团队中更有发展空间。</p>
-]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>work</tag>
-        <tag>philosophy</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jul Leetcode</title>
-    <url>/posts/940071c4/</url>
-    <content><![CDATA[<h1 id="Leetcode-Notes-Jul"><a href="#Leetcode-Notes-Jul" class="headerlink" title="Leetcode Notes Jul."></a>Leetcode Notes Jul.</h1><p>This is to write down my leetcode nodes for Jul. 2024.</p>
-<span id="more"></span>
-
-<h2 id="提纲"><a href="#提纲" class="headerlink" title="提纲"></a>提纲</h2><p><a href="https://leetcode.com/studyplan/top-interview-150/">https://leetcode.com/studyplan/top-interview-150/</a></p>
-<p>系统设计是alex xu的 <a href="https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html">https://dokumen.pub/system-design-interview-an-insiders-guide-volume-2-1736049119-9781736049112.html</a></p>
-]]></content>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Numbers</title>
-    <url>/posts/b823f365/</url>
-    <content><![CDATA[<h1 id="Numbers"><a href="#Numbers" class="headerlink" title="Numbers"></a>Numbers</h1><p>In this doc we will talk about some interesting facts about numbers and how to deal with them in programming.</p>
-<h2 id="Basic-Concepts"><a href="#Basic-Concepts" class="headerlink" title="Basic Concepts"></a>Basic Concepts</h2><h3 id="Prime-Numbers"><a href="#Prime-Numbers" class="headerlink" title="Prime Numbers"></a>Prime Numbers</h3><p>Prime numbers are numbers that are greater than 1 and have no divisors other than 1 and themselves. They are the building blocks of all other numbers and have many interesting properties.</p>
-<blockquote>
-<p>质数是大于1且除了1和自身外没有其他因子的数。</p>
-</blockquote>
-<p>How to check if a number is prime (ignore brute force method):</p>
-<p>Method 1: Check divisibility up to the square root of the number.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">extension</span> <span class="title class_">Int</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> isPrime: <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="keyword">guard</span> <span class="keyword">self</span> <span class="operator">&gt;=</span> <span class="number">4</span> <span class="keyword">else</span> &#123; <span class="keyword">return</span> <span class="keyword">self</span> <span class="operator">&gt;</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="keyword">var</span> max <span class="operator">=</span> <span class="type">Int</span>(<span class="type">Double</span>(<span class="keyword">self</span>).squareRoot())</span><br><span class="line">        <span class="keyword">if</span> max <span class="operator">%</span> <span class="number">2</span> <span class="operator">==</span> <span class="number">0</span> &#123; max <span class="operator">+=</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">stride</span>(from: <span class="number">3</span>, through: max, by: <span class="number">2</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> i <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>More efficient method: Magic numbers 6k ± 1.</p>
-<p>By observing the pattern of prime numbers, we can see that all prime numbers greater than 3 can be written in the form of 6k ± 1, where k is a positive integer.<br>So we can check the divisibility of the number by 6k ± 1 up to the square root of the number.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">extension</span> <span class="title class_">Int</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> isPrime: <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="comment">// &lt;= 4, only 2 and 3 are prime</span></span><br><span class="line">        <span class="keyword">guard</span> <span class="keyword">self</span> <span class="operator">&gt;=</span> <span class="number">4</span> <span class="keyword">else</span> &#123; <span class="keyword">return</span> <span class="keyword">self</span> <span class="operator">&gt;</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="comment">// This is to check if the number is divisible by 2 or 3. Needed prior to the loop because the loop starts from 5.</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> <span class="number">2</span> <span class="operator">==</span> <span class="number">0</span> <span class="operator">||</span> <span class="keyword">self</span> <span class="operator">%</span> <span class="number">3</span> <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        <span class="comment">// Pick the ceiling to make sure the loop tests in all possible ranges. For example, if the int is 17, if we don&#x27;t pick the ceiling, `max` will be 4, and the loop will only test 5, which is not correct.</span></span><br><span class="line">        <span class="keyword">let</span> max <span class="operator">=</span> <span class="type">Int</span>(ceil(<span class="type">Double</span>(<span class="keyword">self</span>).squareRoot()))</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">stride</span>(from: <span class="number">5</span>, through: max, by: <span class="number">6</span>) &#123;</span><br><span class="line">            <span class="comment">// % i is to check 6k - 1, % (i + 2) is to check 6k + 1</span></span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> i <span class="operator">==</span> <span class="number">0</span> <span class="operator">||</span> <span class="keyword">self</span> <span class="operator">%</span> (i <span class="operator">+</span> <span class="number">2</span>) <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<p>当我们要进行整数的除法检查时，需要将这个小数向上取整，以确保不遗漏任何可能的整数因数。如果直接转换为 Int，则会向下取整，可能会漏掉一个关键因数。<br>例如，n &#x3D; 17：</p>
-<ul>
-<li>sqrt(17) 大约是 4.123，如果不取整，直接转换为 Int 得到的结果是 4。</li>
-<li>然而，4 是不足够进行完整检查的，因为你实际上需要检查 5，以确保没有因数遗漏。</li>
-</ul>
-</blockquote>
-<h2 id="Common-Swift-Methods-Used-to-Deal-with-Numbers"><a href="#Common-Swift-Methods-Used-to-Deal-with-Numbers" class="headerlink" title="Common Swift Methods Used to Deal with Numbers"></a>Common Swift Methods Used to Deal with Numbers</h2><h3 id="1-abs"><a href="#1-abs" class="headerlink" title="1. abs"></a>1. <code>abs</code></h3><p><code>abs</code> returns the absolute value of a number.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="operator">-</span><span class="number">5</span></span><br><span class="line"><span class="keyword">let</span> b <span class="operator">=</span> <span class="built_in">abs</span>(a)</span><br><span class="line"><span class="built_in">print</span>(b) <span class="comment">// 5</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="2-min-and-max"><a href="#2-min-and-max" class="headerlink" title="2. min and max"></a>2. <code>min</code> and <code>max</code></h3><p><code>min</code> and <code>max</code> return the minimum and maximum of two numbers.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">5</span>, b <span class="operator">=</span> <span class="number">10</span></span><br><span class="line"><span class="keyword">let</span> minNum <span class="operator">=</span> <span class="built_in">min</span>(a, b), maxNum <span class="operator">=</span> <span class="built_in">max</span>(a, b)</span><br><span class="line"><span class="built_in">print</span>(minNum, maxNum) <span class="comment">// 5 10</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="3-round-ceil-and-floor"><a href="#3-round-ceil-and-floor" class="headerlink" title="3. round, ceil, and floor"></a>3. <code>round</code>, <code>ceil</code>, and <code>floor</code></h3><p><code>round</code> rounds a number to the nearest integer, <code>ceil</code> rounds up, and <code>floor</code> rounds down. They all return a <code>Double</code> value.<br>If you want to round a <code>Double</code> to an <code>Int</code>, you can use <code>Int()</code>.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">5.6</span></span><br><span class="line"><span class="keyword">let</span> roundNum <span class="operator">=</span> round(a), ceilNum <span class="operator">=</span> ceil(a), floorNum <span class="operator">=</span> floor(a)</span><br><span class="line"><span class="built_in">print</span>(roundNum, ceilNum, floorNum) <span class="comment">// 6.0 6.0 5.0</span></span><br><span class="line"><span class="built_in">print</span>(<span class="type">Int</span>(roundNum), <span class="type">Int</span>(ceilNum), <span class="type">Int</span>(floorNum)) <span class="comment">// 6 6 5</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="4-isMultiple"><a href="#4-isMultiple" class="headerlink" title="4. isMultiple"></a>4. <code>isMultiple</code></h3><p><code>isMultiple</code> checks if a number is a multiple of another number.<br>This is same as <code>number % anotherNumber == 0</code>.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">10</span>, b <span class="operator">=</span> <span class="number">5</span></span><br><span class="line"><span class="keyword">let</span> isMultiple <span class="operator">=</span> a.isMultiple(of: b)</span><br><span class="line"><span class="built_in">print</span>(isMultiple) <span class="comment">// true because 10 is a multiple of 5 (10 = 5 * 2)</span></span><br><span class="line"><span class="comment">// or</span></span><br><span class="line"><span class="keyword">let</span> isMultiple <span class="operator">=</span> a <span class="operator">%</span> b <span class="operator">==</span> <span class="number">0</span></span><br><span class="line"><span class="built_in">print</span>(isMultiple) <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="5-squareRoot"><a href="#5-squareRoot" class="headerlink" title="5. squareRoot"></a>5. <code>squareRoot</code></h3><p><code>squareRoot</code> returns the square root of a number.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">25</span></span><br><span class="line"><span class="keyword">let</span> b <span class="operator">=</span> a.squareRoot()</span><br><span class="line"><span class="built_in">print</span>(b) <span class="comment">// 5.0</span></span><br></pre></td></tr></table></figure>
-
-<p>This is the same as <code>sqrt(Double(a))</code>.</p>
-<p>Both <code>sqrt</code> and <code>squareRoot</code> return a <code>Double</code> value and the efficiency is almost the same. Choose one based on code style.</p>
-]]></content>
-      <categories>
-        <category>Interview</category>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>number</tag>
-        <tag>swift</tag>
-        <tag>math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Dictionary in Swift</title>
-    <url>/posts/1fa0e526/</url>
-    <content><![CDATA[<h1 id="Dictionary-in-Swift"><a href="#Dictionary-in-Swift" class="headerlink" title="Dictionary in Swift"></a>Dictionary in Swift</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with dictionaries in programming.</p>
-<h2 id="Convenient-Methods"><a href="#Convenient-Methods" class="headerlink" title="Convenient Methods"></a>Convenient Methods</h2><h3 id="1-Dictionary-Initialization-From-Sequence"><a href="#1-Dictionary-Initialization-From-Sequence" class="headerlink" title="1. Dictionary Initialization From Sequence"></a>1. Dictionary Initialization From Sequence</h3><p>In Swift, you can initialize a dictionary from a sequence of key-value pairs. The sequence can be an array of tuples or a dictionary.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [(<span class="number">1</span>, <span class="string">&quot;a&quot;</span>), (<span class="number">2</span>, <span class="string">&quot;b&quot;</span>), (<span class="number">3</span>, <span class="string">&quot;c&quot;</span>)]</span><br><span class="line"><span class="keyword">let</span> dict <span class="operator">=</span> <span class="type">Dictionary</span>(uniqueKeysWithValues: arr)</span><br></pre></td></tr></table></figure>
-
-<p>It’s helpful to convert from an array to a dictionary of the [element: index] format.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>]</span><br><span class="line"><span class="keyword">let</span> dict <span class="operator">=</span> <span class="type">Dictionary</span>(uniqueKeysWithValues: arr.enumerated().map &#123; (<span class="variable">$1</span>, <span class="variable">$0</span>) &#125;)</span><br></pre></td></tr></table></figure>
-
-<h2 id="Easy-to-Make-Mistakes"><a href="#Easy-to-Make-Mistakes" class="headerlink" title="Easy to Make Mistakes"></a>Easy to Make Mistakes</h2><h3 id="1-Handle-with-Default-Value"><a href="#1-Handle-with-Default-Value" class="headerlink" title="1. Handle with Default Value"></a>1. Handle with Default Value</h3><p>When you are dealing with a dictionary, you may want to get the value of a key, and if the key does not exist, you want to return a default value. You can use the <code>default</code> parameter of the subscript method.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ints <span class="operator">=</span> [(<span class="string">&quot;a&quot;</span>, <span class="number">1</span>), (<span class="string">&quot;b&quot;</span>, <span class="number">2</span>), (<span class="string">&quot;c&quot;</span>, <span class="number">3</span>), (<span class="string">&quot;a&quot;</span>, <span class="number">2</span>)]</span><br><span class="line"><span class="keyword">var</span> counter: [<span class="type">String</span>: <span class="type">Int</span>] <span class="operator">=</span> [:]</span><br><span class="line">ints.forEach &#123; counter[<span class="variable">$0</span>.<span class="number">0</span>, <span class="keyword">default</span>: <span class="number">0</span>] <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span> &#125;</span><br></pre></td></tr></table></figure>
-
-<p>This works because the <code>default</code> parameter of the subscript method will return the default value if the key does not exist.<br>What if the value type is a custom type? Can you still use the <code>default</code> parameter? No, you can’t. You need to use the <code>nil-coalescing operator</code> to provide a default value.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> name: <span class="type">String</span></span><br><span class="line">    <span class="keyword">var</span> age: <span class="type">Int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> persons <span class="operator">=</span> [(<span class="string">&quot;a&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Alice&quot;</span>, age: <span class="number">20</span>)), (<span class="string">&quot;b&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Bob&quot;</span>, age: <span class="number">30</span>), (<span class="string">&quot;a&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Alice&quot;</span>, age: <span class="number">25</span>))]</span><br><span class="line"><span class="comment">// This will not work:</span></span><br><span class="line"><span class="keyword">var</span> counter: [String: <span class="type">Person</span>] <span class="operator">=</span> [:]</span><br><span class="line">persons.forEach &#123; counter[<span class="variable">$0</span>.<span class="number">0</span>, default: <span class="type">Person</span>(name: <span class="string">&quot;&quot;</span>, age: <span class="number">0</span>)].age <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span>.age &#125;</span><br><span class="line"><span class="comment">// You need to use the nil-coalescing operator to provide a default value:</span></span><br><span class="line">persons.forEach &#123; </span><br><span class="line">    counter[<span class="variable">$0</span>.<span class="number">0</span>] <span class="operator">=</span> (counter[<span class="variable">$0</span>.<span class="number">0</span>] <span class="operator">??</span> <span class="type">Person</span>(name: <span class="string">&quot;&quot;</span>, age: <span class="number">0</span>))</span><br><span class="line">    counter[<span class="variable">$0</span>.<span class="number">0</span>]<span class="operator">!</span>.age <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span>.age</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>Or, we can implement an extension for the dictionary to conform to the <code>subscript: default</code> pattern.</p>
-<pre><code class="swift">extension Dictionary &#123;
-    subscript(key: Key, default defaultValue: @autoclosure () -&gt; Value) -&gt; Value &#123;
-        mutating get &#123;
-            if let value = self[key] &#123;
-                return value
-            &#125; else &#123;
-                let value = defaultValue()
-                self[key] = value
-                return value
-            &#125;
-        &#125;
-    &#125;
-&#125;
-
-&gt; Why do we need to use `@autoclosure` here?
-&gt; The `@autoclosure` attribute automatically creates a closure around the expression. This is useful when you want to delay the evaluation of the expression until it is needed. In this case, we want to delay the creation of the default value until it is needed to avoid unnecessary computation.
-</code></pre>
-]]></content>
-      <categories>
-        <category>Interview</category>
-        <category>Data Structure</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>swift</tag>
-        <tag>dictionary</tag>
       </tags>
   </entry>
   <entry>
@@ -270,7 +143,91 @@
 <figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> (rows, cols) <span class="operator">=</span> (rooms.count, rooms[<span class="number">0</span>].count)</span><br></pre></td></tr></table></figure>
 
 <h3 id="5-Directions-in-2D-array"><a href="#5-Directions-in-2D-array" class="headerlink" title="5. Directions in 2D array"></a>5. Directions in 2D array</h3><p>When you need to traverse a 2D array in four directions, you can use an array of tuples to represent the four directions.</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> directions <span class="operator">=</span> [(<span class="number">0</span>, <span class="number">1</span>), (<span class="number">0</span>, <span class="operator">-</span><span class="number">1</span>), (<span class="number">1</span>, <span class="number">0</span>), (<span class="operator">-</span><span class="number">1</span>, <span class="number">0</span>)]</span><br><span class="line"><span class="keyword">for</span> (dx, dy) <span class="keyword">in</span> directions &#123;</span><br><span class="line">    <span class="keyword">let</span> (nx, ny) <span class="operator">=</span> (x <span class="operator">+</span> dx, y <span class="operator">+</span> dy)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> directions <span class="operator">=</span> [(<span class="number">0</span>, <span class="number">1</span>), (<span class="number">0</span>, <span class="operator">-</span><span class="number">1</span>), (<span class="number">1</span>, <span class="number">0</span>), (<span class="operator">-</span><span class="number">1</span>, <span class="number">0</span>)]</span><br><span class="line"><span class="keyword">for</span> (dx, dy) <span class="keyword">in</span> directions &#123;</span><br><span class="line">    <span class="keyword">let</span> (nx, ny) <span class="operator">=</span> (x <span class="operator">+</span> dx, y <span class="operator">+</span> dy)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="6-O-n-time-complexity-for-finding-the-longest-consecutive-elements-sequence"><a href="#6-O-n-time-complexity-for-finding-the-longest-consecutive-elements-sequence" class="headerlink" title="6. O(n) time complexity for finding the longest consecutive elements sequence"></a>6. O(n) time complexity for finding the longest consecutive elements sequence</h3><p>Given an unsorted array of integers, how to find the length of the longest consecutive elements sequence? The time complexity should be O(n). </p>
+<p>The trick here is to use a set to store the numbers, and for each number, check if the number - 1 exists in the set. If it does not exist, it means <code>this number is the start of a new sequence</code>. Then, keep checking the next number until the number + 1 does not exist in the set. The length of the sequence is the difference between the current number and the start number.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">func</span> <span class="title function_">longestConsecutive</span>(<span class="keyword">_</span> <span class="params">nums</span>: [<span class="type">Int</span>]) -&gt; <span class="type">Int</span> &#123;</span><br><span class="line">        <span class="keyword">var</span> footprints <span class="operator">=</span> <span class="type">Set</span>(nums)</span><br><span class="line">        <span class="keyword">var</span> result <span class="operator">=</span> <span class="number">0</span></span><br><span class="line">        footprints.forEach &#123;</span><br><span class="line">            <span class="keyword">guard</span> footprints.contains(<span class="variable">$0</span> <span class="operator">-</span> <span class="number">1</span>) <span class="operator">==</span> <span class="literal">false</span> <span class="keyword">else</span> &#123; <span class="keyword">return</span> &#125;</span><br><span class="line">            <span class="comment">// Only runs, if this is the start of the sequence</span></span><br><span class="line">            <span class="keyword">var</span> streak <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">            <span class="keyword">var</span> next <span class="operator">=</span> <span class="variable">$0</span> <span class="operator">+</span> <span class="number">1</span></span><br><span class="line">            <span class="keyword">while</span> footprints.contains(next) &#123;</span><br><span class="line">                streak <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">                next <span class="operator">+=</span> <span class="number">1</span></span><br><span class="line">            &#125;</span><br><span class="line">            result <span class="operator">=</span> <span class="built_in">max</span>(result, streak)</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>Why is the time complexity O(n)? Isn’t there a nested loop inside the <code>forEach</code> loop?<br>It’s because we only tap into the inside loop when we find the start of a sequence and thus all existing numbers greater than the start of the sequence will be visited in the inner loop only once. That means, the totoal times we visit all the numbers is O(n). Also, the outer loop only runs once for each number, so the time complexity for outer loop is O(n) as well. Therefore, the total time complexity is calculated as O(n) + O(n) &#x3D; O(n).</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Interview</category>
+        <category>Data Structure</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>array</tag>
+        <tag>swift</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Deepthinking</title>
+    <url>/posts/b46d4452/</url>
+    <content><![CDATA[<p>这一系列主要用来记录一些工作中获得的感想、经验以及教训。</p>
+<p><code>2024.07.08</code></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在项目初期，面对各种不确定性和新概念的引入时，会感到困惑和烦躁。然而，通过调整心态、扩展思维和深入理解，可以更好地应对这些挑战。保持乐观积极的态度，不仅有助于解决问题，还能增强自己的影响力。</p>
+<span id="more"></span>
+
+<h2 id="项目初期的挑战与困惑"><a href="#项目初期的挑战与困惑" class="headerlink" title="项目初期的挑战与困惑"></a>项目初期的挑战与困惑</h2><p>最近在为今年晚些时候和明年的一个大型功能项目进行scope。尽管目前还在讨论阶段，但数据模型已经在组内经过了一些讨论，初步形成了雏形。与此同时，老板提到了很多次不同的概念，讨论如何与系统级别的功能进行整合。虽然这些想法很好，但也面临一些挑战：</p>
+<ol>
+<li>   前提条件的缺失：很多老板提到的功能前提不存在，例如如何解耦一些已有的非常基本的组件；</li>
+<li>   系统功能的实用性：我个人在使用过程中发现，老板希望从中受益的系统级别功能并不是很好用，还有很多BUG；</li>
+<li>   功能的实用价值：即使实现了这些功能，最终看起来可能只是一个很华丽却无实际用处的功能。</li>
+</ol>
+<p>最令我困扰的是不断加入新的内容和概念，导致我已有的一些架构和流程都要随之改变。而且到目前为止，整个项目的范围、预期交付物和时间线等还没有确定下来，令人非常烦躁。</p>
+<h2 id="心态调整与反思"><a href="#心态调整与反思" class="headerlink" title="心态调整与反思"></a>心态调整与反思</h2><p>出去跑了步，流汗之后反而想开了很多：</p>
+<ol>
+<li>   广阔思维：在思考问题时，可能有些太过狭隘。这个项目现在还处于早期讨论阶段，所以有各种不同的变量和声音是再正常不过的。老板说得挺好：“I know it’s an overwhelming amount of stuff, but that’s the nature of this phase of these projects 🙂”。这提醒我要接受项目初期的混乱和多样性。</li>
+<li>   深入理解：有些时候自己觉得很扯淡的东西，可能是因为对某些事物的理解还不够深入。当质疑一个东西时，尤其是在工作中，一定要深入了解。想到了高中语文老师曾经说的，做XXX是为了更好的批判。虽然不一定是为了批判，但深入了解能够避免狭隘地、错误地指出别人本来正确的东西。</li>
+<li>   积极态度：我在努力做到但还需更努力的一点是：乐观地面对工作的挑战和不同的意见。积极友善的态度，有理有据的争辩，往往比消极的吐槽或者郁郁寡欢更加有用，不仅能让别人对你有更好的印象，同时也可以加强你自己的影响力。</li>
+</ol>
+<p>通过这些反思，我意识到在项目初期阶段，保持开放的心态和积极的态度是至关重要的。希望未来的工作中能够更加从容地面对各种挑战，继续积累经验和教训。</p>
+]]></content>
+      <tags>
+        <tag>work</tag>
+        <tag>philosophy</tag>
+        <tag>reflection</tag>
+        <tag>project-management</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dictionary in Swift</title>
+    <url>/posts/1fa0e526/</url>
+    <content><![CDATA[<h1 id="Dictionary-in-Swift"><a href="#Dictionary-in-Swift" class="headerlink" title="Dictionary in Swift"></a>Dictionary in Swift</h1><p>In this doc we will talk about something that we need pay attention to when we are dealing with dictionaries in programming.</p>
+<h2 id="Convenient-Methods"><a href="#Convenient-Methods" class="headerlink" title="Convenient Methods"></a>Convenient Methods</h2><h3 id="1-Dictionary-Initialization-From-Sequence"><a href="#1-Dictionary-Initialization-From-Sequence" class="headerlink" title="1. Dictionary Initialization From Sequence"></a>1. Dictionary Initialization From Sequence</h3><p>In Swift, you can initialize a dictionary from a sequence of key-value pairs. The sequence can be an array of tuples or a dictionary.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [(<span class="number">1</span>, <span class="string">&quot;a&quot;</span>), (<span class="number">2</span>, <span class="string">&quot;b&quot;</span>), (<span class="number">3</span>, <span class="string">&quot;c&quot;</span>)]</span><br><span class="line"><span class="keyword">let</span> dict <span class="operator">=</span> <span class="type">Dictionary</span>(uniqueKeysWithValues: arr)</span><br></pre></td></tr></table></figure>
+
+<p>It’s helpful to convert from an array to a dictionary of the [element: index] format.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> arr <span class="operator">=</span> [<span class="string">&quot;a&quot;</span>, <span class="string">&quot;b&quot;</span>, <span class="string">&quot;c&quot;</span>]</span><br><span class="line"><span class="keyword">let</span> dict <span class="operator">=</span> <span class="type">Dictionary</span>(uniqueKeysWithValues: arr.enumerated().map &#123; (<span class="variable">$1</span>, <span class="variable">$0</span>) &#125;)</span><br></pre></td></tr></table></figure>
+
+<h2 id="Easy-to-Make-Mistakes"><a href="#Easy-to-Make-Mistakes" class="headerlink" title="Easy to Make Mistakes"></a>Easy to Make Mistakes</h2><h3 id="1-Handle-with-Default-Value"><a href="#1-Handle-with-Default-Value" class="headerlink" title="1. Handle with Default Value"></a>1. Handle with Default Value</h3><p>When you are dealing with a dictionary, you may want to get the value of a key, and if the key does not exist, you want to return a default value. You can use the <code>default</code> parameter of the subscript method.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> ints <span class="operator">=</span> [(<span class="string">&quot;a&quot;</span>, <span class="number">1</span>), (<span class="string">&quot;b&quot;</span>, <span class="number">2</span>), (<span class="string">&quot;c&quot;</span>, <span class="number">3</span>), (<span class="string">&quot;a&quot;</span>, <span class="number">2</span>)]</span><br><span class="line"><span class="keyword">var</span> counter: [<span class="type">String</span>: <span class="type">Int</span>] <span class="operator">=</span> [:]</span><br><span class="line">ints.forEach &#123; counter[<span class="variable">$0</span>.<span class="number">0</span>, <span class="keyword">default</span>: <span class="number">0</span>] <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span> &#125;</span><br></pre></td></tr></table></figure>
+
+<p>This works because the <code>default</code> parameter of the subscript method will return the default value if the key does not exist.<br>What if the value type is a custom type? Can you still use the <code>default</code> parameter? No, you can’t. You need to use the <code>nil-coalescing operator</code> to provide a default value.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Person</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> name: <span class="type">String</span></span><br><span class="line">    <span class="keyword">var</span> age: <span class="type">Int</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> persons <span class="operator">=</span> [(<span class="string">&quot;a&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Alice&quot;</span>, age: <span class="number">20</span>)), (<span class="string">&quot;b&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Bob&quot;</span>, age: <span class="number">30</span>), (<span class="string">&quot;a&quot;</span>, <span class="type">Person</span>(name: <span class="string">&quot;Alice&quot;</span>, age: <span class="number">25</span>))]</span><br><span class="line"><span class="comment">// This will not work:</span></span><br><span class="line"><span class="keyword">var</span> counter: [String: <span class="type">Person</span>] <span class="operator">=</span> [:]</span><br><span class="line">persons.forEach &#123; counter[<span class="variable">$0</span>.<span class="number">0</span>, default: <span class="type">Person</span>(name: <span class="string">&quot;&quot;</span>, age: <span class="number">0</span>)].age <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span>.age &#125;</span><br><span class="line"><span class="comment">// You need to use the nil-coalescing operator to provide a default value:</span></span><br><span class="line">persons.forEach &#123; </span><br><span class="line">    counter[<span class="variable">$0</span>.<span class="number">0</span>] <span class="operator">=</span> (counter[<span class="variable">$0</span>.<span class="number">0</span>] <span class="operator">??</span> <span class="type">Person</span>(name: <span class="string">&quot;&quot;</span>, age: <span class="number">0</span>))</span><br><span class="line">    counter[<span class="variable">$0</span>.<span class="number">0</span>]<span class="operator">!</span>.age <span class="operator">+=</span> <span class="variable">$0</span>.<span class="number">1</span>.age</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Or, we can implement an extension for the dictionary to conform to the <code>subscript: default</code> pattern.</p>
+<pre><code class="swift">extension Dictionary &#123;
+    subscript(key: Key, default defaultValue: @autoclosure () -&gt; Value) -&gt; Value &#123;
+        mutating get &#123;
+            if let value = self[key] &#123;
+                return value
+            &#125; else &#123;
+                let value = defaultValue()
+                self[key] = value
+                return value
+            &#125;
+        &#125;
+    &#125;
+&#125;
+
+&gt; Why do we need to use `@autoclosure` here?
+&gt; The `@autoclosure` attribute automatically creates a closure around the expression. This is useful when you want to delay the evaluation of the expression until it is needed. In this case, we want to delay the creation of the default value until it is needed to avoid unnecessary computation.
+</code></pre>
+]]></content>
       <categories>
         <category>Interview</category>
         <category>Data Structure</category>
@@ -278,7 +235,59 @@
       <tags>
         <tag>leetcode</tag>
         <tag>swift</tag>
-        <tag>array</tag>
+        <tag>dictionary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Numbers</title>
+    <url>/posts/b823f365/</url>
+    <content><![CDATA[<h1 id="Numbers"><a href="#Numbers" class="headerlink" title="Numbers"></a>Numbers</h1><p>In this doc we will talk about some interesting facts about numbers and how to deal with them in programming.</p>
+<h2 id="Basic-Concepts"><a href="#Basic-Concepts" class="headerlink" title="Basic Concepts"></a>Basic Concepts</h2><h3 id="Prime-Numbers"><a href="#Prime-Numbers" class="headerlink" title="Prime Numbers"></a>Prime Numbers</h3><p>Prime numbers are numbers that are greater than 1 and have no divisors other than 1 and themselves. They are the building blocks of all other numbers and have many interesting properties.</p>
+<blockquote>
+<p>质数是大于1且除了1和自身外没有其他因子的数。</p>
+</blockquote>
+<p>How to check if a number is prime (ignore brute force method):</p>
+<p>Method 1: Check divisibility up to the square root of the number.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">extension</span> <span class="title class_">Int</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> isPrime: <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="keyword">guard</span> <span class="keyword">self</span> <span class="operator">&gt;=</span> <span class="number">4</span> <span class="keyword">else</span> &#123; <span class="keyword">return</span> <span class="keyword">self</span> <span class="operator">&gt;</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="keyword">var</span> max <span class="operator">=</span> <span class="type">Int</span>(<span class="type">Double</span>(<span class="keyword">self</span>).squareRoot())</span><br><span class="line">        <span class="keyword">if</span> max <span class="operator">%</span> <span class="number">2</span> <span class="operator">==</span> <span class="number">0</span> &#123; max <span class="operator">+=</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">stride</span>(from: <span class="number">3</span>, through: max, by: <span class="number">2</span>) &#123;</span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> i <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>More efficient method: Magic numbers 6k ± 1.</p>
+<p>By observing the pattern of prime numbers, we can see that all prime numbers greater than 3 can be written in the form of 6k ± 1, where k is a positive integer.<br>So we can check the divisibility of the number by 6k ± 1 up to the square root of the number.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">extension</span> <span class="title class_">Int</span> &#123;</span><br><span class="line">    <span class="keyword">var</span> isPrime: <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="comment">// &lt;= 4, only 2 and 3 are prime</span></span><br><span class="line">        <span class="keyword">guard</span> <span class="keyword">self</span> <span class="operator">&gt;=</span> <span class="number">4</span> <span class="keyword">else</span> &#123; <span class="keyword">return</span> <span class="keyword">self</span> <span class="operator">&gt;</span> <span class="number">1</span> &#125;</span><br><span class="line">        <span class="comment">// This is to check if the number is divisible by 2 or 3. Needed prior to the loop because the loop starts from 5.</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> <span class="number">2</span> <span class="operator">==</span> <span class="number">0</span> <span class="operator">||</span> <span class="keyword">self</span> <span class="operator">%</span> <span class="number">3</span> <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        <span class="comment">// Pick the ceiling to make sure the loop tests in all possible ranges. For example, if the int is 17, if we don&#x27;t pick the ceiling, `max` will be 4, and the loop will only test 5, which is not correct.</span></span><br><span class="line">        <span class="keyword">let</span> max <span class="operator">=</span> <span class="type">Int</span>(ceil(<span class="type">Double</span>(<span class="keyword">self</span>).squareRoot()))</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">stride</span>(from: <span class="number">5</span>, through: max, by: <span class="number">6</span>) &#123;</span><br><span class="line">            <span class="comment">// % i is to check 6k - 1, % (i + 2) is to check 6k + 1</span></span><br><span class="line">            <span class="keyword">if</span> <span class="keyword">self</span> <span class="operator">%</span> i <span class="operator">==</span> <span class="number">0</span> <span class="operator">||</span> <span class="keyword">self</span> <span class="operator">%</span> (i <span class="operator">+</span> <span class="number">2</span>) <span class="operator">==</span> <span class="number">0</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>当我们要进行整数的除法检查时，需要将这个小数向上取整，以确保不遗漏任何可能的整数因数。如果直接转换为 Int，则会向下取整，可能会漏掉一个关键因数。<br>例如，n &#x3D; 17：</p>
+<ul>
+<li>sqrt(17) 大约是 4.123，如果不取整，直接转换为 Int 得到的结果是 4。</li>
+<li>然而，4 是不足够进行完整检查的，因为你实际上需要检查 5，以确保没有因数遗漏。</li>
+</ul>
+</blockquote>
+<h2 id="Common-Swift-Methods-Used-to-Deal-with-Numbers"><a href="#Common-Swift-Methods-Used-to-Deal-with-Numbers" class="headerlink" title="Common Swift Methods Used to Deal with Numbers"></a>Common Swift Methods Used to Deal with Numbers</h2><h3 id="1-abs"><a href="#1-abs" class="headerlink" title="1. abs"></a>1. <code>abs</code></h3><p><code>abs</code> returns the absolute value of a number.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="operator">-</span><span class="number">5</span></span><br><span class="line"><span class="keyword">let</span> b <span class="operator">=</span> <span class="built_in">abs</span>(a)</span><br><span class="line"><span class="built_in">print</span>(b) <span class="comment">// 5</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="2-min-and-max"><a href="#2-min-and-max" class="headerlink" title="2. min and max"></a>2. <code>min</code> and <code>max</code></h3><p><code>min</code> and <code>max</code> return the minimum and maximum of two numbers.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">5</span>, b <span class="operator">=</span> <span class="number">10</span></span><br><span class="line"><span class="keyword">let</span> minNum <span class="operator">=</span> <span class="built_in">min</span>(a, b), maxNum <span class="operator">=</span> <span class="built_in">max</span>(a, b)</span><br><span class="line"><span class="built_in">print</span>(minNum, maxNum) <span class="comment">// 5 10</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-round-ceil-and-floor"><a href="#3-round-ceil-and-floor" class="headerlink" title="3. round, ceil, and floor"></a>3. <code>round</code>, <code>ceil</code>, and <code>floor</code></h3><p><code>round</code> rounds a number to the nearest integer, <code>ceil</code> rounds up, and <code>floor</code> rounds down. They all return a <code>Double</code> value.<br>If you want to round a <code>Double</code> to an <code>Int</code>, you can use <code>Int()</code>.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">5.6</span></span><br><span class="line"><span class="keyword">let</span> roundNum <span class="operator">=</span> round(a), ceilNum <span class="operator">=</span> ceil(a), floorNum <span class="operator">=</span> floor(a)</span><br><span class="line"><span class="built_in">print</span>(roundNum, ceilNum, floorNum) <span class="comment">// 6.0 6.0 5.0</span></span><br><span class="line"><span class="built_in">print</span>(<span class="type">Int</span>(roundNum), <span class="type">Int</span>(ceilNum), <span class="type">Int</span>(floorNum)) <span class="comment">// 6 6 5</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-isMultiple"><a href="#4-isMultiple" class="headerlink" title="4. isMultiple"></a>4. <code>isMultiple</code></h3><p><code>isMultiple</code> checks if a number is a multiple of another number.<br>This is same as <code>number % anotherNumber == 0</code>.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">10</span>, b <span class="operator">=</span> <span class="number">5</span></span><br><span class="line"><span class="keyword">let</span> isMultiple <span class="operator">=</span> a.isMultiple(of: b)</span><br><span class="line"><span class="built_in">print</span>(isMultiple) <span class="comment">// true because 10 is a multiple of 5 (10 = 5 * 2)</span></span><br><span class="line"><span class="comment">// or</span></span><br><span class="line"><span class="keyword">let</span> isMultiple <span class="operator">=</span> a <span class="operator">%</span> b <span class="operator">==</span> <span class="number">0</span></span><br><span class="line"><span class="built_in">print</span>(isMultiple) <span class="comment">// true</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="5-squareRoot"><a href="#5-squareRoot" class="headerlink" title="5. squareRoot"></a>5. <code>squareRoot</code></h3><p><code>squareRoot</code> returns the square root of a number.</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a <span class="operator">=</span> <span class="number">25</span></span><br><span class="line"><span class="keyword">let</span> b <span class="operator">=</span> a.squareRoot()</span><br><span class="line"><span class="built_in">print</span>(b) <span class="comment">// 5.0</span></span><br></pre></td></tr></table></figure>
+
+<p>This is the same as <code>sqrt(Double(a))</code>.</p>
+<p>Both <code>sqrt</code> and <code>squareRoot</code> return a <code>Double</code> value and the efficiency is almost the same. Choose one based on code style.</p>
+]]></content>
+      <categories>
+        <category>Interview</category>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>swift</tag>
+        <tag>number</tag>
+        <tag>math</tag>
       </tags>
   </entry>
   <entry>
@@ -391,28 +400,6 @@
       </tags>
   </entry>
   <entry>
-    <title>DFS in Programming</title>
-    <url>/posts/dc9314c3/</url>
-    <content><![CDATA[<h1 id="DFS"><a href="#DFS" class="headerlink" title="DFS"></a>DFS</h1><p>In this doc I will record some generic tricks and tips to implement Depth First Search (DFS) in programming, as well as some problems I hit when I was solving problems with DFS.</p>
-<h2 id="Topological-Sort"><a href="#Topological-Sort" class="headerlink" title="Topological Sort"></a>Topological Sort</h2><h3 id="Generic-Idea"><a href="#Generic-Idea" class="headerlink" title="Generic Idea"></a>Generic Idea</h3><p>拓扑排序（Topological Sort）是一种用于有向无环图（DAG, Directed Acyclic Graph）的线性排序，使得对于图中的每一条有向边 (u, v)，顶点 u 在 v 之前出现在排序中。简而言之，拓扑排序就是对一个有向图进行排序，使得每个节点都在它所有前驱节点之后出现。</p>
-<p>拓扑排序的输出结果是一个线性序列，可以用于解决很多实际问题，例如编译器的依赖关系分析、任务调度等。<br>这个结果不是唯一的，一个有向无环图可能有多个拓扑排序。</p>
-<p>拓扑排序的具体实现步骤通常使用深度优先搜索（DFS）或基于入度的贪心算法（Kahn’s Algorithm）。以下是一个使用 DFS 实现拓扑排序的代码：</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Graph is a dictionary that represents the graph: from node to its neighbors, all integers</span></span><br><span class="line"><span class="keyword">typealias</span> <span class="type">Graph</span> <span class="operator">=</span> [<span class="type">Int</span>: [<span class="type">Int</span>]]</span><br><span class="line"><span class="keyword">func</span> <span class="title function_">topologicalSort</span>(<span class="keyword">_</span> <span class="params">graph</span>: <span class="type">Graph</span>) -&gt; [<span class="type">Int</span>] &#123;</span><br><span class="line">    <span class="keyword">var</span> visited <span class="operator">=</span> <span class="type">Array</span>(repeating: <span class="type">Int</span>, count: graph.count)</span><br><span class="line">    <span class="keyword">var</span> result <span class="operator">=</span> [<span class="type">Int</span>]()</span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">dfs</span>(<span class="keyword">_</span> <span class="params">node</span>: <span class="type">Int</span>) &#123;</span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[node] &#123;</span><br><span class="line">            <span class="comment">// If the neighbor is not visited, visit it</span></span><br><span class="line">            <span class="keyword">if</span> visited[neighbor] <span class="operator">==</span> <span class="number">0</span> &#123;</span><br><span class="line">                dfs(neighbor)</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        result.append(node)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.keys &#123;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">0</span> &#123;</span><br><span class="line">            dfs(node)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// The result is in reversed order because we append the node to the result after visiting all its neighbors</span></span><br><span class="line">    <span class="keyword">return</span> result.reversed()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">let</span> graph <span class="operator">=</span> <span class="type">Graph</span>(<span class="number">0</span>: [<span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>: [<span class="number">3</span>], <span class="number">2</span>: [<span class="number">3</span>], <span class="number">3</span>: [])</span><br><span class="line"><span class="keyword">let</span> result <span class="operator">=</span> topologicalSort(graph)</span><br><span class="line"><span class="built_in">print</span>(result) <span class="comment">// [0, 2, 1, 3]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="How-to-Detect-Cycle"><a href="#How-to-Detect-Cycle" class="headerlink" title="How to Detect Cycle"></a>How to Detect Cycle</h3><p>在拓扑排序中，如果图中存在环，那么这个图就不可能有拓扑排序。因此，我们需要在 DFS 过程中检测环的存在。</p>
-<p>在 DFS 过程中，如果我们遇到了一个已经被访问过的节点，那么这个节点就是环的起点。我们可以通过一个数组 <code>visited</code> 来记录节点的访问状态，如果一个节点已经被访问过，那么它的状态就是 1。如果在 DFS 过程中遇到了一个已经被访问过的节点，那么就说明存在环。</p>
-<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Graph is a dictionary that represents the graph: from node to its neighbors, all integers</span></span><br><span class="line"><span class="keyword">typealias</span> <span class="type">Graph</span> <span class="operator">=</span> [<span class="type">Int</span>: [<span class="type">Int</span>]]</span><br><span class="line"><span class="keyword">func</span> <span class="title function_">topologicalSort</span>(<span class="keyword">_</span> <span class="params">graph</span>: <span class="type">Graph</span>) -&gt; [<span class="type">Int</span>] &#123;</span><br><span class="line">    <span class="comment">// 0: not visited; 1: in one path, if appear again, cycle; 2: visited and this is a good one without cycle</span></span><br><span class="line">    <span class="keyword">var</span> visited <span class="operator">=</span> <span class="type">Array</span>(repeating: <span class="type">Int</span>, count: graph.count)</span><br><span class="line">    <span class="keyword">var</span> result <span class="operator">=</span> [<span class="type">Int</span>]()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">dfs</span>(<span class="keyword">_</span> <span class="params">node</span>: <span class="type">Int</span>) -&gt; <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">1</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">2</span> &#123; <span class="keyword">return</span> <span class="literal">true</span> &#125;</span><br><span class="line"></span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[node] &#123; <span class="keyword">if</span> <span class="operator">!</span>dfs(neighbor) &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125; &#125;</span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line">        result.append(node)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.keys &#123; <span class="keyword">if</span> <span class="operator">!</span>dfs(node) &#123; <span class="keyword">return</span> [] &#125; &#125;</span><br><span class="line">    <span class="keyword">return</span> result.reversed()</span><br><span class="line">&#125;</span><br><span class="line">        </span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">let</span> graph <span class="operator">=</span> <span class="type">Graph</span>(<span class="number">0</span>: [<span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>: [<span class="number">3</span>], <span class="number">2</span>: [<span class="number">3</span>], <span class="number">3</span>: [<span class="number">0</span>])</span><br><span class="line"><span class="keyword">let</span> result <span class="operator">=</span> topologicalSort(graph)</span><br><span class="line"><span class="built_in">print</span>(result) <span class="comment">// []</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Interview</category>
-        <category>Algorithm</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-        <tag>array</tag>
-        <tag>DFS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Swift Attributes</title>
     <url>/posts/319b9e70/</url>
     <content><![CDATA[<h1 id="Swift-Attributes"><a href="#Swift-Attributes" class="headerlink" title="Swift Attributes"></a>Swift Attributes</h1><p>In this doc we will talk about some attributes in Swift that can help you write better code.</p>
@@ -456,6 +443,28 @@
         <tag>swift</tag>
         <tag>swift attributes</tag>
         <tag>swift syntax sugar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>DFS in Programming</title>
+    <url>/posts/dc9314c3/</url>
+    <content><![CDATA[<h1 id="DFS"><a href="#DFS" class="headerlink" title="DFS"></a>DFS</h1><p>In this doc I will record some generic tricks and tips to implement Depth First Search (DFS) in programming, as well as some problems I hit when I was solving problems with DFS.</p>
+<h2 id="Topological-Sort"><a href="#Topological-Sort" class="headerlink" title="Topological Sort"></a>Topological Sort</h2><h3 id="Generic-Idea"><a href="#Generic-Idea" class="headerlink" title="Generic Idea"></a>Generic Idea</h3><p>拓扑排序（Topological Sort）是一种用于有向无环图（DAG, Directed Acyclic Graph）的线性排序，使得对于图中的每一条有向边 (u, v)，顶点 u 在 v 之前出现在排序中。简而言之，拓扑排序就是对一个有向图进行排序，使得每个节点都在它所有前驱节点之后出现。</p>
+<p>拓扑排序的输出结果是一个线性序列，可以用于解决很多实际问题，例如编译器的依赖关系分析、任务调度等。<br>这个结果不是唯一的，一个有向无环图可能有多个拓扑排序。</p>
+<p>拓扑排序的具体实现步骤通常使用深度优先搜索（DFS）或基于入度的贪心算法（Kahn’s Algorithm）。以下是一个使用 DFS 实现拓扑排序的代码：</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Graph is a dictionary that represents the graph: from node to its neighbors, all integers</span></span><br><span class="line"><span class="keyword">typealias</span> <span class="type">Graph</span> <span class="operator">=</span> [<span class="type">Int</span>: [<span class="type">Int</span>]]</span><br><span class="line"><span class="keyword">func</span> <span class="title function_">topologicalSort</span>(<span class="keyword">_</span> <span class="params">graph</span>: <span class="type">Graph</span>) -&gt; [<span class="type">Int</span>] &#123;</span><br><span class="line">    <span class="keyword">var</span> visited <span class="operator">=</span> <span class="type">Array</span>(repeating: <span class="type">Int</span>, count: graph.count)</span><br><span class="line">    <span class="keyword">var</span> result <span class="operator">=</span> [<span class="type">Int</span>]()</span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">dfs</span>(<span class="keyword">_</span> <span class="params">node</span>: <span class="type">Int</span>) &#123;</span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[node] &#123;</span><br><span class="line">            <span class="comment">// If the neighbor is not visited, visit it</span></span><br><span class="line">            <span class="keyword">if</span> visited[neighbor] <span class="operator">==</span> <span class="number">0</span> &#123;</span><br><span class="line">                dfs(neighbor)</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        result.append(node)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.keys &#123;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">0</span> &#123;</span><br><span class="line">            dfs(node)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// The result is in reversed order because we append the node to the result after visiting all its neighbors</span></span><br><span class="line">    <span class="keyword">return</span> result.reversed()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">let</span> graph <span class="operator">=</span> <span class="type">Graph</span>(<span class="number">0</span>: [<span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>: [<span class="number">3</span>], <span class="number">2</span>: [<span class="number">3</span>], <span class="number">3</span>: [])</span><br><span class="line"><span class="keyword">let</span> result <span class="operator">=</span> topologicalSort(graph)</span><br><span class="line"><span class="built_in">print</span>(result) <span class="comment">// [0, 2, 1, 3]</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="How-to-Detect-Cycle"><a href="#How-to-Detect-Cycle" class="headerlink" title="How to Detect Cycle"></a>How to Detect Cycle</h3><p>在拓扑排序中，如果图中存在环，那么这个图就不可能有拓扑排序。因此，我们需要在 DFS 过程中检测环的存在。</p>
+<p>在 DFS 过程中，如果我们遇到了一个已经被访问过的节点，那么这个节点就是环的起点。我们可以通过一个数组 <code>visited</code> 来记录节点的访问状态，如果一个节点已经被访问过，那么它的状态就是 1。如果在 DFS 过程中遇到了一个已经被访问过的节点，那么就说明存在环。</p>
+<figure class="highlight swift"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Graph is a dictionary that represents the graph: from node to its neighbors, all integers</span></span><br><span class="line"><span class="keyword">typealias</span> <span class="type">Graph</span> <span class="operator">=</span> [<span class="type">Int</span>: [<span class="type">Int</span>]]</span><br><span class="line"><span class="keyword">func</span> <span class="title function_">topologicalSort</span>(<span class="keyword">_</span> <span class="params">graph</span>: <span class="type">Graph</span>) -&gt; [<span class="type">Int</span>] &#123;</span><br><span class="line">    <span class="comment">// 0: not visited; 1: in one path, if appear again, cycle; 2: visited and this is a good one without cycle</span></span><br><span class="line">    <span class="keyword">var</span> visited <span class="operator">=</span> <span class="type">Array</span>(repeating: <span class="type">Int</span>, count: graph.count)</span><br><span class="line">    <span class="keyword">var</span> result <span class="operator">=</span> [<span class="type">Int</span>]()</span><br><span class="line"></span><br><span class="line">    <span class="keyword">func</span> <span class="title function_">dfs</span>(<span class="keyword">_</span> <span class="params">node</span>: <span class="type">Int</span>) -&gt; <span class="type">Bool</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">1</span> &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125;</span><br><span class="line">        <span class="keyword">if</span> visited[node] <span class="operator">==</span> <span class="number">2</span> &#123; <span class="keyword">return</span> <span class="literal">true</span> &#125;</span><br><span class="line"></span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> neighbor <span class="keyword">in</span> graph[node] &#123; <span class="keyword">if</span> <span class="operator">!</span>dfs(neighbor) &#123; <span class="keyword">return</span> <span class="literal">false</span> &#125; &#125;</span><br><span class="line">        visited[node] <span class="operator">=</span> <span class="number">2</span></span><br><span class="line"></span><br><span class="line">        result.append(node)</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> node <span class="keyword">in</span> graph.keys &#123; <span class="keyword">if</span> <span class="operator">!</span>dfs(node) &#123; <span class="keyword">return</span> [] &#125; &#125;</span><br><span class="line">    <span class="keyword">return</span> result.reversed()</span><br><span class="line">&#125;</span><br><span class="line">        </span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">let</span> graph <span class="operator">=</span> <span class="type">Graph</span>(<span class="number">0</span>: [<span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>: [<span class="number">3</span>], <span class="number">2</span>: [<span class="number">3</span>], <span class="number">3</span>: [<span class="number">0</span>])</span><br><span class="line"><span class="keyword">let</span> result <span class="operator">=</span> topologicalSort(graph)</span><br><span class="line"><span class="built_in">print</span>(result) <span class="comment">// []</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Interview</category>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+        <tag>array</tag>
+        <tag>DFS</tag>
       </tags>
   </entry>
   <entry>
